@@ -1,0 +1,324 @@
+2026-01-20 14:13:43,936 - INFO - ============================================================
+2026-01-20 14:13:43,936 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-01-20 14:13:43,936 - INFO - ============================================================
+2026-01-20 14:13:43,936 - INFO - 📂 Entrada: data_2010
+2026-01-20 14:13:43,936 - INFO - 📂 Salida: consolidated
+2026-01-20 14:13:43,936 - INFO - 📊 Símbolos: XAUUSD
+2026-01-20 14:13:43,936 - INFO - 📅 Años: 2010
+2026-01-20 14:13:43,936 - INFO - ⚙️  Compresión: snappy
+2026-01-20 14:13:43,936 - INFO - 🗂️  Particiones diarias: NO
+2026-01-20 14:13:43,936 - INFO - 🗑️  Eliminar originales: NO
+2026-01-20 14:13:43,936 - INFO - 🔍 Validación: SÍ
+2026-01-20 14:13:43,936 - INFO - ============================================================
+2026-01-20 14:13:43,937 - INFO - 📂 Directorio de entrada: /home/wilson/CODE/proy_xauusd/dukascopy/data_2010
+2026-01-20 14:13:43,937 - INFO - 📂 Directorio de salida: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated
+2026-01-20 14:13:43,937 - INFO - 
+🎯 Procesando XAUUSD 2010...
+2026-01-20 14:13:43,937 - INFO - 🔄 Iniciando consolidación de XAUUSD 2010
+2026-01-20 14:13:43,938 - ERROR - ❌ No se encontraron archivos para XAUUSD 2010
+2026-01-20 14:13:43,938 - INFO -    Buscados en: /home/wilson/CODE/proy_xauusd/dukascopy/data_2010
+2026-01-20 14:13:43,938 - ERROR - ❌ XAUUSD 2010 falló
+2026-01-20 14:13:43,938 - INFO - 
+============================================================
+2026-01-20 14:13:43,939 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-01-20 14:13:43,939 - INFO - ============================================================
+2026-01-20 14:13:43,939 - INFO - ❌ FALLIDOS: 1
+2026-01-20 14:13:43,939 - INFO -    • XAUUSD 2010: Consolidación fallida
+2026-01-20 14:13:43,939 - INFO - ============================================================
+2026-01-20 14:13:43,939 - WARNING - ⚠️  Algunos procesamientos fallaron
+2026-01-20 14:19:01,252 - INFO - ============================================================
+2026-01-20 14:19:01,252 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-01-20 14:19:01,252 - INFO - ============================================================
+2026-01-20 14:19:01,252 - INFO - 📂 Entrada: data_2010
+2026-01-20 14:19:01,252 - INFO - 📂 Salida: consolidated
+2026-01-20 14:19:01,252 - INFO - 📊 Símbolos: XAUUSD
+2026-01-20 14:19:01,252 - INFO - 📅 Años: 2010
+2026-01-20 14:19:01,252 - INFO - ⚙️  Compresión: snappy
+2026-01-20 14:19:01,252 - INFO - 🗂️  Particiones diarias: NO
+2026-01-20 14:19:01,252 - INFO - 🗑️  Eliminar originales: NO
+2026-01-20 14:19:01,252 - INFO - 🔍 Validación: SÍ
+2026-01-20 14:19:01,252 - INFO - ============================================================
+2026-01-20 14:19:01,253 - INFO - 📂 Directorio de entrada: /home/wilson/CODE/proy_xauusd/dukascopy/data_2010
+2026-01-20 14:19:01,253 - INFO - 📂 Directorio de salida: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated
+2026-01-20 14:19:01,253 - INFO - 
+🎯 Procesando XAUUSD 2010...
+2026-01-20 14:19:01,253 - INFO - 🔄 Iniciando consolidación de XAUUSD 2010
+2026-01-20 14:19:01,254 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-01-20 14:19:01,254 - INFO - 🔍 Validando 12 archivos...
+2026-01-20 14:19:01,484 - INFO - 📖 Leyendo archivos...
+2026-01-20 14:19:01,694 - INFO - 📊 Total preliminar: 12,727,047 filas, 172.2 MB
+2026-01-20 14:19:01,694 - INFO - 🔗 Concatenando tablas...
+2026-01-20 14:19:01,695 - INFO - ⚙️  Optimizando esquema...
+2026-01-20 14:19:01,738 - INFO - 💾 Guardando archivo consolidado: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated/XAUUSD_2010_FULL.parquet
+2026-01-20 14:19:03,543 - INFO - 
+============================================================
+2026-01-20 14:19:03,543 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-01-20 14:19:03,543 - INFO - ============================================================
+2026-01-20 14:19:03,543 - INFO - 📊 Estadísticas:
+2026-01-20 14:19:03,543 - INFO -    • Archivos consolidados: 12
+2026-01-20 14:19:03,544 - INFO -    • Filas totales: 12,727,047
+2026-01-20 14:19:03,544 - INFO -    • Columnas: 5
+2026-01-20 14:19:03,544 - INFO -    • Tiempo de procesamiento: 1.8 segundos
+2026-01-20 14:19:03,544 - INFO -    • Tamaño original: 172.2 MB
+2026-01-20 14:19:03,544 - INFO -    • Tamaño consolidado: 193.1 MB
+2026-01-20 14:19:03,544 - INFO -    • Ratio de compresión: -12.1%
+2026-01-20 14:19:03,544 - INFO -    • Compresión utilizada: snappy
+2026-01-20 14:19:03,544 - INFO -    • Archivo de salida: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated/XAUUSD_2010_FULL.parquet
+2026-01-20 14:19:03,544 - INFO - ============================================================
+2026-01-20 14:19:03,547 - INFO - ✅ XAUUSD 2010 consolidado exitosamente
+2026-01-20 14:19:03,547 - INFO - 
+============================================================
+2026-01-20 14:19:03,547 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-01-20 14:19:03,547 - INFO - ============================================================
+2026-01-20 14:19:03,547 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-01-20 14:19:03,548 - INFO -    • XAUUSD 2010: XAUUSD_2010_FULL.parquet (193.1 MB)
+2026-01-20 14:19:03,548 - INFO - ============================================================
+2026-01-20 14:19:03,548 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-01-20 15:11:56,482 - INFO - ============================================================
+2026-01-20 15:11:56,482 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-01-20 15:11:56,482 - INFO - ============================================================
+2026-01-20 15:11:56,482 - INFO - 📂 Entrada: data_2012
+2026-01-20 15:11:56,482 - INFO - 📂 Salida: consolidated
+2026-01-20 15:11:56,482 - INFO - 📊 Símbolos: XAUUSD
+2026-01-20 15:11:56,482 - INFO - 📅 Años: 2012
+2026-01-20 15:11:56,482 - INFO - ⚙️  Compresión: snappy
+2026-01-20 15:11:56,482 - INFO - 🗂️  Particiones diarias: NO
+2026-01-20 15:11:56,482 - INFO - 🗑️  Eliminar originales: NO
+2026-01-20 15:11:56,482 - INFO - 🔍 Validación: SÍ
+2026-01-20 15:11:56,482 - INFO - ============================================================
+2026-01-20 15:11:56,482 - INFO - 📂 Directorio de entrada: /home/wilson/CODE/proy_xauusd/dukascopy/data_2012
+2026-01-20 15:11:56,483 - INFO - 📂 Directorio de salida: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated
+2026-01-20 15:11:56,483 - INFO - 
+🎯 Procesando XAUUSD 2012...
+2026-01-20 15:11:56,483 - INFO - 🔄 Iniciando consolidación de XAUUSD 2012
+2026-01-20 15:11:56,484 - ERROR - ❌ No se encontraron archivos para XAUUSD 2012
+2026-01-20 15:11:56,484 - INFO -    Buscados en: /home/wilson/CODE/proy_xauusd/dukascopy/data_2012
+2026-01-20 15:11:56,484 - ERROR - ❌ XAUUSD 2012 falló
+2026-01-20 15:11:56,484 - INFO - 
+============================================================
+2026-01-20 15:11:56,484 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-01-20 15:11:56,485 - INFO - ============================================================
+2026-01-20 15:11:56,485 - INFO - ❌ FALLIDOS: 1
+2026-01-20 15:11:56,485 - INFO -    • XAUUSD 2012: Consolidación fallida
+2026-01-20 15:11:56,485 - INFO - ============================================================
+2026-01-20 15:11:56,485 - WARNING - ⚠️  Algunos procesamientos fallaron
+2026-01-20 15:12:48,783 - INFO - ============================================================
+2026-01-20 15:12:48,783 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-01-20 15:12:48,783 - INFO - ============================================================
+2026-01-20 15:12:48,783 - INFO - 📂 Entrada: data_2011
+2026-01-20 15:12:48,783 - INFO - 📂 Salida: consolidated
+2026-01-20 15:12:48,783 - INFO - 📊 Símbolos: XAUUSD
+2026-01-20 15:12:48,783 - INFO - 📅 Años: 2011
+2026-01-20 15:12:48,783 - INFO - ⚙️  Compresión: snappy
+2026-01-20 15:12:48,783 - INFO - 🗂️  Particiones diarias: NO
+2026-01-20 15:12:48,783 - INFO - 🗑️  Eliminar originales: NO
+2026-01-20 15:12:48,783 - INFO - 🔍 Validación: SÍ
+2026-01-20 15:12:48,783 - INFO - ============================================================
+2026-01-20 15:12:48,784 - INFO - 📂 Directorio de entrada: /home/wilson/CODE/proy_xauusd/dukascopy/data_2011
+2026-01-20 15:12:48,784 - INFO - 📂 Directorio de salida: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated
+2026-01-20 15:12:48,784 - INFO - 
+🎯 Procesando XAUUSD 2011...
+2026-01-20 15:12:48,784 - INFO - 🔄 Iniciando consolidación de XAUUSD 2011
+2026-01-20 15:12:48,785 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-01-20 15:12:48,785 - INFO - 🔍 Validando 12 archivos...
+2026-01-20 15:12:49,030 - INFO - 📖 Leyendo archivos...
+2026-01-20 15:12:49,263 - INFO - 📊 Total preliminar: 16,993,432 filas, 248.6 MB
+2026-01-20 15:12:49,263 - INFO - 🔗 Concatenando tablas...
+2026-01-20 15:12:49,264 - INFO - ⚙️  Optimizando esquema...
+2026-01-20 15:12:49,320 - INFO - 💾 Guardando archivo consolidado: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated/XAUUSD_2011_FULL.parquet
+2026-01-20 15:12:51,848 - INFO - 
+============================================================
+2026-01-20 15:12:51,848 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-01-20 15:12:51,848 - INFO - ============================================================
+2026-01-20 15:12:51,848 - INFO - 📊 Estadísticas:
+2026-01-20 15:12:51,848 - INFO -    • Archivos consolidados: 12
+2026-01-20 15:12:51,848 - INFO -    • Filas totales: 16,993,432
+2026-01-20 15:12:51,848 - INFO -    • Columnas: 5
+2026-01-20 15:12:51,848 - INFO -    • Tiempo de procesamiento: 2.6 segundos
+2026-01-20 15:12:51,848 - INFO -    • Tamaño original: 248.6 MB
+2026-01-20 15:12:51,849 - INFO -    • Tamaño consolidado: 267.0 MB
+2026-01-20 15:12:51,849 - INFO -    • Ratio de compresión: -7.4%
+2026-01-20 15:12:51,849 - INFO -    • Compresión utilizada: snappy
+2026-01-20 15:12:51,849 - INFO -    • Archivo de salida: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated/XAUUSD_2011_FULL.parquet
+2026-01-20 15:12:51,849 - INFO - ============================================================
+2026-01-20 15:12:51,853 - INFO - ✅ XAUUSD 2011 consolidado exitosamente
+2026-01-20 15:12:51,853 - INFO - 
+============================================================
+2026-01-20 15:12:51,853 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-01-20 15:12:51,853 - INFO - ============================================================
+2026-01-20 15:12:51,853 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-01-20 15:12:51,853 - INFO -    • XAUUSD 2011: XAUUSD_2011_FULL.parquet (267.0 MB)
+2026-01-20 15:12:51,853 - INFO - ============================================================
+2026-01-20 15:12:51,853 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-01-21 00:11:33,216 - INFO - ============================================================
+2026-01-21 00:11:33,216 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-01-21 00:11:33,216 - INFO - ============================================================
+2026-01-21 00:11:33,216 - INFO - 📂 Entrada: data
+2026-01-21 00:11:33,217 - INFO - 📂 Salida: consolidated
+2026-01-21 00:11:33,217 - INFO - 📊 Símbolos: XAUUSD
+2026-01-21 00:11:33,217 - INFO - 📅 Años: 2012
+2026-01-21 00:11:33,217 - INFO - ⚙️  Compresión: snappy
+2026-01-21 00:11:33,217 - INFO - 🗂️  Particiones diarias: NO
+2026-01-21 00:11:33,217 - INFO - 🗑️  Eliminar originales: NO
+2026-01-21 00:11:33,217 - INFO - 🔍 Validación: SÍ
+2026-01-21 00:11:33,217 - INFO - ============================================================
+2026-01-21 00:11:33,217 - INFO - 📂 Directorio de entrada: /home/wilson/CODE/proy_xauusd/dukascopy/data
+2026-01-21 00:11:33,217 - INFO - 📂 Directorio de salida: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated
+2026-01-21 00:11:33,217 - INFO - 
+🎯 Procesando XAUUSD 2012...
+2026-01-21 00:11:33,217 - INFO - 🔄 Iniciando consolidación de XAUUSD 2012
+2026-01-21 00:11:33,219 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-01-21 00:11:33,219 - INFO - 🔍 Validando 12 archivos...
+2026-01-21 00:11:33,601 - INFO - 📖 Leyendo archivos...
+2026-01-21 00:11:33,892 - INFO - 📊 Total preliminar: 22,351,221 filas, 265.1 MB
+2026-01-21 00:11:33,892 - INFO - 🔗 Concatenando tablas...
+2026-01-21 00:11:33,893 - INFO - ⚙️  Optimizando esquema...
+2026-01-21 00:11:33,970 - INFO - 💾 Guardando archivo consolidado: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated/XAUUSD_2012_FULL.parquet
+2026-01-21 00:11:37,398 - INFO - 
+============================================================
+2026-01-21 00:11:37,399 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-01-21 00:11:37,399 - INFO - ============================================================
+2026-01-21 00:11:37,399 - INFO - 📊 Estadísticas:
+2026-01-21 00:11:37,399 - INFO -    • Archivos consolidados: 12
+2026-01-21 00:11:37,399 - INFO -    • Filas totales: 22,351,221
+2026-01-21 00:11:37,399 - INFO -    • Columnas: 5
+2026-01-21 00:11:37,399 - INFO -    • Tiempo de procesamiento: 3.5 segundos
+2026-01-21 00:11:37,399 - INFO -    • Tamaño original: 265.1 MB
+2026-01-21 00:11:37,399 - INFO -    • Tamaño consolidado: 300.9 MB
+2026-01-21 00:11:37,399 - INFO -    • Ratio de compresión: -13.5%
+2026-01-21 00:11:37,399 - INFO -    • Compresión utilizada: snappy
+2026-01-21 00:11:37,399 - INFO -    • Archivo de salida: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated/XAUUSD_2012_FULL.parquet
+2026-01-21 00:11:37,399 - INFO - ============================================================
+2026-01-21 00:11:37,412 - INFO - ✅ XAUUSD 2012 consolidado exitosamente
+2026-01-21 00:11:37,412 - INFO - 
+============================================================
+2026-01-21 00:11:37,412 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-01-21 00:11:37,412 - INFO - ============================================================
+2026-01-21 00:11:37,412 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-01-21 00:11:37,412 - INFO -    • XAUUSD 2012: XAUUSD_2012_FULL.parquet (300.9 MB)
+2026-01-21 00:11:37,412 - INFO - ============================================================
+2026-01-21 00:11:37,412 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-01-21 00:11:46,792 - INFO - ============================================================
+2026-01-21 00:11:46,792 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-01-21 00:11:46,792 - INFO - ============================================================
+2026-01-21 00:11:46,792 - INFO - 📂 Entrada: data
+2026-01-21 00:11:46,792 - INFO - 📂 Salida: consolidated
+2026-01-21 00:11:46,792 - INFO - 📊 Símbolos: XAUUSD
+2026-01-21 00:11:46,792 - INFO - 📅 Años: 2013
+2026-01-21 00:11:46,792 - INFO - ⚙️  Compresión: snappy
+2026-01-21 00:11:46,793 - INFO - 🗂️  Particiones diarias: NO
+2026-01-21 00:11:46,793 - INFO - 🗑️  Eliminar originales: NO
+2026-01-21 00:11:46,793 - INFO - 🔍 Validación: SÍ
+2026-01-21 00:11:46,793 - INFO - ============================================================
+2026-01-21 00:11:46,793 - INFO - 📂 Directorio de entrada: /home/wilson/CODE/proy_xauusd/dukascopy/data
+2026-01-21 00:11:46,793 - INFO - 📂 Directorio de salida: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated
+2026-01-21 00:11:46,793 - INFO - 
+🎯 Procesando XAUUSD 2013...
+2026-01-21 00:11:46,793 - INFO - 🔄 Iniciando consolidación de XAUUSD 2013
+2026-01-21 00:11:46,795 - ERROR - ❌ No se encontraron archivos para XAUUSD 2013
+2026-01-21 00:11:46,795 - INFO -    Buscados en: /home/wilson/CODE/proy_xauusd/dukascopy/data
+2026-01-21 00:11:46,795 - ERROR - ❌ XAUUSD 2013 falló
+2026-01-21 00:11:46,795 - INFO - 
+============================================================
+2026-01-21 00:11:46,795 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-01-21 00:11:46,795 - INFO - ============================================================
+2026-01-21 00:11:46,795 - INFO - ❌ FALLIDOS: 1
+2026-01-21 00:11:46,795 - INFO -    • XAUUSD 2013: Consolidación fallida
+2026-01-21 00:11:46,795 - INFO - ============================================================
+2026-01-21 00:11:46,795 - WARNING - ⚠️  Algunos procesamientos fallaron
+2026-01-21 00:13:32,117 - INFO - ============================================================
+2026-01-21 00:13:32,117 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-01-21 00:13:32,117 - INFO - ============================================================
+2026-01-21 00:13:32,117 - INFO - 📂 Entrada: data_2013
+2026-01-21 00:13:32,117 - INFO - 📂 Salida: consolidated
+2026-01-21 00:13:32,117 - INFO - 📊 Símbolos: XAUUSD
+2026-01-21 00:13:32,117 - INFO - 📅 Años: 2013
+2026-01-21 00:13:32,117 - INFO - ⚙️  Compresión: snappy
+2026-01-21 00:13:32,117 - INFO - 🗂️  Particiones diarias: NO
+2026-01-21 00:13:32,117 - INFO - 🗑️  Eliminar originales: NO
+2026-01-21 00:13:32,117 - INFO - 🔍 Validación: SÍ
+2026-01-21 00:13:32,117 - INFO - ============================================================
+2026-01-21 00:13:32,117 - INFO - 📂 Directorio de entrada: /home/wilson/CODE/proy_xauusd/dukascopy/data_2013
+2026-01-21 00:13:32,117 - INFO - 📂 Directorio de salida: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated
+2026-01-21 00:13:32,118 - INFO - 
+🎯 Procesando XAUUSD 2013...
+2026-01-21 00:13:32,118 - INFO - 🔄 Iniciando consolidación de XAUUSD 2013
+2026-01-21 00:13:32,119 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-01-21 00:13:32,119 - INFO - 🔍 Validando 12 archivos...
+2026-01-21 00:13:32,453 - INFO - 📖 Leyendo archivos...
+2026-01-21 00:13:32,723 - INFO - 📊 Total preliminar: 22,508,192 filas, 267.3 MB
+2026-01-21 00:13:32,724 - INFO - 🔗 Concatenando tablas...
+2026-01-21 00:13:32,724 - INFO - ⚙️  Optimizando esquema...
+2026-01-21 00:13:32,803 - INFO - 💾 Guardando archivo consolidado: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated/XAUUSD_2013_FULL.parquet
+2026-01-21 00:13:36,218 - INFO - 
+============================================================
+2026-01-21 00:13:36,218 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-01-21 00:13:36,218 - INFO - ============================================================
+2026-01-21 00:13:36,218 - INFO - 📊 Estadísticas:
+2026-01-21 00:13:36,218 - INFO -    • Archivos consolidados: 12
+2026-01-21 00:13:36,218 - INFO -    • Filas totales: 22,508,192
+2026-01-21 00:13:36,219 - INFO -    • Columnas: 5
+2026-01-21 00:13:36,219 - INFO -    • Tiempo de procesamiento: 3.5 segundos
+2026-01-21 00:13:36,219 - INFO -    • Tamaño original: 267.3 MB
+2026-01-21 00:13:36,219 - INFO -    • Tamaño consolidado: 299.8 MB
+2026-01-21 00:13:36,219 - INFO -    • Ratio de compresión: -12.2%
+2026-01-21 00:13:36,219 - INFO -    • Compresión utilizada: snappy
+2026-01-21 00:13:36,219 - INFO -    • Archivo de salida: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated/XAUUSD_2013_FULL.parquet
+2026-01-21 00:13:36,219 - INFO - ============================================================
+2026-01-21 00:13:36,227 - INFO - ✅ XAUUSD 2013 consolidado exitosamente
+2026-01-21 00:13:36,227 - INFO - 
+============================================================
+2026-01-21 00:13:36,227 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-01-21 00:13:36,227 - INFO - ============================================================
+2026-01-21 00:13:36,227 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-01-21 00:13:36,228 - INFO -    • XAUUSD 2013: XAUUSD_2013_FULL.parquet (299.8 MB)
+2026-01-21 00:13:36,228 - INFO - ============================================================
+2026-01-21 00:13:36,228 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-01-21 00:17:34,027 - INFO - ============================================================
+2026-01-21 00:17:34,027 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-01-21 00:17:34,027 - INFO - ============================================================
+2026-01-21 00:17:34,027 - INFO - 📂 Entrada: data_2014
+2026-01-21 00:17:34,027 - INFO - 📂 Salida: consolidated
+2026-01-21 00:17:34,027 - INFO - 📊 Símbolos: XAUUSD
+2026-01-21 00:17:34,027 - INFO - 📅 Años: 2014
+2026-01-21 00:17:34,027 - INFO - ⚙️  Compresión: snappy
+2026-01-21 00:17:34,027 - INFO - 🗂️  Particiones diarias: NO
+2026-01-21 00:17:34,027 - INFO - 🗑️  Eliminar originales: NO
+2026-01-21 00:17:34,027 - INFO - 🔍 Validación: SÍ
+2026-01-21 00:17:34,027 - INFO - ============================================================
+2026-01-21 00:17:34,028 - INFO - 📂 Directorio de entrada: /home/wilson/CODE/proy_xauusd/dukascopy/data_2014
+2026-01-21 00:17:34,028 - INFO - 📂 Directorio de salida: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated
+2026-01-21 00:17:34,028 - INFO - 
+🎯 Procesando XAUUSD 2014...
+2026-01-21 00:17:34,028 - INFO - 🔄 Iniciando consolidación de XAUUSD 2014
+2026-01-21 00:17:34,029 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-01-21 00:17:34,029 - INFO - 🔍 Validando 12 archivos...
+2026-01-21 00:17:34,362 - INFO - 📖 Leyendo archivos...
+2026-01-21 00:17:34,625 - INFO - 📊 Total preliminar: 20,795,350 filas, 240.7 MB
+2026-01-21 00:17:34,625 - INFO - 🔗 Concatenando tablas...
+2026-01-21 00:17:34,626 - INFO - ⚙️  Optimizando esquema...
+2026-01-21 00:17:34,699 - INFO - 💾 Guardando archivo consolidado: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated/XAUUSD_2014_FULL.parquet
+2026-01-21 00:17:37,988 - INFO - 
+============================================================
+2026-01-21 00:17:37,989 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-01-21 00:17:37,989 - INFO - ============================================================
+2026-01-21 00:17:37,989 - INFO - 📊 Estadísticas:
+2026-01-21 00:17:37,989 - INFO -    • Archivos consolidados: 12
+2026-01-21 00:17:37,989 - INFO -    • Filas totales: 20,795,350
+2026-01-21 00:17:37,989 - INFO -    • Columnas: 5
+2026-01-21 00:17:37,989 - INFO -    • Tiempo de procesamiento: 3.4 segundos
+2026-01-21 00:17:37,989 - INFO -    • Tamaño original: 240.7 MB
+2026-01-21 00:17:37,989 - INFO -    • Tamaño consolidado: 271.4 MB
+2026-01-21 00:17:37,989 - INFO -    • Ratio de compresión: -12.7%
+2026-01-21 00:17:37,989 - INFO -    • Compresión utilizada: snappy
+2026-01-21 00:17:37,989 - INFO -    • Archivo de salida: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated/XAUUSD_2014_FULL.parquet
+2026-01-21 00:17:37,989 - INFO - ============================================================
+2026-01-21 00:17:37,996 - INFO - ✅ XAUUSD 2014 consolidado exitosamente
+2026-01-21 00:17:37,996 - INFO - 
+============================================================
+2026-01-21 00:17:37,996 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-01-21 00:17:37,996 - INFO - ============================================================
+2026-01-21 00:17:37,996 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-01-21 00:17:37,996 - INFO -    • XAUUSD 2014: XAUUSD_2014_FULL.parquet (271.4 MB)
+2026-01-21 00:17:37,996 - INFO - ============================================================
+2026-01-21 00:17:37,996 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!

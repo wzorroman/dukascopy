@@ -1,0 +1,57 @@
+{
+  "symbol": "XAUUSD",
+  "consolidation_date": "2026-01-21T13:20:42.792288",
+  "total_files": 5,
+  "total_rows": 95375242,
+  "total_size_mb": 1332.2435884475708,
+  "date_range": {
+    "start": "2010-01-01 00:02:01.950000",
+    "end": "2014-12-31 00:59:57.518000",
+    "days": 1825,
+    "years": 4.996577686516085
+  },
+  "yearly_stats": [
+    {
+      "year": 2010,
+      "file": "XAUUSD_2010_FULL.parquet",
+      "rows": 12727047,
+      "size_mb": 193.07789039611816,
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "year": 2011,
+      "file": "XAUUSD_2011_FULL.parquet",
+      "rows": 16993432,
+      "size_mb": 267.00340938568115,
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "year": 2012,
+      "file": "XAUUSD_2012_FULL.parquet",
+      "rows": 22351221,
+      "size_mb": 300.9376850128174,
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "year": 2013,
+      "file": "XAUUSD_2013_FULL.parquet",
+      "rows": 22508192,
+      "size_mb": 299.83637142181396,
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "year": 2014,
+      "file": "XAUUSD_2014_FULL.parquet",
+      "rows": 20795350,
+      "size_mb": 271.38823223114014,
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "output_file": "/home/wilson/CODE/proy_xauusd/dukascopy/XAUUSD_GLOBAL.parquet",
+  "output_size_mb": 1262.2564678192139
+}

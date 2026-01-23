@@ -1,0 +1,276 @@
+{
+  "XAUUSD_2013_data_2013": {
+    "symbol": "XAUUSD",
+    "year": 2013,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-01-20T15:34:40.758110",
+    "total_months": 12
+  },
+  "XAUUSD_2014_data_2014": {
+    "symbol": "XAUUSD",
+    "year": 2014,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-01-20T15:38:17.323196",
+    "total_months": 12
+  },
+  "XAUUSD_2015_data_2015": {
+    "symbol": "XAUUSD",
+    "year": 2015,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-01-20T16:05:38.467029",
+    "total_months": 12
+  },
+  "XAUUSD_2016_data_2016": {
+    "symbol": "XAUUSD",
+    "year": 2016,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-01-20T17:29:13.826010",
+    "total_months": 12
+  },
+  "XAUUSD_2017_data_2017": {
+    "symbol": "XAUUSD",
+    "year": 2017,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-01-20T17:29:32.360065",
+    "total_months": 12
+  },
+  "XAUUSD_2018_data_2018": {
+    "symbol": "XAUUSD",
+    "year": 2018,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-01-20T17:29:48.290494",
+    "total_months": 12
+  },
+  "XAUUSD_2019_data_2019": {
+    "symbol": "XAUUSD",
+    "year": 2019,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-01-20T23:44:49.454715",
+    "total_months": 12
+  },
+  "XAUUSD_2020_data_2020": {
+    "symbol": "XAUUSD",
+    "year": 2020,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-01-20T23:45:02.917820",
+    "total_months": 12
+  },
+  "XAUUSD_2021_data_2021": {
+    "symbol": "XAUUSD",
+    "year": 2021,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-01-20T23:45:16.251499",
+    "total_months": 12
+  },
+  "XAUUSD_2025_data": {
+    "symbol": "XAUUSD",
+    "year": 2025,
+    "completed_months": [],
+    "last_updated": "2026-01-21T00:01:53.081182",
+    "total_months": 12,
+    "errors": [
+      {
+        "month": 1,
+        "error": "Proceso fall\u00f3 con c\u00f3digo: 127",
+        "timestamp": "2026-01-21T00:01:53.136695"
+      }
+    ]
+  },
+  "XAUUSD_2024_data_2024": {
+    "symbol": "XAUUSD",
+    "year": 2024,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-01-21T00:01:32.821455",
+    "total_months": 12
+  },
+  "XAUUSD_2022_data_2022": {
+    "symbol": "XAUUSD",
+    "year": 2022,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-01-21T00:00:48.767185",
+    "total_months": 12
+  },
+  "XAUUSD_2023_data_2023": {
+    "symbol": "XAUUSD",
+    "year": 2023,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-01-21T00:01:09.538720",
+    "total_months": 12
+  },
+  "XAUUSD_2025_data_2025": {
+    "symbol": "XAUUSD",
+    "year": 2025,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-01-21T00:02:16.566074",
+    "total_months": 12
+  }
+}

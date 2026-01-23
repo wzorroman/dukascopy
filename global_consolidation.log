@@ -1,0 +1,106 @@
+2026-01-20 15:18:33,438 - INFO - ======================================================================
+2026-01-20 15:18:33,438 - INFO - 🌍 CONSOLIDADOR GLOBAL DE ARCHIVOS ANUALES
+2026-01-20 15:18:33,438 - INFO - ======================================================================
+2026-01-20 15:18:33,438 - INFO - 📂 Entrada: consolidated
+2026-01-20 15:18:33,438 - INFO - 📂 Salida: XAUUSD_GLOBAL.parquet
+2026-01-20 15:18:33,438 - INFO - 📊 Símbolo: TODOS
+2026-01-20 15:18:33,438 - INFO - 📅 Años: TODOS
+2026-01-20 15:18:33,438 - INFO - ⚙️  Compresión: snappy
+2026-01-20 15:18:33,438 - INFO - 🔧 Optimización: SÍ
+2026-01-20 15:18:33,438 - INFO - 🔍 Validación: SÍ
+2026-01-20 15:18:33,438 - INFO - ======================================================================
+2026-01-20 15:18:33,438 - INFO - 📂 Directorio de entrada: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated
+2026-01-20 15:18:33,438 - INFO - 📂 Archivo de salida: /home/wilson/CODE/proy_xauusd/dukascopy/XAUUSD_GLOBAL.parquet
+2026-01-20 15:18:33,439 - INFO - 📁 Encontrados 2 archivos anuales:
+2026-01-20 15:18:33,439 - INFO -    • XAUUSD_2010_FULL.parquet
+2026-01-20 15:18:33,439 - INFO -    • XAUUSD_2011_FULL.parquet
+2026-01-20 15:18:33,439 - INFO - 🌍 Iniciando consolidación global de 2 archivos anuales
+2026-01-20 15:18:33,439 - INFO - 🔍 Validando 2 archivos...
+2026-01-20 15:18:33,642 - INFO - 📖 Leyendo archivos anuales...
+2026-01-20 15:18:33,817 - INFO - 📊 Total preliminar: 29,720,479 filas, 460.1 MB
+2026-01-20 15:18:33,817 - INFO - 🔗 Concatenando tablas anuales...
+2026-01-20 15:18:33,817 - INFO - ⚙️  Optimizando esquema global...
+2026-01-20 15:18:34,095 - INFO - 💾 Guardando archivo global: /home/wilson/CODE/proy_xauusd/dukascopy/XAUUSD_GLOBAL.parquet
+2026-01-20 15:18:38,857 - INFO - 
+======================================================================
+2026-01-20 15:18:38,857 - INFO - 🌍 CONSOLIDACIÓN GLOBAL COMPLETADA EXITOSAMENTE
+2026-01-20 15:18:38,858 - INFO - ======================================================================
+2026-01-20 15:18:38,858 - INFO - 📊 ESTADÍSTICAS GLOBALES:
+2026-01-20 15:18:38,858 - INFO -    • Archivos consolidados: 2
+2026-01-20 15:18:38,858 - INFO -    • Símbolo: XAUUSD
+2026-01-20 15:18:38,858 - INFO -    • Filas totales: 29,720,479
+2026-01-20 15:18:38,858 - INFO -    • Columnas: 5
+2026-01-20 15:18:38,858 - INFO -    • Rango temporal: 2010-01-01 00:02:01.950000 a 2011-12-30 21:59:59.222000
+2026-01-20 15:18:38,858 - INFO -    • Período cubierto: 728 días (2.0 años)
+2026-01-20 15:18:38,858 - INFO -    • Tamaño original total: 460.1 MB
+2026-01-20 15:18:38,858 - INFO -    • Tamaño consolidado: 438.2 MB
+2026-01-20 15:18:38,858 - INFO -    • Ratio de compresión: 4.8%
+2026-01-20 15:18:38,858 - INFO -    • Compresión utilizada: snappy
+2026-01-20 15:18:38,858 - INFO -    • Tiempo de procesamiento: 4.7 segundos
+2026-01-20 15:18:38,858 - INFO -    • Rendimiento: 6,358,098 filas/seg, 98.4 MB/seg
+2026-01-20 15:18:38,858 - INFO -    • Archivo de salida: /home/wilson/CODE/proy_xauusd/dukascopy/XAUUSD_GLOBAL.parquet
+2026-01-20 15:18:38,858 - INFO - 
+📅 DESGLOSE POR AÑO:
+2026-01-20 15:18:38,858 - INFO -    • 2010: 12,727,047 filas, 193.1 MB
+2026-01-20 15:18:38,858 - INFO -    • 2011: 16,993,432 filas, 267.0 MB
+2026-01-20 15:18:38,858 - INFO - ======================================================================
+2026-01-20 15:18:38,859 - INFO - 📋 Metadatos guardados en: /home/wilson/CODE/proy_xauusd/dukascopy/XAUUSD_GLOBAL.metadata.json
+2026-01-20 15:18:38,861 - INFO - 🎉 ¡Consolidación global completada exitosamente!
+2026-01-20 15:18:38,861 - INFO - 📁 Archivo creado: /home/wilson/CODE/proy_xauusd/dukascopy/XAUUSD_GLOBAL.parquet
+2026-01-20 15:18:38,861 - INFO - 📈 Tamaño final: 438.2 MB
+2026-01-21 13:20:25,110 - INFO - ======================================================================
+2026-01-21 13:20:25,111 - INFO - 🌍 CONSOLIDADOR GLOBAL DE ARCHIVOS ANUALES
+2026-01-21 13:20:25,111 - INFO - ======================================================================
+2026-01-21 13:20:25,111 - INFO - 📂 Entrada: consolidated
+2026-01-21 13:20:25,111 - INFO - 📂 Salida: XAUUSD_GLOBAL.parquet
+2026-01-21 13:20:25,111 - INFO - 📊 Símbolo: TODOS
+2026-01-21 13:20:25,111 - INFO - 📅 Años: TODOS
+2026-01-21 13:20:25,111 - INFO - ⚙️  Compresión: snappy
+2026-01-21 13:20:25,111 - INFO - 🔧 Optimización: SÍ
+2026-01-21 13:20:25,111 - INFO - 🔍 Validación: SÍ
+2026-01-21 13:20:25,111 - INFO - ======================================================================
+2026-01-21 13:20:25,111 - INFO - 📂 Directorio de entrada: /home/wilson/CODE/proy_xauusd/dukascopy/consolidated
+2026-01-21 13:20:25,111 - INFO - 📂 Archivo de salida: /home/wilson/CODE/proy_xauusd/dukascopy/XAUUSD_GLOBAL.parquet
+2026-01-21 13:20:25,112 - INFO - 📁 Encontrados 5 archivos anuales:
+2026-01-21 13:20:25,112 - INFO -    • XAUUSD_2010_FULL.parquet
+2026-01-21 13:20:25,112 - INFO -    • XAUUSD_2011_FULL.parquet
+2026-01-21 13:20:25,112 - INFO -    • XAUUSD_2012_FULL.parquet
+2026-01-21 13:20:25,112 - INFO -    • XAUUSD_2013_FULL.parquet
+2026-01-21 13:20:25,112 - INFO -    • XAUUSD_2014_FULL.parquet
+2026-01-21 13:20:25,112 - INFO - 🌍 Iniciando consolidación global de 5 archivos anuales
+2026-01-21 13:20:25,112 - INFO - 🔍 Validando 5 archivos...
+2026-01-21 13:20:25,876 - INFO - 📖 Leyendo archivos anuales...
+2026-01-21 13:20:26,582 - INFO - 📊 Total preliminar: 95,375,242 filas, 1332.2 MB
+2026-01-21 13:20:26,582 - INFO - 🔗 Concatenando tablas anuales...
+2026-01-21 13:20:26,583 - INFO - ⚙️  Optimizando esquema global...
+2026-01-21 13:20:27,460 - INFO - 💾 Guardando archivo global: /home/wilson/CODE/proy_xauusd/dukascopy/XAUUSD_GLOBAL.parquet
+2026-01-21 13:20:42,790 - INFO - 
+======================================================================
+2026-01-21 13:20:42,790 - INFO - 🌍 CONSOLIDACIÓN GLOBAL COMPLETADA EXITOSAMENTE
+2026-01-21 13:20:42,791 - INFO - ======================================================================
+2026-01-21 13:20:42,791 - INFO - 📊 ESTADÍSTICAS GLOBALES:
+2026-01-21 13:20:42,791 - INFO -    • Archivos consolidados: 5
+2026-01-21 13:20:42,791 - INFO -    • Símbolo: XAUUSD
+2026-01-21 13:20:42,791 - INFO -    • Filas totales: 95,375,242
+2026-01-21 13:20:42,791 - INFO -    • Columnas: 5
+2026-01-21 13:20:42,791 - INFO -    • Rango temporal: 2010-01-01 00:02:01.950000 a 2014-12-31 00:59:57.518000
+2026-01-21 13:20:42,791 - INFO -    • Período cubierto: 1825 días (5.0 años)
+2026-01-21 13:20:42,791 - INFO -    • Tamaño original total: 1332.2 MB
+2026-01-21 13:20:42,791 - INFO -    • Tamaño consolidado: 1262.3 MB
+2026-01-21 13:20:42,791 - INFO -    • Ratio de compresión: 5.3%
+2026-01-21 13:20:42,791 - INFO -    • Compresión utilizada: snappy
+2026-01-21 13:20:42,791 - INFO -    • Tiempo de procesamiento: 15.0 segundos
+2026-01-21 13:20:42,791 - INFO -    • Rendimiento: 6,343,855 filas/seg, 88.6 MB/seg
+2026-01-21 13:20:42,791 - INFO -    • Archivo de salida: /home/wilson/CODE/proy_xauusd/dukascopy/XAUUSD_GLOBAL.parquet
+2026-01-21 13:20:42,791 - INFO - 
+📅 DESGLOSE POR AÑO:
+2026-01-21 13:20:42,792 - INFO -    • 2010: 12,727,047 filas, 193.1 MB
+2026-01-21 13:20:42,792 - INFO -    • 2011: 16,993,432 filas, 267.0 MB
+2026-01-21 13:20:42,792 - INFO -    • 2012: 22,351,221 filas, 300.9 MB
+2026-01-21 13:20:42,792 - INFO -    • 2013: 22,508,192 filas, 299.8 MB
+2026-01-21 13:20:42,792 - INFO -    • 2014: 20,795,350 filas, 271.4 MB
+2026-01-21 13:20:42,792 - INFO - ======================================================================
+2026-01-21 13:20:42,792 - INFO - 📋 Metadatos guardados en: /home/wilson/CODE/proy_xauusd/dukascopy/XAUUSD_GLOBAL.metadata.json
+2026-01-21 13:20:42,799 - INFO - 🎉 ¡Consolidación global completada exitosamente!
+2026-01-21 13:20:42,799 - INFO - 📁 Archivo creado: /home/wilson/CODE/proy_xauusd/dukascopy/XAUUSD_GLOBAL.parquet
+2026-01-21 13:20:42,799 - INFO - 📈 Tamaño final: 1262.3 MB
