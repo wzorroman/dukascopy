@@ -322,3 +322,937 @@
 2026-01-21 00:17:37,996 - INFO -    • XAUUSD 2014: XAUUSD_2014_FULL.parquet (271.4 MB)
 2026-01-21 00:17:37,996 - INFO - ============================================================
 2026-01-21 00:17:37,996 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-12 11:26:16,905 - INFO - ============================================================
+2026-02-12 11:26:16,926 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-12 11:26:16,926 - INFO - ============================================================
+2026-02-12 11:26:16,927 - INFO - 📂 Entrada: /home/wilson/datos_backup/proy_trading/DATA_GOLD/data_2011
+2026-02-12 11:26:16,928 - INFO - 📂 Salida: consolidated
+2026-02-12 11:26:16,928 - INFO - 📊 Símbolos: XAUUSD
+2026-02-12 11:26:16,928 - INFO - 📅 Años: 2011
+2026-02-12 11:26:16,929 - INFO - ⚙️  Compresión: snappy
+2026-02-12 11:26:16,929 - INFO - 🗂️  Particiones diarias: NO
+2026-02-12 11:26:16,929 - INFO - 🗑️  Eliminar originales: NO
+2026-02-12 11:26:16,930 - INFO - 🔍 Validación: SÍ
+2026-02-12 11:26:16,930 - INFO - ============================================================
+2026-02-12 11:26:16,932 - INFO - 📂 Directorio de entrada: /mnt/datos_backup/proy_trading/DATA_GOLD/data_2011
+2026-02-12 11:26:16,933 - INFO - 📂 Directorio de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated
+2026-02-12 11:26:16,959 - INFO - 
+🎯 Procesando XAUUSD 2011...
+2026-02-12 11:26:16,960 - INFO - 🔄 Iniciando consolidación de XAUUSD 2011
+2026-02-12 11:26:16,970 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-12 11:26:16,970 - INFO - 🔍 Validando 12 archivos...
+2026-02-12 11:26:24,040 - INFO - 📖 Leyendo archivos...
+2026-02-12 11:26:24,316 - INFO - 📊 Total preliminar: 16,993,432 filas, 248.6 MB
+2026-02-12 11:26:24,316 - INFO - 🔗 Concatenando tablas...
+2026-02-12 11:26:24,327 - INFO - ⚙️  Optimizando esquema...
+2026-02-12 11:26:24,500 - INFO - 💾 Guardando archivo consolidado: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2011_FULL.parquet
+2026-02-12 11:26:28,436 - INFO - 
+============================================================
+2026-02-12 11:26:28,437 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-12 11:26:28,437 - INFO - ============================================================
+2026-02-12 11:26:28,437 - INFO - 📊 Estadísticas:
+2026-02-12 11:26:28,437 - INFO -    • Archivos consolidados: 12
+2026-02-12 11:26:28,437 - INFO -    • Filas totales: 16,993,432
+2026-02-12 11:26:28,437 - INFO -    • Columnas: 5
+2026-02-12 11:26:28,437 - INFO -    • Tiempo de procesamiento: 4.1 segundos
+2026-02-12 11:26:28,437 - INFO -    • Tamaño original: 248.6 MB
+2026-02-12 11:26:28,437 - INFO -    • Tamaño consolidado: 267.0 MB
+2026-02-12 11:26:28,437 - INFO -    • Ratio de compresión: -7.4%
+2026-02-12 11:26:28,437 - INFO -    • Compresión utilizada: snappy
+2026-02-12 11:26:28,438 - INFO -    • Archivo de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2011_FULL.parquet
+2026-02-12 11:26:28,438 - INFO - ============================================================
+2026-02-12 11:26:28,442 - INFO - ✅ XAUUSD 2011 consolidado exitosamente
+2026-02-12 11:26:28,442 - INFO - 
+============================================================
+2026-02-12 11:26:28,442 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-12 11:26:28,442 - INFO - ============================================================
+2026-02-12 11:26:28,442 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-12 11:26:28,443 - INFO -    • XAUUSD 2011: XAUUSD_2011_FULL.parquet (267.0 MB)
+2026-02-12 11:26:28,443 - INFO - ============================================================
+2026-02-12 11:26:28,443 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-12 11:27:08,688 - INFO - ============================================================
+2026-02-12 11:27:08,688 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-12 11:27:08,688 - INFO - ============================================================
+2026-02-12 11:27:08,688 - INFO - 📂 Entrada: /home/wilson/datos_backup/proy_trading/DATA_GOLD/data_2015
+2026-02-12 11:27:08,688 - INFO - 📂 Salida: consolidated
+2026-02-12 11:27:08,688 - INFO - 📊 Símbolos: XAUUSD
+2026-02-12 11:27:08,688 - INFO - 📅 Años: 2015
+2026-02-12 11:27:08,688 - INFO - ⚙️  Compresión: snappy
+2026-02-12 11:27:08,689 - INFO - 🗂️  Particiones diarias: NO
+2026-02-12 11:27:08,689 - INFO - 🗑️  Eliminar originales: NO
+2026-02-12 11:27:08,689 - INFO - 🔍 Validación: SÍ
+2026-02-12 11:27:08,689 - INFO - ============================================================
+2026-02-12 11:27:08,689 - INFO - 📂 Directorio de entrada: /mnt/datos_backup/proy_trading/DATA_GOLD/data_2015
+2026-02-12 11:27:08,689 - INFO - 📂 Directorio de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated
+2026-02-12 11:27:08,690 - INFO - 
+🎯 Procesando XAUUSD 2015...
+2026-02-12 11:27:08,690 - INFO - 🔄 Iniciando consolidación de XAUUSD 2015
+2026-02-12 11:27:08,692 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-12 11:27:08,692 - INFO - 🔍 Validando 12 archivos...
+2026-02-12 11:27:17,089 - INFO - 📖 Leyendo archivos...
+2026-02-12 11:27:17,376 - INFO - 📊 Total preliminar: 24,961,205 filas, 278.3 MB
+2026-02-12 11:27:17,376 - INFO - 🔗 Concatenando tablas...
+2026-02-12 11:27:17,377 - INFO - ⚙️  Optimizando esquema...
+2026-02-12 11:27:17,451 - INFO - 💾 Guardando archivo consolidado: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2015_FULL.parquet
+2026-02-12 11:27:24,947 - INFO - 
+============================================================
+2026-02-12 11:27:24,947 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-12 11:27:24,947 - INFO - ============================================================
+2026-02-12 11:27:24,947 - INFO - 📊 Estadísticas:
+2026-02-12 11:27:24,947 - INFO -    • Archivos consolidados: 12
+2026-02-12 11:27:24,947 - INFO -    • Filas totales: 24,961,205
+2026-02-12 11:27:24,947 - INFO -    • Columnas: 5
+2026-02-12 11:27:24,947 - INFO -    • Tiempo de procesamiento: 7.6 segundos
+2026-02-12 11:27:24,947 - INFO -    • Tamaño original: 278.3 MB
+2026-02-12 11:27:24,948 - INFO -    • Tamaño consolidado: 311.4 MB
+2026-02-12 11:27:24,948 - INFO -    • Ratio de compresión: -11.9%
+2026-02-12 11:27:24,948 - INFO -    • Compresión utilizada: snappy
+2026-02-12 11:27:24,948 - INFO -    • Archivo de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2015_FULL.parquet
+2026-02-12 11:27:24,948 - INFO - ============================================================
+2026-02-12 11:27:24,954 - INFO - ✅ XAUUSD 2015 consolidado exitosamente
+2026-02-12 11:27:24,954 - INFO - 
+============================================================
+2026-02-12 11:27:24,954 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-12 11:27:24,954 - INFO - ============================================================
+2026-02-12 11:27:24,955 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-12 11:27:24,955 - INFO -    • XAUUSD 2015: XAUUSD_2015_FULL.parquet (311.4 MB)
+2026-02-12 11:27:24,955 - INFO - ============================================================
+2026-02-12 11:27:24,955 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-12 11:27:52,589 - INFO - ============================================================
+2026-02-12 11:27:52,590 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-12 11:27:52,590 - INFO - ============================================================
+2026-02-12 11:27:52,590 - INFO - 📂 Entrada: /home/wilson/datos_backup/proy_trading/DATA_GOLD/data_2016
+2026-02-12 11:27:52,590 - INFO - 📂 Salida: consolidated
+2026-02-12 11:27:52,590 - INFO - 📊 Símbolos: XAUUSD
+2026-02-12 11:27:52,590 - INFO - 📅 Años: 2016
+2026-02-12 11:27:52,591 - INFO - ⚙️  Compresión: snappy
+2026-02-12 11:27:52,591 - INFO - 🗂️  Particiones diarias: NO
+2026-02-12 11:27:52,591 - INFO - 🗑️  Eliminar originales: NO
+2026-02-12 11:27:52,591 - INFO - 🔍 Validación: SÍ
+2026-02-12 11:27:52,591 - INFO - ============================================================
+2026-02-12 11:27:52,592 - INFO - 📂 Directorio de entrada: /mnt/datos_backup/proy_trading/DATA_GOLD/data_2016
+2026-02-12 11:27:52,592 - INFO - 📂 Directorio de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated
+2026-02-12 11:27:52,592 - INFO - 
+🎯 Procesando XAUUSD 2016...
+2026-02-12 11:27:52,592 - INFO - 🔄 Iniciando consolidación de XAUUSD 2016
+2026-02-12 11:27:52,598 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-12 11:27:52,598 - INFO - 🔍 Validando 12 archivos...
+2026-02-12 11:28:08,116 - INFO - 📖 Leyendo archivos...
+2026-02-12 11:28:08,686 - INFO - 📊 Total preliminar: 44,768,428 filas, 486.5 MB
+2026-02-12 11:28:08,686 - INFO - 🔗 Concatenando tablas...
+2026-02-12 11:28:08,688 - INFO - ⚙️  Optimizando esquema...
+2026-02-12 11:28:08,839 - INFO - 💾 Guardando archivo consolidado: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2016_FULL.parquet
+2026-02-12 11:28:19,064 - INFO - 
+============================================================
+2026-02-12 11:28:19,065 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-12 11:28:19,065 - INFO - ============================================================
+2026-02-12 11:28:19,065 - INFO - 📊 Estadísticas:
+2026-02-12 11:28:19,065 - INFO -    • Archivos consolidados: 12
+2026-02-12 11:28:19,065 - INFO -    • Filas totales: 44,768,428
+2026-02-12 11:28:19,065 - INFO -    • Columnas: 5
+2026-02-12 11:28:19,065 - INFO -    • Tiempo de procesamiento: 10.4 segundos
+2026-02-12 11:28:19,065 - INFO -    • Tamaño original: 486.5 MB
+2026-02-12 11:28:19,066 - INFO -    • Tamaño consolidado: 545.0 MB
+2026-02-12 11:28:19,066 - INFO -    • Ratio de compresión: -12.0%
+2026-02-12 11:28:19,066 - INFO -    • Compresión utilizada: snappy
+2026-02-12 11:28:19,066 - INFO -    • Archivo de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2016_FULL.parquet
+2026-02-12 11:28:19,066 - INFO - ============================================================
+2026-02-12 11:28:19,078 - INFO - ✅ XAUUSD 2016 consolidado exitosamente
+2026-02-12 11:28:19,079 - INFO - 
+============================================================
+2026-02-12 11:28:19,079 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-12 11:28:19,079 - INFO - ============================================================
+2026-02-12 11:28:19,079 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-12 11:28:19,079 - INFO -    • XAUUSD 2016: XAUUSD_2016_FULL.parquet (545.0 MB)
+2026-02-12 11:28:19,080 - INFO - ============================================================
+2026-02-12 11:28:19,080 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-12 11:28:27,109 - INFO - ============================================================
+2026-02-12 11:28:27,109 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-12 11:28:27,109 - INFO - ============================================================
+2026-02-12 11:28:27,109 - INFO - 📂 Entrada: /home/wilson/datos_backup/proy_trading/DATA_GOLD/data_2017
+2026-02-12 11:28:27,109 - INFO - 📂 Salida: consolidated
+2026-02-12 11:28:27,109 - INFO - 📊 Símbolos: XAUUSD
+2026-02-12 11:28:27,110 - INFO - 📅 Años: 2017
+2026-02-12 11:28:27,110 - INFO - ⚙️  Compresión: snappy
+2026-02-12 11:28:27,110 - INFO - 🗂️  Particiones diarias: NO
+2026-02-12 11:28:27,110 - INFO - 🗑️  Eliminar originales: NO
+2026-02-12 11:28:27,110 - INFO - 🔍 Validación: SÍ
+2026-02-12 11:28:27,110 - INFO - ============================================================
+2026-02-12 11:28:27,110 - INFO - 📂 Directorio de entrada: /mnt/datos_backup/proy_trading/DATA_GOLD/data_2017
+2026-02-12 11:28:27,110 - INFO - 📂 Directorio de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated
+2026-02-12 11:28:27,111 - INFO - 
+🎯 Procesando XAUUSD 2017...
+2026-02-12 11:28:27,111 - INFO - 🔄 Iniciando consolidación de XAUUSD 2017
+2026-02-12 11:28:27,113 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-12 11:28:27,113 - INFO - 🔍 Validando 12 archivos...
+2026-02-12 11:28:48,841 - INFO - 📖 Leyendo archivos...
+2026-02-12 11:28:49,322 - INFO - 📊 Total preliminar: 44,277,967 filas, 460.1 MB
+2026-02-12 11:28:49,322 - INFO - 🔗 Concatenando tablas...
+2026-02-12 11:28:49,323 - INFO - ⚙️  Optimizando esquema...
+2026-02-12 11:28:49,455 - INFO - 💾 Guardando archivo consolidado: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2017_FULL.parquet
+2026-02-12 11:28:58,259 - INFO - 
+============================================================
+2026-02-12 11:28:58,259 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-12 11:28:58,259 - INFO - ============================================================
+2026-02-12 11:28:58,259 - INFO - 📊 Estadísticas:
+2026-02-12 11:28:58,260 - INFO -    • Archivos consolidados: 12
+2026-02-12 11:28:58,260 - INFO -    • Filas totales: 44,277,967
+2026-02-12 11:28:58,260 - INFO -    • Columnas: 5
+2026-02-12 11:28:58,260 - INFO -    • Tiempo de procesamiento: 8.9 segundos
+2026-02-12 11:28:58,260 - INFO -    • Tamaño original: 460.1 MB
+2026-02-12 11:28:58,260 - INFO -    • Tamaño consolidado: 519.5 MB
+2026-02-12 11:28:58,260 - INFO -    • Ratio de compresión: -12.9%
+2026-02-12 11:28:58,260 - INFO -    • Compresión utilizada: snappy
+2026-02-12 11:28:58,260 - INFO -    • Archivo de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2017_FULL.parquet
+2026-02-12 11:28:58,260 - INFO - ============================================================
+2026-02-12 11:28:58,273 - INFO - ✅ XAUUSD 2017 consolidado exitosamente
+2026-02-12 11:28:58,273 - INFO - 
+============================================================
+2026-02-12 11:28:58,273 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-12 11:28:58,273 - INFO - ============================================================
+2026-02-12 11:28:58,274 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-12 11:28:58,274 - INFO -    • XAUUSD 2017: XAUUSD_2017_FULL.parquet (519.5 MB)
+2026-02-12 11:28:58,274 - INFO - ============================================================
+2026-02-12 11:28:58,274 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-12 11:29:05,909 - INFO - ============================================================
+2026-02-12 11:29:05,909 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-12 11:29:05,910 - INFO - ============================================================
+2026-02-12 11:29:05,910 - INFO - 📂 Entrada: /home/wilson/datos_backup/proy_trading/DATA_GOLD/data_2018
+2026-02-12 11:29:05,910 - INFO - 📂 Salida: consolidated
+2026-02-12 11:29:05,910 - INFO - 📊 Símbolos: XAUUSD
+2026-02-12 11:29:05,910 - INFO - 📅 Años: 2018
+2026-02-12 11:29:05,910 - INFO - ⚙️  Compresión: snappy
+2026-02-12 11:29:05,910 - INFO - 🗂️  Particiones diarias: NO
+2026-02-12 11:29:05,910 - INFO - 🗑️  Eliminar originales: NO
+2026-02-12 11:29:05,911 - INFO - 🔍 Validación: SÍ
+2026-02-12 11:29:05,911 - INFO - ============================================================
+2026-02-12 11:29:05,911 - INFO - 📂 Directorio de entrada: /mnt/datos_backup/proy_trading/DATA_GOLD/data_2018
+2026-02-12 11:29:05,911 - INFO - 📂 Directorio de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated
+2026-02-12 11:29:05,911 - INFO - 
+🎯 Procesando XAUUSD 2018...
+2026-02-12 11:29:05,911 - INFO - 🔄 Iniciando consolidación de XAUUSD 2018
+2026-02-12 11:29:05,913 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-12 11:29:05,913 - INFO - 🔍 Validando 12 archivos...
+2026-02-12 11:29:17,516 - INFO - 📖 Leyendo archivos...
+2026-02-12 11:29:17,916 - INFO - 📊 Total preliminar: 34,776,283 filas, 374.9 MB
+2026-02-12 11:29:17,916 - INFO - 🔗 Concatenando tablas...
+2026-02-12 11:29:17,917 - INFO - ⚙️  Optimizando esquema...
+2026-02-12 11:29:18,033 - INFO - 💾 Guardando archivo consolidado: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2018_FULL.parquet
+2026-02-12 11:29:25,565 - INFO - 
+============================================================
+2026-02-12 11:29:25,566 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-12 11:29:25,566 - INFO - ============================================================
+2026-02-12 11:29:25,566 - INFO - 📊 Estadísticas:
+2026-02-12 11:29:25,566 - INFO -    • Archivos consolidados: 12
+2026-02-12 11:29:25,566 - INFO -    • Filas totales: 34,776,283
+2026-02-12 11:29:25,566 - INFO -    • Columnas: 5
+2026-02-12 11:29:25,566 - INFO -    • Tiempo de procesamiento: 7.6 segundos
+2026-02-12 11:29:25,566 - INFO -    • Tamaño original: 374.9 MB
+2026-02-12 11:29:25,566 - INFO -    • Tamaño consolidado: 420.7 MB
+2026-02-12 11:29:25,567 - INFO -    • Ratio de compresión: -12.2%
+2026-02-12 11:29:25,567 - INFO -    • Compresión utilizada: snappy
+2026-02-12 11:29:25,567 - INFO -    • Archivo de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2018_FULL.parquet
+2026-02-12 11:29:25,567 - INFO - ============================================================
+2026-02-12 11:29:25,576 - INFO - ✅ XAUUSD 2018 consolidado exitosamente
+2026-02-12 11:29:25,577 - INFO - 
+============================================================
+2026-02-12 11:29:25,577 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-12 11:29:25,577 - INFO - ============================================================
+2026-02-12 11:29:25,577 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-12 11:29:25,577 - INFO -    • XAUUSD 2018: XAUUSD_2018_FULL.parquet (420.7 MB)
+2026-02-12 11:29:25,577 - INFO - ============================================================
+2026-02-12 11:29:25,577 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-12 11:29:33,507 - INFO - ============================================================
+2026-02-12 11:29:33,507 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-12 11:29:33,508 - INFO - ============================================================
+2026-02-12 11:29:33,508 - INFO - 📂 Entrada: /home/wilson/datos_backup/proy_trading/DATA_GOLD/data_2019
+2026-02-12 11:29:33,508 - INFO - 📂 Salida: consolidated
+2026-02-12 11:29:33,508 - INFO - 📊 Símbolos: XAUUSD
+2026-02-12 11:29:33,508 - INFO - 📅 Años: 2019
+2026-02-12 11:29:33,508 - INFO - ⚙️  Compresión: snappy
+2026-02-12 11:29:33,509 - INFO - 🗂️  Particiones diarias: NO
+2026-02-12 11:29:33,509 - INFO - 🗑️  Eliminar originales: NO
+2026-02-12 11:29:33,509 - INFO - 🔍 Validación: SÍ
+2026-02-12 11:29:33,509 - INFO - ============================================================
+2026-02-12 11:29:33,509 - INFO - 📂 Directorio de entrada: /mnt/datos_backup/proy_trading/DATA_GOLD/data_2019
+2026-02-12 11:29:33,509 - INFO - 📂 Directorio de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated
+2026-02-12 11:29:33,509 - INFO - 
+🎯 Procesando XAUUSD 2019...
+2026-02-12 11:29:33,510 - INFO - 🔄 Iniciando consolidación de XAUUSD 2019
+2026-02-12 11:29:33,512 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-12 11:29:33,512 - INFO - 🔍 Validando 12 archivos...
+2026-02-12 11:29:47,030 - INFO - 📖 Leyendo archivos...
+2026-02-12 11:29:47,421 - INFO - 📊 Total preliminar: 35,702,249 filas, 379.0 MB
+2026-02-12 11:29:47,422 - INFO - 🔗 Concatenando tablas...
+2026-02-12 11:29:47,423 - INFO - ⚙️  Optimizando esquema...
+2026-02-12 11:29:47,529 - INFO - 💾 Guardando archivo consolidado: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2019_FULL.parquet
+2026-02-12 11:29:54,792 - INFO - 
+============================================================
+2026-02-12 11:29:54,793 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-12 11:29:54,793 - INFO - ============================================================
+2026-02-12 11:29:54,793 - INFO - 📊 Estadísticas:
+2026-02-12 11:29:54,793 - INFO -    • Archivos consolidados: 12
+2026-02-12 11:29:54,793 - INFO -    • Filas totales: 35,702,249
+2026-02-12 11:29:54,794 - INFO -    • Columnas: 5
+2026-02-12 11:29:54,794 - INFO -    • Tiempo de procesamiento: 7.4 segundos
+2026-02-12 11:29:54,794 - INFO -    • Tamaño original: 379.0 MB
+2026-02-12 11:29:54,794 - INFO -    • Tamaño consolidado: 427.9 MB
+2026-02-12 11:29:54,794 - INFO -    • Ratio de compresión: -12.9%
+2026-02-12 11:29:54,794 - INFO -    • Compresión utilizada: snappy
+2026-02-12 11:29:54,794 - INFO -    • Archivo de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2019_FULL.parquet
+2026-02-12 11:29:54,794 - INFO - ============================================================
+2026-02-12 11:29:54,803 - INFO - ✅ XAUUSD 2019 consolidado exitosamente
+2026-02-12 11:29:54,804 - INFO - 
+============================================================
+2026-02-12 11:29:54,804 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-12 11:29:54,804 - INFO - ============================================================
+2026-02-12 11:29:54,804 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-12 11:29:54,804 - INFO -    • XAUUSD 2019: XAUUSD_2019_FULL.parquet (427.9 MB)
+2026-02-12 11:29:54,804 - INFO - ============================================================
+2026-02-12 11:29:54,804 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-12 11:30:03,844 - INFO - ============================================================
+2026-02-12 11:30:03,844 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-12 11:30:03,844 - INFO - ============================================================
+2026-02-12 11:30:03,845 - INFO - 📂 Entrada: /home/wilson/datos_backup/proy_trading/DATA_GOLD/data_2020
+2026-02-12 11:30:03,845 - INFO - 📂 Salida: consolidated
+2026-02-12 11:30:03,845 - INFO - 📊 Símbolos: XAUUSD
+2026-02-12 11:30:03,845 - INFO - 📅 Años: 2020
+2026-02-12 11:30:03,845 - INFO - ⚙️  Compresión: snappy
+2026-02-12 11:30:03,845 - INFO - 🗂️  Particiones diarias: NO
+2026-02-12 11:30:03,845 - INFO - 🗑️  Eliminar originales: NO
+2026-02-12 11:30:03,845 - INFO - 🔍 Validación: SÍ
+2026-02-12 11:30:03,846 - INFO - ============================================================
+2026-02-12 11:30:03,846 - INFO - 📂 Directorio de entrada: /mnt/datos_backup/proy_trading/DATA_GOLD/data_2020
+2026-02-12 11:30:03,846 - INFO - 📂 Directorio de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated
+2026-02-12 11:30:03,846 - INFO - 
+🎯 Procesando XAUUSD 2020...
+2026-02-12 11:30:03,846 - INFO - 🔄 Iniciando consolidación de XAUUSD 2020
+2026-02-12 11:30:03,848 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-12 11:30:03,848 - INFO - 🔍 Validando 12 archivos...
+2026-02-12 11:30:27,075 - INFO - 📖 Leyendo archivos...
+2026-02-12 11:30:27,636 - INFO - 📊 Total preliminar: 54,013,058 filas, 580.7 MB
+2026-02-12 11:30:27,636 - INFO - 🔗 Concatenando tablas...
+2026-02-12 11:30:27,637 - INFO - ⚙️  Optimizando esquema...
+2026-02-12 11:30:27,801 - INFO - 💾 Guardando archivo consolidado: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2020_FULL.parquet
+2026-02-12 11:30:38,527 - INFO - 
+============================================================
+2026-02-12 11:30:38,528 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-12 11:30:38,528 - INFO - ============================================================
+2026-02-12 11:30:38,528 - INFO - 📊 Estadísticas:
+2026-02-12 11:30:38,528 - INFO -    • Archivos consolidados: 12
+2026-02-12 11:30:38,528 - INFO -    • Filas totales: 54,013,058
+2026-02-12 11:30:38,528 - INFO -    • Columnas: 5
+2026-02-12 11:30:38,528 - INFO -    • Tiempo de procesamiento: 10.9 segundos
+2026-02-12 11:30:38,528 - INFO -    • Tamaño original: 580.7 MB
+2026-02-12 11:30:38,528 - INFO -    • Tamaño consolidado: 652.0 MB
+2026-02-12 11:30:38,529 - INFO -    • Ratio de compresión: -12.3%
+2026-02-12 11:30:38,529 - INFO -    • Compresión utilizada: snappy
+2026-02-12 11:30:38,529 - INFO -    • Archivo de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2020_FULL.parquet
+2026-02-12 11:30:38,529 - INFO - ============================================================
+2026-02-12 11:30:38,545 - INFO - ✅ XAUUSD 2020 consolidado exitosamente
+2026-02-12 11:30:38,545 - INFO - 
+============================================================
+2026-02-12 11:30:38,545 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-12 11:30:38,545 - INFO - ============================================================
+2026-02-12 11:30:38,545 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-12 11:30:38,546 - INFO -    • XAUUSD 2020: XAUUSD_2020_FULL.parquet (652.0 MB)
+2026-02-12 11:30:38,546 - INFO - ============================================================
+2026-02-12 11:30:38,546 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-12 11:30:45,805 - INFO - ============================================================
+2026-02-12 11:30:45,805 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-12 11:30:45,805 - INFO - ============================================================
+2026-02-12 11:30:45,805 - INFO - 📂 Entrada: /home/wilson/datos_backup/proy_trading/DATA_GOLD/data_2021
+2026-02-12 11:30:45,805 - INFO - 📂 Salida: consolidated
+2026-02-12 11:30:45,806 - INFO - 📊 Símbolos: XAUUSD
+2026-02-12 11:30:45,806 - INFO - 📅 Años: 2021
+2026-02-12 11:30:45,806 - INFO - ⚙️  Compresión: snappy
+2026-02-12 11:30:45,806 - INFO - 🗂️  Particiones diarias: NO
+2026-02-12 11:30:45,806 - INFO - 🗑️  Eliminar originales: NO
+2026-02-12 11:30:45,806 - INFO - 🔍 Validación: SÍ
+2026-02-12 11:30:45,806 - INFO - ============================================================
+2026-02-12 11:30:45,807 - INFO - 📂 Directorio de entrada: /mnt/datos_backup/proy_trading/DATA_GOLD/data_2021
+2026-02-12 11:30:45,807 - INFO - 📂 Directorio de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated
+2026-02-12 11:30:45,807 - INFO - 
+🎯 Procesando XAUUSD 2021...
+2026-02-12 11:30:45,807 - INFO - 🔄 Iniciando consolidación de XAUUSD 2021
+2026-02-12 11:30:45,809 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-12 11:30:45,809 - INFO - 🔍 Validando 12 archivos...
+2026-02-12 11:31:12,723 - INFO - 📖 Leyendo archivos...
+2026-02-12 11:31:13,287 - INFO - 📊 Total preliminar: 51,637,723 filas, 570.3 MB
+2026-02-12 11:31:13,287 - INFO - 🔗 Concatenando tablas...
+2026-02-12 11:31:13,288 - INFO - ⚙️  Optimizando esquema...
+2026-02-12 11:31:13,449 - INFO - 💾 Guardando archivo consolidado: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2021_FULL.parquet
+2026-02-12 11:31:25,308 - INFO - 
+============================================================
+2026-02-12 11:31:25,308 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-12 11:31:25,309 - INFO - ============================================================
+2026-02-12 11:31:25,309 - INFO - 📊 Estadísticas:
+2026-02-12 11:31:25,309 - INFO -    • Archivos consolidados: 12
+2026-02-12 11:31:25,309 - INFO -    • Filas totales: 51,637,723
+2026-02-12 11:31:25,309 - INFO -    • Columnas: 5
+2026-02-12 11:31:25,309 - INFO -    • Tiempo de procesamiento: 12.0 segundos
+2026-02-12 11:31:25,309 - INFO -    • Tamaño original: 570.3 MB
+2026-02-12 11:31:25,309 - INFO -    • Tamaño consolidado: 637.4 MB
+2026-02-12 11:31:25,309 - INFO -    • Ratio de compresión: -11.8%
+2026-02-12 11:31:25,309 - INFO -    • Compresión utilizada: snappy
+2026-02-12 11:31:25,309 - INFO -    • Archivo de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2021_FULL.parquet
+2026-02-12 11:31:25,309 - INFO - ============================================================
+2026-02-12 11:31:25,326 - INFO - ✅ XAUUSD 2021 consolidado exitosamente
+2026-02-12 11:31:25,326 - INFO - 
+============================================================
+2026-02-12 11:31:25,326 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-12 11:31:25,327 - INFO - ============================================================
+2026-02-12 11:31:25,327 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-12 11:31:25,327 - INFO -    • XAUUSD 2021: XAUUSD_2021_FULL.parquet (637.4 MB)
+2026-02-12 11:31:25,327 - INFO - ============================================================
+2026-02-12 11:31:25,327 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-12 11:31:51,463 - INFO - ============================================================
+2026-02-12 11:31:51,464 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-12 11:31:51,464 - INFO - ============================================================
+2026-02-12 11:31:51,464 - INFO - 📂 Entrada: /home/wilson/datos_backup/proy_trading/DATA_GOLD/data_2022
+2026-02-12 11:31:51,464 - INFO - 📂 Salida: consolidated
+2026-02-12 11:31:51,464 - INFO - 📊 Símbolos: XAUUSD
+2026-02-12 11:31:51,464 - INFO - 📅 Años: 2022
+2026-02-12 11:31:51,465 - INFO - ⚙️  Compresión: snappy
+2026-02-12 11:31:51,465 - INFO - 🗂️  Particiones diarias: NO
+2026-02-12 11:31:51,465 - INFO - 🗑️  Eliminar originales: NO
+2026-02-12 11:31:51,465 - INFO - 🔍 Validación: SÍ
+2026-02-12 11:31:51,465 - INFO - ============================================================
+2026-02-12 11:31:51,465 - INFO - 📂 Directorio de entrada: /mnt/datos_backup/proy_trading/DATA_GOLD/data_2022
+2026-02-12 11:31:51,466 - INFO - 📂 Directorio de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated
+2026-02-12 11:31:51,466 - INFO - 
+🎯 Procesando XAUUSD 2022...
+2026-02-12 11:31:51,466 - INFO - 🔄 Iniciando consolidación de XAUUSD 2022
+2026-02-12 11:31:51,468 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-12 11:31:51,468 - INFO - 🔍 Validando 12 archivos...
+2026-02-12 11:32:04,156 - INFO - 📖 Leyendo archivos...
+2026-02-12 11:32:04,749 - INFO - 📊 Total preliminar: 52,073,048 filas, 590.7 MB
+2026-02-12 11:32:04,750 - INFO - 🔗 Concatenando tablas...
+2026-02-12 11:32:04,750 - INFO - ⚙️  Optimizando esquema...
+2026-02-12 11:32:04,954 - INFO - 💾 Guardando archivo consolidado: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2022_FULL.parquet
+2026-02-12 11:32:15,581 - INFO - 
+============================================================
+2026-02-12 11:32:15,581 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-12 11:32:15,581 - INFO - ============================================================
+2026-02-12 11:32:15,581 - INFO - 📊 Estadísticas:
+2026-02-12 11:32:15,581 - INFO -    • Archivos consolidados: 12
+2026-02-12 11:32:15,581 - INFO -    • Filas totales: 52,073,048
+2026-02-12 11:32:15,582 - INFO -    • Columnas: 5
+2026-02-12 11:32:15,582 - INFO -    • Tiempo de procesamiento: 10.8 segundos
+2026-02-12 11:32:15,582 - INFO -    • Tamaño original: 590.7 MB
+2026-02-12 11:32:15,582 - INFO -    • Tamaño consolidado: 660.6 MB
+2026-02-12 11:32:15,582 - INFO -    • Ratio de compresión: -11.8%
+2026-02-12 11:32:15,582 - INFO -    • Compresión utilizada: snappy
+2026-02-12 11:32:15,582 - INFO -    • Archivo de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2022_FULL.parquet
+2026-02-12 11:32:15,582 - INFO - ============================================================
+2026-02-12 11:32:15,596 - INFO - ✅ XAUUSD 2022 consolidado exitosamente
+2026-02-12 11:32:15,597 - INFO - 
+============================================================
+2026-02-12 11:32:15,597 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-12 11:32:15,597 - INFO - ============================================================
+2026-02-12 11:32:15,597 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-12 11:32:15,597 - INFO -    • XAUUSD 2022: XAUUSD_2022_FULL.parquet (660.6 MB)
+2026-02-12 11:32:15,597 - INFO - ============================================================
+2026-02-12 11:32:15,597 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-12 11:32:33,497 - INFO - ============================================================
+2026-02-12 11:32:33,498 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-12 11:32:33,498 - INFO - ============================================================
+2026-02-12 11:32:33,498 - INFO - 📂 Entrada: /home/wilson/datos_backup/proy_trading/DATA_GOLD/data_2023
+2026-02-12 11:32:33,498 - INFO - 📂 Salida: consolidated
+2026-02-12 11:32:33,498 - INFO - 📊 Símbolos: XAUUSD
+2026-02-12 11:32:33,498 - INFO - 📅 Años: 2023
+2026-02-12 11:32:33,499 - INFO - ⚙️  Compresión: snappy
+2026-02-12 11:32:33,499 - INFO - 🗂️  Particiones diarias: NO
+2026-02-12 11:32:33,499 - INFO - 🗑️  Eliminar originales: NO
+2026-02-12 11:32:33,499 - INFO - 🔍 Validación: SÍ
+2026-02-12 11:32:33,499 - INFO - ============================================================
+2026-02-12 11:32:33,499 - INFO - 📂 Directorio de entrada: /mnt/datos_backup/proy_trading/DATA_GOLD/data_2023
+2026-02-12 11:32:33,499 - INFO - 📂 Directorio de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated
+2026-02-12 11:32:33,500 - INFO - 
+🎯 Procesando XAUUSD 2023...
+2026-02-12 11:32:33,500 - INFO - 🔄 Iniciando consolidación de XAUUSD 2023
+2026-02-12 11:32:33,501 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-12 11:32:33,502 - INFO - 🔍 Validando 12 archivos...
+2026-02-12 11:32:41,524 - INFO - 📖 Leyendo archivos...
+2026-02-12 11:32:41,923 - INFO - 📊 Total preliminar: 35,219,706 filas, 378.8 MB
+2026-02-12 11:32:41,923 - INFO - 🔗 Concatenando tablas...
+2026-02-12 11:32:41,924 - INFO - ⚙️  Optimizando esquema...
+2026-02-12 11:32:42,027 - INFO - 💾 Guardando archivo consolidado: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2023_FULL.parquet
+2026-02-12 11:32:49,124 - INFO - 
+============================================================
+2026-02-12 11:32:49,124 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-12 11:32:49,124 - INFO - ============================================================
+2026-02-12 11:32:49,125 - INFO - 📊 Estadísticas:
+2026-02-12 11:32:49,125 - INFO -    • Archivos consolidados: 12
+2026-02-12 11:32:49,125 - INFO -    • Filas totales: 35,219,706
+2026-02-12 11:32:49,125 - INFO -    • Columnas: 5
+2026-02-12 11:32:49,125 - INFO -    • Tiempo de procesamiento: 7.2 segundos
+2026-02-12 11:32:49,125 - INFO -    • Tamaño original: 378.8 MB
+2026-02-12 11:32:49,125 - INFO -    • Tamaño consolidado: 424.0 MB
+2026-02-12 11:32:49,125 - INFO -    • Ratio de compresión: -11.9%
+2026-02-12 11:32:49,125 - INFO -    • Compresión utilizada: snappy
+2026-02-12 11:32:49,125 - INFO -    • Archivo de salida: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated/XAUUSD_2023_FULL.parquet
+2026-02-12 11:32:49,125 - INFO - ============================================================
+2026-02-12 11:32:49,136 - INFO - ✅ XAUUSD 2023 consolidado exitosamente
+2026-02-12 11:32:49,136 - INFO - 
+============================================================
+2026-02-12 11:32:49,136 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-12 11:32:49,137 - INFO - ============================================================
+2026-02-12 11:32:49,137 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-12 11:32:49,137 - INFO -    • XAUUSD 2023: XAUUSD_2023_FULL.parquet (424.0 MB)
+2026-02-12 11:32:49,137 - INFO - ============================================================
+2026-02-12 11:32:49,137 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-18 17:14:10,606 - INFO - ============================================================
+2026-02-18 17:14:10,606 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-18 17:14:10,606 - INFO - ============================================================
+2026-02-18 17:14:10,606 - INFO - 📂 Entrada: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:10,606 - INFO - 📂 Salida: consolidated
+2026-02-18 17:14:10,606 - INFO - 📊 Símbolos: XAUUSD
+2026-02-18 17:14:10,607 - INFO - 📅 Años: 2018, 2019, 2020, 2021, 2022, 2023, 2024
+2026-02-18 17:14:10,607 - INFO - ⚙️  Compresión: snappy
+2026-02-18 17:14:10,607 - INFO - 🗂️  Particiones diarias: NO
+2026-02-18 17:14:10,607 - INFO - 🗑️  Eliminar originales: NO
+2026-02-18 17:14:10,607 - INFO - 🔍 Validación: SÍ
+2026-02-18 17:14:10,607 - INFO - ============================================================
+2026-02-18 17:14:10,607 - INFO - 📂 Directorio de entrada: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:10,607 - INFO - 📂 Directorio de salida: /home/wilson/GOLD/dukascopy/consolidated
+2026-02-18 17:14:10,607 - INFO - 
+🎯 Procesando XAUUSD 2018...
+2026-02-18 17:14:10,607 - INFO - 🔄 Iniciando consolidación de XAUUSD 2018
+2026-02-18 17:14:10,608 - ERROR - ❌ No se encontraron archivos para XAUUSD 2018
+2026-02-18 17:14:10,608 - INFO -    Buscados en: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:10,609 - ERROR - ❌ XAUUSD 2018 falló
+2026-02-18 17:14:10,609 - INFO - 
+🎯 Procesando XAUUSD 2019...
+2026-02-18 17:14:10,609 - INFO - 🔄 Iniciando consolidación de XAUUSD 2019
+2026-02-18 17:14:10,610 - ERROR - ❌ No se encontraron archivos para XAUUSD 2019
+2026-02-18 17:14:10,610 - INFO -    Buscados en: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:10,610 - ERROR - ❌ XAUUSD 2019 falló
+2026-02-18 17:14:10,610 - INFO - 
+🎯 Procesando XAUUSD 2020...
+2026-02-18 17:14:10,610 - INFO - 🔄 Iniciando consolidación de XAUUSD 2020
+2026-02-18 17:14:10,611 - ERROR - ❌ No se encontraron archivos para XAUUSD 2020
+2026-02-18 17:14:10,611 - INFO -    Buscados en: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:10,611 - ERROR - ❌ XAUUSD 2020 falló
+2026-02-18 17:14:10,611 - INFO - 
+🎯 Procesando XAUUSD 2021...
+2026-02-18 17:14:10,611 - INFO - 🔄 Iniciando consolidación de XAUUSD 2021
+2026-02-18 17:14:10,613 - ERROR - ❌ No se encontraron archivos para XAUUSD 2021
+2026-02-18 17:14:10,613 - INFO -    Buscados en: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:10,613 - ERROR - ❌ XAUUSD 2021 falló
+2026-02-18 17:14:10,613 - INFO - 
+🎯 Procesando XAUUSD 2022...
+2026-02-18 17:14:10,613 - INFO - 🔄 Iniciando consolidación de XAUUSD 2022
+2026-02-18 17:14:10,614 - ERROR - ❌ No se encontraron archivos para XAUUSD 2022
+2026-02-18 17:14:10,614 - INFO -    Buscados en: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:10,614 - ERROR - ❌ XAUUSD 2022 falló
+2026-02-18 17:14:10,614 - INFO - 
+🎯 Procesando XAUUSD 2023...
+2026-02-18 17:14:10,614 - INFO - 🔄 Iniciando consolidación de XAUUSD 2023
+2026-02-18 17:14:10,616 - ERROR - ❌ No se encontraron archivos para XAUUSD 2023
+2026-02-18 17:14:10,616 - INFO -    Buscados en: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:10,616 - ERROR - ❌ XAUUSD 2023 falló
+2026-02-18 17:14:10,616 - INFO - 
+🎯 Procesando XAUUSD 2024...
+2026-02-18 17:14:10,616 - INFO - 🔄 Iniciando consolidación de XAUUSD 2024
+2026-02-18 17:14:10,617 - ERROR - ❌ No se encontraron archivos para XAUUSD 2024
+2026-02-18 17:14:10,617 - INFO -    Buscados en: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:10,617 - ERROR - ❌ XAUUSD 2024 falló
+2026-02-18 17:14:10,617 - INFO - 
+============================================================
+2026-02-18 17:14:10,617 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-18 17:14:10,617 - INFO - ============================================================
+2026-02-18 17:14:10,617 - INFO - ❌ FALLIDOS: 7
+2026-02-18 17:14:10,617 - INFO -    • XAUUSD 2018: Consolidación fallida
+2026-02-18 17:14:10,617 - INFO -    • XAUUSD 2019: Consolidación fallida
+2026-02-18 17:14:10,617 - INFO -    • XAUUSD 2020: Consolidación fallida
+2026-02-18 17:14:10,618 - INFO -    • XAUUSD 2021: Consolidación fallida
+2026-02-18 17:14:10,618 - INFO -    • XAUUSD 2022: Consolidación fallida
+2026-02-18 17:14:10,618 - INFO -    • XAUUSD 2023: Consolidación fallida
+2026-02-18 17:14:10,618 - INFO -    • XAUUSD 2024: Consolidación fallida
+2026-02-18 17:14:10,618 - INFO - ============================================================
+2026-02-18 17:14:10,618 - WARNING - ⚠️  Algunos procesamientos fallaron
+2026-02-18 17:14:59,905 - INFO - ============================================================
+2026-02-18 17:14:59,905 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-18 17:14:59,905 - INFO - ============================================================
+2026-02-18 17:14:59,905 - INFO - 📂 Entrada: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:59,905 - INFO - 📂 Salida: consolidated
+2026-02-18 17:14:59,905 - INFO - 📊 Símbolos: XAUUSD
+2026-02-18 17:14:59,905 - INFO - 📅 Años: 2019, 2020, 2021, 2022, 2023, 2024
+2026-02-18 17:14:59,905 - INFO - ⚙️  Compresión: snappy
+2026-02-18 17:14:59,905 - INFO - 🗂️  Particiones diarias: NO
+2026-02-18 17:14:59,905 - INFO - 🗑️  Eliminar originales: NO
+2026-02-18 17:14:59,905 - INFO - 🔍 Validación: SÍ
+2026-02-18 17:14:59,905 - INFO - ============================================================
+2026-02-18 17:14:59,906 - INFO - 📂 Directorio de entrada: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:59,906 - INFO - 📂 Directorio de salida: /home/wilson/GOLD/dukascopy/consolidated
+2026-02-18 17:14:59,906 - INFO - 
+🎯 Procesando XAUUSD 2019...
+2026-02-18 17:14:59,906 - INFO - 🔄 Iniciando consolidación de XAUUSD 2019
+2026-02-18 17:14:59,907 - ERROR - ❌ No se encontraron archivos para XAUUSD 2019
+2026-02-18 17:14:59,907 - INFO -    Buscados en: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:59,907 - ERROR - ❌ XAUUSD 2019 falló
+2026-02-18 17:14:59,907 - INFO - 
+🎯 Procesando XAUUSD 2020...
+2026-02-18 17:14:59,907 - INFO - 🔄 Iniciando consolidación de XAUUSD 2020
+2026-02-18 17:14:59,908 - ERROR - ❌ No se encontraron archivos para XAUUSD 2020
+2026-02-18 17:14:59,908 - INFO -    Buscados en: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:59,908 - ERROR - ❌ XAUUSD 2020 falló
+2026-02-18 17:14:59,908 - INFO - 
+🎯 Procesando XAUUSD 2021...
+2026-02-18 17:14:59,908 - INFO - 🔄 Iniciando consolidación de XAUUSD 2021
+2026-02-18 17:14:59,910 - ERROR - ❌ No se encontraron archivos para XAUUSD 2021
+2026-02-18 17:14:59,910 - INFO -    Buscados en: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:59,910 - ERROR - ❌ XAUUSD 2021 falló
+2026-02-18 17:14:59,910 - INFO - 
+🎯 Procesando XAUUSD 2022...
+2026-02-18 17:14:59,910 - INFO - 🔄 Iniciando consolidación de XAUUSD 2022
+2026-02-18 17:14:59,911 - ERROR - ❌ No se encontraron archivos para XAUUSD 2022
+2026-02-18 17:14:59,911 - INFO -    Buscados en: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:59,911 - ERROR - ❌ XAUUSD 2022 falló
+2026-02-18 17:14:59,911 - INFO - 
+🎯 Procesando XAUUSD 2023...
+2026-02-18 17:14:59,911 - INFO - 🔄 Iniciando consolidación de XAUUSD 2023
+2026-02-18 17:14:59,912 - ERROR - ❌ No se encontraron archivos para XAUUSD 2023
+2026-02-18 17:14:59,912 - INFO -    Buscados en: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:59,912 - ERROR - ❌ XAUUSD 2023 falló
+2026-02-18 17:14:59,912 - INFO - 
+🎯 Procesando XAUUSD 2024...
+2026-02-18 17:14:59,912 - INFO - 🔄 Iniciando consolidación de XAUUSD 2024
+2026-02-18 17:14:59,913 - ERROR - ❌ No se encontraron archivos para XAUUSD 2024
+2026-02-18 17:14:59,914 - INFO -    Buscados en: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:14:59,914 - ERROR - ❌ XAUUSD 2024 falló
+2026-02-18 17:14:59,914 - INFO - 
+============================================================
+2026-02-18 17:14:59,914 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-18 17:14:59,914 - INFO - ============================================================
+2026-02-18 17:14:59,914 - INFO - ❌ FALLIDOS: 6
+2026-02-18 17:14:59,914 - INFO -    • XAUUSD 2019: Consolidación fallida
+2026-02-18 17:14:59,914 - INFO -    • XAUUSD 2020: Consolidación fallida
+2026-02-18 17:14:59,914 - INFO -    • XAUUSD 2021: Consolidación fallida
+2026-02-18 17:14:59,914 - INFO -    • XAUUSD 2022: Consolidación fallida
+2026-02-18 17:14:59,914 - INFO -    • XAUUSD 2023: Consolidación fallida
+2026-02-18 17:14:59,914 - INFO -    • XAUUSD 2024: Consolidación fallida
+2026-02-18 17:14:59,914 - INFO - ============================================================
+2026-02-18 17:14:59,914 - WARNING - ⚠️  Algunos procesamientos fallaron
+2026-02-18 17:20:40,424 - INFO - ============================================================
+2026-02-18 17:20:40,424 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-18 17:20:40,424 - INFO - ============================================================
+2026-02-18 17:20:40,424 - INFO - 📂 Entrada: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:20:40,424 - INFO - 📂 Salida: consolidated
+2026-02-18 17:20:40,424 - INFO - 📊 Símbolos: XAUUSD
+2026-02-18 17:20:40,424 - INFO - 📅 Años: 2019
+2026-02-18 17:20:40,424 - INFO - ⚙️  Compresión: snappy
+2026-02-18 17:20:40,424 - INFO - 🗂️  Particiones diarias: NO
+2026-02-18 17:20:40,424 - INFO - 🗑️  Eliminar originales: NO
+2026-02-18 17:20:40,424 - INFO - 🔍 Validación: SÍ
+2026-02-18 17:20:40,424 - INFO - ============================================================
+2026-02-18 17:20:40,424 - INFO - 📂 Directorio de entrada: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:20:40,424 - INFO - 📂 Directorio de salida: /home/wilson/GOLD/dukascopy/consolidated
+2026-02-18 17:20:40,425 - INFO - 
+🎯 Procesando XAUUSD 2019...
+2026-02-18 17:20:40,425 - INFO - 🔄 Iniciando consolidación de XAUUSD 2019
+2026-02-18 17:20:40,426 - ERROR - ❌ No se encontraron archivos para XAUUSD 2019
+2026-02-18 17:20:40,426 - INFO -    Buscados en: /home/wilson/GOLD/DATOS_ORIGEN
+2026-02-18 17:20:40,426 - ERROR - ❌ XAUUSD 2019 falló
+2026-02-18 17:20:40,426 - INFO - 
+============================================================
+2026-02-18 17:20:40,426 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-18 17:20:40,426 - INFO - ============================================================
+2026-02-18 17:20:40,426 - INFO - ❌ FALLIDOS: 1
+2026-02-18 17:20:40,426 - INFO -    • XAUUSD 2019: Consolidación fallida
+2026-02-18 17:20:40,426 - INFO - ============================================================
+2026-02-18 17:20:40,426 - WARNING - ⚠️  Algunos procesamientos fallaron
+2026-02-18 17:21:29,575 - INFO - ============================================================
+2026-02-18 17:21:29,575 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-18 17:21:29,575 - INFO - ============================================================
+2026-02-18 17:21:29,575 - INFO - 📂 Entrada: /home/wilson/GOLD/DATOS_ORIGEN/data_2019
+2026-02-18 17:21:29,575 - INFO - 📂 Salida: consolidated
+2026-02-18 17:21:29,575 - INFO - 📊 Símbolos: XAUUSD
+2026-02-18 17:21:29,575 - INFO - 📅 Años: 2019
+2026-02-18 17:21:29,576 - INFO - ⚙️  Compresión: snappy
+2026-02-18 17:21:29,576 - INFO - 🗂️  Particiones diarias: NO
+2026-02-18 17:21:29,576 - INFO - 🗑️  Eliminar originales: NO
+2026-02-18 17:21:29,576 - INFO - 🔍 Validación: SÍ
+2026-02-18 17:21:29,576 - INFO - ============================================================
+2026-02-18 17:21:29,576 - INFO - 📂 Directorio de entrada: /home/wilson/GOLD/DATOS_ORIGEN/data_2019
+2026-02-18 17:21:29,576 - INFO - 📂 Directorio de salida: /home/wilson/GOLD/dukascopy/consolidated
+2026-02-18 17:21:29,576 - INFO - 
+🎯 Procesando XAUUSD 2019...
+2026-02-18 17:21:29,576 - INFO - 🔄 Iniciando consolidación de XAUUSD 2019
+2026-02-18 17:21:29,577 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-18 17:21:29,577 - INFO - 🔍 Validando 12 archivos...
+2026-02-18 17:21:30,035 - INFO - 📖 Leyendo archivos...
+2026-02-18 17:21:30,428 - INFO - 📊 Total preliminar: 35,702,249 filas, 379.0 MB
+2026-02-18 17:21:30,428 - INFO - 🔗 Concatenando tablas...
+2026-02-18 17:21:30,429 - INFO - ⚙️  Optimizando esquema...
+2026-02-18 17:21:30,537 - INFO - 💾 Guardando archivo consolidado: /home/wilson/GOLD/dukascopy/consolidated/XAUUSD_2019_FULL.parquet
+2026-02-18 17:21:34,937 - INFO - 
+============================================================
+2026-02-18 17:21:34,937 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-18 17:21:34,937 - INFO - ============================================================
+2026-02-18 17:21:34,937 - INFO - 📊 Estadísticas:
+2026-02-18 17:21:34,937 - INFO -    • Archivos consolidados: 12
+2026-02-18 17:21:34,938 - INFO -    • Filas totales: 35,702,249
+2026-02-18 17:21:34,938 - INFO -    • Columnas: 5
+2026-02-18 17:21:34,938 - INFO -    • Tiempo de procesamiento: 4.5 segundos
+2026-02-18 17:21:34,938 - INFO -    • Tamaño original: 379.0 MB
+2026-02-18 17:21:34,938 - INFO -    • Tamaño consolidado: 427.9 MB
+2026-02-18 17:21:34,938 - INFO -    • Ratio de compresión: -12.9%
+2026-02-18 17:21:34,938 - INFO -    • Compresión utilizada: snappy
+2026-02-18 17:21:34,938 - INFO -    • Archivo de salida: /home/wilson/GOLD/dukascopy/consolidated/XAUUSD_2019_FULL.parquet
+2026-02-18 17:21:34,938 - INFO - ============================================================
+2026-02-18 17:21:34,946 - INFO - ✅ XAUUSD 2019 consolidado exitosamente
+2026-02-18 17:21:34,946 - INFO - 
+============================================================
+2026-02-18 17:21:34,946 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-18 17:21:34,946 - INFO - ============================================================
+2026-02-18 17:21:34,946 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-18 17:21:34,946 - INFO -    • XAUUSD 2019: XAUUSD_2019_FULL.parquet (427.9 MB)
+2026-02-18 17:21:34,946 - INFO - ============================================================
+2026-02-18 17:21:34,946 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-18 17:21:42,363 - INFO - ============================================================
+2026-02-18 17:21:42,363 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-18 17:21:42,363 - INFO - ============================================================
+2026-02-18 17:21:42,363 - INFO - 📂 Entrada: /home/wilson/GOLD/DATOS_ORIGEN/data_2020
+2026-02-18 17:21:42,363 - INFO - 📂 Salida: consolidated
+2026-02-18 17:21:42,363 - INFO - 📊 Símbolos: XAUUSD
+2026-02-18 17:21:42,363 - INFO - 📅 Años: 2020
+2026-02-18 17:21:42,364 - INFO - ⚙️  Compresión: snappy
+2026-02-18 17:21:42,364 - INFO - 🗂️  Particiones diarias: NO
+2026-02-18 17:21:42,364 - INFO - 🗑️  Eliminar originales: NO
+2026-02-18 17:21:42,364 - INFO - 🔍 Validación: SÍ
+2026-02-18 17:21:42,364 - INFO - ============================================================
+2026-02-18 17:21:42,364 - INFO - 📂 Directorio de entrada: /home/wilson/GOLD/DATOS_ORIGEN/data_2020
+2026-02-18 17:21:42,364 - INFO - 📂 Directorio de salida: /home/wilson/GOLD/dukascopy/consolidated
+2026-02-18 17:21:42,364 - INFO - 
+🎯 Procesando XAUUSD 2020...
+2026-02-18 17:21:42,364 - INFO - 🔄 Iniciando consolidación de XAUUSD 2020
+2026-02-18 17:21:42,365 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-18 17:21:42,365 - INFO - 🔍 Validando 12 archivos...
+2026-02-18 17:21:43,000 - INFO - 📖 Leyendo archivos...
+2026-02-18 17:21:43,567 - INFO - 📊 Total preliminar: 54,013,058 filas, 580.7 MB
+2026-02-18 17:21:43,567 - INFO - 🔗 Concatenando tablas...
+2026-02-18 17:21:43,568 - INFO - ⚙️  Optimizando esquema...
+2026-02-18 17:21:43,726 - INFO - 💾 Guardando archivo consolidado: /home/wilson/GOLD/dukascopy/consolidated/XAUUSD_2020_FULL.parquet
+2026-02-18 17:21:50,145 - INFO - 
+============================================================
+2026-02-18 17:21:50,145 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-18 17:21:50,145 - INFO - ============================================================
+2026-02-18 17:21:50,146 - INFO - 📊 Estadísticas:
+2026-02-18 17:21:50,146 - INFO -    • Archivos consolidados: 12
+2026-02-18 17:21:50,146 - INFO -    • Filas totales: 54,013,058
+2026-02-18 17:21:50,146 - INFO -    • Columnas: 5
+2026-02-18 17:21:50,146 - INFO -    • Tiempo de procesamiento: 6.6 segundos
+2026-02-18 17:21:50,146 - INFO -    • Tamaño original: 580.7 MB
+2026-02-18 17:21:50,146 - INFO -    • Tamaño consolidado: 652.0 MB
+2026-02-18 17:21:50,146 - INFO -    • Ratio de compresión: -12.3%
+2026-02-18 17:21:50,146 - INFO -    • Compresión utilizada: snappy
+2026-02-18 17:21:50,146 - INFO -    • Archivo de salida: /home/wilson/GOLD/dukascopy/consolidated/XAUUSD_2020_FULL.parquet
+2026-02-18 17:21:50,146 - INFO - ============================================================
+2026-02-18 17:21:50,158 - INFO - ✅ XAUUSD 2020 consolidado exitosamente
+2026-02-18 17:21:50,158 - INFO - 
+============================================================
+2026-02-18 17:21:50,158 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-18 17:21:50,158 - INFO - ============================================================
+2026-02-18 17:21:50,158 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-18 17:21:50,158 - INFO -    • XAUUSD 2020: XAUUSD_2020_FULL.parquet (652.0 MB)
+2026-02-18 17:21:50,158 - INFO - ============================================================
+2026-02-18 17:21:50,158 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-18 17:21:55,551 - INFO - ============================================================
+2026-02-18 17:21:55,551 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-18 17:21:55,551 - INFO - ============================================================
+2026-02-18 17:21:55,551 - INFO - 📂 Entrada: /home/wilson/GOLD/DATOS_ORIGEN/data_2021
+2026-02-18 17:21:55,551 - INFO - 📂 Salida: consolidated
+2026-02-18 17:21:55,551 - INFO - 📊 Símbolos: XAUUSD
+2026-02-18 17:21:55,552 - INFO - 📅 Años: 2021
+2026-02-18 17:21:55,552 - INFO - ⚙️  Compresión: snappy
+2026-02-18 17:21:55,552 - INFO - 🗂️  Particiones diarias: NO
+2026-02-18 17:21:55,552 - INFO - 🗑️  Eliminar originales: NO
+2026-02-18 17:21:55,552 - INFO - 🔍 Validación: SÍ
+2026-02-18 17:21:55,552 - INFO - ============================================================
+2026-02-18 17:21:55,552 - INFO - 📂 Directorio de entrada: /home/wilson/GOLD/DATOS_ORIGEN/data_2021
+2026-02-18 17:21:55,552 - INFO - 📂 Directorio de salida: /home/wilson/GOLD/dukascopy/consolidated
+2026-02-18 17:21:55,552 - INFO - 
+🎯 Procesando XAUUSD 2021...
+2026-02-18 17:21:55,552 - INFO - 🔄 Iniciando consolidación de XAUUSD 2021
+2026-02-18 17:21:55,553 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-18 17:21:55,553 - INFO - 🔍 Validando 12 archivos...
+2026-02-18 17:21:56,174 - INFO - 📖 Leyendo archivos...
+2026-02-18 17:21:56,738 - INFO - 📊 Total preliminar: 51,637,723 filas, 570.3 MB
+2026-02-18 17:21:56,738 - INFO - 🔗 Concatenando tablas...
+2026-02-18 17:21:56,739 - INFO - ⚙️  Optimizando esquema...
+2026-02-18 17:21:56,888 - INFO - 💾 Guardando archivo consolidado: /home/wilson/GOLD/dukascopy/consolidated/XAUUSD_2021_FULL.parquet
+2026-02-18 17:22:03,079 - INFO - 
+============================================================
+2026-02-18 17:22:03,079 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-18 17:22:03,079 - INFO - ============================================================
+2026-02-18 17:22:03,079 - INFO - 📊 Estadísticas:
+2026-02-18 17:22:03,079 - INFO -    • Archivos consolidados: 12
+2026-02-18 17:22:03,079 - INFO -    • Filas totales: 51,637,723
+2026-02-18 17:22:03,079 - INFO -    • Columnas: 5
+2026-02-18 17:22:03,079 - INFO -    • Tiempo de procesamiento: 6.3 segundos
+2026-02-18 17:22:03,079 - INFO -    • Tamaño original: 570.3 MB
+2026-02-18 17:22:03,080 - INFO -    • Tamaño consolidado: 637.4 MB
+2026-02-18 17:22:03,080 - INFO -    • Ratio de compresión: -11.8%
+2026-02-18 17:22:03,080 - INFO -    • Compresión utilizada: snappy
+2026-02-18 17:22:03,080 - INFO -    • Archivo de salida: /home/wilson/GOLD/dukascopy/consolidated/XAUUSD_2021_FULL.parquet
+2026-02-18 17:22:03,080 - INFO - ============================================================
+2026-02-18 17:22:03,091 - INFO - ✅ XAUUSD 2021 consolidado exitosamente
+2026-02-18 17:22:03,091 - INFO - 
+============================================================
+2026-02-18 17:22:03,091 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-18 17:22:03,091 - INFO - ============================================================
+2026-02-18 17:22:03,091 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-18 17:22:03,091 - INFO -    • XAUUSD 2021: XAUUSD_2021_FULL.parquet (637.4 MB)
+2026-02-18 17:22:03,091 - INFO - ============================================================
+2026-02-18 17:22:03,091 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-18 17:22:09,334 - INFO - ============================================================
+2026-02-18 17:22:09,334 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-18 17:22:09,334 - INFO - ============================================================
+2026-02-18 17:22:09,334 - INFO - 📂 Entrada: /home/wilson/GOLD/DATOS_ORIGEN/data_2022
+2026-02-18 17:22:09,334 - INFO - 📂 Salida: consolidated
+2026-02-18 17:22:09,334 - INFO - 📊 Símbolos: XAUUSD
+2026-02-18 17:22:09,334 - INFO - 📅 Años: 2022
+2026-02-18 17:22:09,335 - INFO - ⚙️  Compresión: snappy
+2026-02-18 17:22:09,335 - INFO - 🗂️  Particiones diarias: NO
+2026-02-18 17:22:09,335 - INFO - 🗑️  Eliminar originales: NO
+2026-02-18 17:22:09,335 - INFO - 🔍 Validación: SÍ
+2026-02-18 17:22:09,335 - INFO - ============================================================
+2026-02-18 17:22:09,335 - INFO - 📂 Directorio de entrada: /home/wilson/GOLD/DATOS_ORIGEN/data_2022
+2026-02-18 17:22:09,335 - INFO - 📂 Directorio de salida: /home/wilson/GOLD/dukascopy/consolidated
+2026-02-18 17:22:09,335 - INFO - 
+🎯 Procesando XAUUSD 2022...
+2026-02-18 17:22:09,335 - INFO - 🔄 Iniciando consolidación de XAUUSD 2022
+2026-02-18 17:22:09,336 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-18 17:22:09,336 - INFO - 🔍 Validando 12 archivos...
+2026-02-18 17:22:09,960 - INFO - 📖 Leyendo archivos...
+2026-02-18 17:22:10,518 - INFO - 📊 Total preliminar: 52,073,048 filas, 590.7 MB
+2026-02-18 17:22:10,519 - INFO - 🔗 Concatenando tablas...
+2026-02-18 17:22:10,519 - INFO - ⚙️  Optimizando esquema...
+2026-02-18 17:22:10,681 - INFO - 💾 Guardando archivo consolidado: /home/wilson/GOLD/dukascopy/consolidated/XAUUSD_2022_FULL.parquet
+2026-02-18 17:22:17,341 - INFO - 
+============================================================
+2026-02-18 17:22:17,341 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-18 17:22:17,341 - INFO - ============================================================
+2026-02-18 17:22:17,341 - INFO - 📊 Estadísticas:
+2026-02-18 17:22:17,341 - INFO -    • Archivos consolidados: 12
+2026-02-18 17:22:17,341 - INFO -    • Filas totales: 52,073,048
+2026-02-18 17:22:17,341 - INFO -    • Columnas: 5
+2026-02-18 17:22:17,342 - INFO -    • Tiempo de procesamiento: 6.8 segundos
+2026-02-18 17:22:17,342 - INFO -    • Tamaño original: 590.7 MB
+2026-02-18 17:22:17,342 - INFO -    • Tamaño consolidado: 660.6 MB
+2026-02-18 17:22:17,342 - INFO -    • Ratio de compresión: -11.8%
+2026-02-18 17:22:17,342 - INFO -    • Compresión utilizada: snappy
+2026-02-18 17:22:17,342 - INFO -    • Archivo de salida: /home/wilson/GOLD/dukascopy/consolidated/XAUUSD_2022_FULL.parquet
+2026-02-18 17:22:17,342 - INFO - ============================================================
+2026-02-18 17:22:17,353 - INFO - ✅ XAUUSD 2022 consolidado exitosamente
+2026-02-18 17:22:17,353 - INFO - 
+============================================================
+2026-02-18 17:22:17,353 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-18 17:22:17,353 - INFO - ============================================================
+2026-02-18 17:22:17,353 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-18 17:22:17,353 - INFO -    • XAUUSD 2022: XAUUSD_2022_FULL.parquet (660.6 MB)
+2026-02-18 17:22:17,353 - INFO - ============================================================
+2026-02-18 17:22:17,354 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-18 17:22:26,374 - INFO - ============================================================
+2026-02-18 17:22:26,374 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-18 17:22:26,374 - INFO - ============================================================
+2026-02-18 17:22:26,374 - INFO - 📂 Entrada: /home/wilson/GOLD/DATOS_ORIGEN/data_2023
+2026-02-18 17:22:26,374 - INFO - 📂 Salida: consolidated
+2026-02-18 17:22:26,374 - INFO - 📊 Símbolos: XAUUSD
+2026-02-18 17:22:26,374 - INFO - 📅 Años: 2023
+2026-02-18 17:22:26,374 - INFO - ⚙️  Compresión: snappy
+2026-02-18 17:22:26,374 - INFO - 🗂️  Particiones diarias: NO
+2026-02-18 17:22:26,374 - INFO - 🗑️  Eliminar originales: NO
+2026-02-18 17:22:26,374 - INFO - 🔍 Validación: SÍ
+2026-02-18 17:22:26,374 - INFO - ============================================================
+2026-02-18 17:22:26,374 - INFO - 📂 Directorio de entrada: /home/wilson/GOLD/DATOS_ORIGEN/data_2023
+2026-02-18 17:22:26,374 - INFO - 📂 Directorio de salida: /home/wilson/GOLD/dukascopy/consolidated
+2026-02-18 17:22:26,375 - INFO - 
+🎯 Procesando XAUUSD 2023...
+2026-02-18 17:22:26,375 - INFO - 🔄 Iniciando consolidación de XAUUSD 2023
+2026-02-18 17:22:26,376 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-18 17:22:26,376 - INFO - 🔍 Validando 12 archivos...
+2026-02-18 17:22:26,833 - INFO - 📖 Leyendo archivos...
+2026-02-18 17:22:27,213 - INFO - 📊 Total preliminar: 35,219,706 filas, 378.8 MB
+2026-02-18 17:22:27,213 - INFO - 🔗 Concatenando tablas...
+2026-02-18 17:22:27,214 - INFO - ⚙️  Optimizando esquema...
+2026-02-18 17:22:27,316 - INFO - 💾 Guardando archivo consolidado: /home/wilson/GOLD/dukascopy/consolidated/XAUUSD_2023_FULL.parquet
+2026-02-18 17:22:31,402 - INFO - 
+============================================================
+2026-02-18 17:22:31,403 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-18 17:22:31,403 - INFO - ============================================================
+2026-02-18 17:22:31,403 - INFO - 📊 Estadísticas:
+2026-02-18 17:22:31,403 - INFO -    • Archivos consolidados: 12
+2026-02-18 17:22:31,403 - INFO -    • Filas totales: 35,219,706
+2026-02-18 17:22:31,403 - INFO -    • Columnas: 5
+2026-02-18 17:22:31,403 - INFO -    • Tiempo de procesamiento: 4.2 segundos
+2026-02-18 17:22:31,403 - INFO -    • Tamaño original: 378.8 MB
+2026-02-18 17:22:31,403 - INFO -    • Tamaño consolidado: 424.0 MB
+2026-02-18 17:22:31,403 - INFO -    • Ratio de compresión: -11.9%
+2026-02-18 17:22:31,403 - INFO -    • Compresión utilizada: snappy
+2026-02-18 17:22:31,403 - INFO -    • Archivo de salida: /home/wilson/GOLD/dukascopy/consolidated/XAUUSD_2023_FULL.parquet
+2026-02-18 17:22:31,403 - INFO - ============================================================
+2026-02-18 17:22:31,411 - INFO - ✅ XAUUSD 2023 consolidado exitosamente
+2026-02-18 17:22:31,411 - INFO - 
+============================================================
+2026-02-18 17:22:31,411 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-18 17:22:31,411 - INFO - ============================================================
+2026-02-18 17:22:31,411 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-18 17:22:31,411 - INFO -    • XAUUSD 2023: XAUUSD_2023_FULL.parquet (424.0 MB)
+2026-02-18 17:22:31,411 - INFO - ============================================================
+2026-02-18 17:22:31,411 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-18 17:22:38,483 - INFO - ============================================================
+2026-02-18 17:22:38,483 - INFO - 🔄 CONSOLIDADOR AVANZADO DE ARCHIVOS PARQUET
+2026-02-18 17:22:38,484 - INFO - ============================================================
+2026-02-18 17:22:38,484 - INFO - 📂 Entrada: /home/wilson/GOLD/DATOS_ORIGEN/data_2024
+2026-02-18 17:22:38,484 - INFO - 📂 Salida: consolidated
+2026-02-18 17:22:38,484 - INFO - 📊 Símbolos: XAUUSD
+2026-02-18 17:22:38,484 - INFO - 📅 Años: 2024
+2026-02-18 17:22:38,484 - INFO - ⚙️  Compresión: snappy
+2026-02-18 17:22:38,484 - INFO - 🗂️  Particiones diarias: NO
+2026-02-18 17:22:38,484 - INFO - 🗑️  Eliminar originales: NO
+2026-02-18 17:22:38,484 - INFO - 🔍 Validación: SÍ
+2026-02-18 17:22:38,484 - INFO - ============================================================
+2026-02-18 17:22:38,484 - INFO - 📂 Directorio de entrada: /home/wilson/GOLD/DATOS_ORIGEN/data_2024
+2026-02-18 17:22:38,484 - INFO - 📂 Directorio de salida: /home/wilson/GOLD/dukascopy/consolidated
+2026-02-18 17:22:38,484 - INFO - 
+🎯 Procesando XAUUSD 2024...
+2026-02-18 17:22:38,484 - INFO - 🔄 Iniciando consolidación de XAUUSD 2024
+2026-02-18 17:22:38,485 - INFO - 📁 Encontrados 12 archivos mensuales
+2026-02-18 17:22:38,485 - INFO - 🔍 Validando 12 archivos...
+2026-02-18 17:22:39,145 - INFO - 📖 Leyendo archivos...
+2026-02-18 17:22:39,734 - INFO - 📊 Total preliminar: 54,545,254 filas, 600.8 MB
+2026-02-18 17:22:39,734 - INFO - 🔗 Concatenando tablas...
+2026-02-18 17:22:39,736 - INFO - ⚙️  Optimizando esquema...
+2026-02-18 17:22:39,896 - INFO - 💾 Guardando archivo consolidado: /home/wilson/GOLD/dukascopy/consolidated/XAUUSD_2024_FULL.parquet
+2026-02-18 17:22:46,630 - INFO - 
+============================================================
+2026-02-18 17:22:46,630 - INFO - ✅ CONSOLIDACIÓN COMPLETADA EXITOSAMENTE
+2026-02-18 17:22:46,630 - INFO - ============================================================
+2026-02-18 17:22:46,630 - INFO - 📊 Estadísticas:
+2026-02-18 17:22:46,630 - INFO -    • Archivos consolidados: 12
+2026-02-18 17:22:46,630 - INFO -    • Filas totales: 54,545,254
+2026-02-18 17:22:46,630 - INFO -    • Columnas: 5
+2026-02-18 17:22:46,630 - INFO -    • Tiempo de procesamiento: 6.9 segundos
+2026-02-18 17:22:46,630 - INFO -    • Tamaño original: 600.8 MB
+2026-02-18 17:22:46,630 - INFO -    • Tamaño consolidado: 670.6 MB
+2026-02-18 17:22:46,630 - INFO -    • Ratio de compresión: -11.6%
+2026-02-18 17:22:46,630 - INFO -    • Compresión utilizada: snappy
+2026-02-18 17:22:46,630 - INFO -    • Archivo de salida: /home/wilson/GOLD/dukascopy/consolidated/XAUUSD_2024_FULL.parquet
+2026-02-18 17:22:46,630 - INFO - ============================================================
+2026-02-18 17:22:46,643 - INFO - ✅ XAUUSD 2024 consolidado exitosamente
+2026-02-18 17:22:46,643 - INFO - 
+============================================================
+2026-02-18 17:22:46,643 - INFO - 📊 RESUMEN FINAL DE CONSOLIDACIÓN
+2026-02-18 17:22:46,643 - INFO - ============================================================
+2026-02-18 17:22:46,644 - INFO - ✅ PROCESADOS EXITOSAMENTE: 1
+2026-02-18 17:22:46,644 - INFO -    • XAUUSD 2024: XAUUSD_2024_FULL.parquet (670.6 MB)
+2026-02-18 17:22:46,644 - INFO - ============================================================
+2026-02-18 17:22:46,644 - INFO - 🎉 ¡Todas las consolidaciones completadas exitosamente!
+2026-02-20 12:58:10,570 - INFO - 🔍 Buscando archivos para XAUUSD 2020 -Q2...
+2026-02-20 12:58:10,574 - ERROR - ❌ No se encontraron archivos para el periodo solicitado.
+2026-02-20 12:58:38,018 - INFO - 🔍 Buscando archivos para XAUUSD 2020 -Q2...
+2026-02-20 12:58:38,019 - INFO - 📦 Consolidando 3 archivos en XAUUSD_2020-Q2.parquet...
+2026-02-20 12:58:39,579 - INFO - ✅ ¡Éxito! Tamaño final: 127.35 MB

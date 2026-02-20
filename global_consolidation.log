@@ -104,3 +104,186 @@
 2026-01-21 13:20:42,799 - INFO - 🎉 ¡Consolidación global completada exitosamente!
 2026-01-21 13:20:42,799 - INFO - 📁 Archivo creado: /home/wilson/CODE/proy_xauusd/dukascopy/XAUUSD_GLOBAL.parquet
 2026-01-21 13:20:42,799 - INFO - 📈 Tamaño final: 1262.3 MB
+2026-02-12 11:33:44,493 - INFO - ======================================================================
+2026-02-12 11:33:44,557 - INFO - 🌍 CONSOLIDADOR GLOBAL DE ARCHIVOS ANUALES
+2026-02-12 11:33:44,558 - INFO - ======================================================================
+2026-02-12 11:33:44,558 - INFO - 📂 Entrada: consolidated
+2026-02-12 11:33:44,558 - INFO - 📂 Salida: XAUUSD_GLOBAL_2010-2023.parquet
+2026-02-12 11:33:44,558 - INFO - 📊 Símbolo: TODOS
+2026-02-12 11:33:44,558 - INFO - 📅 Años: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+2026-02-12 11:33:44,558 - INFO - ⚙️  Compresión: snappy
+2026-02-12 11:33:44,558 - INFO - 🔧 Optimización: SÍ
+2026-02-12 11:33:44,559 - INFO - 🔍 Validación: SÍ
+2026-02-12 11:33:44,559 - INFO - ======================================================================
+2026-02-12 11:33:44,559 - INFO - 📂 Directorio de entrada: /mnt/datos_backup/proy_xauusd/dukascopy/consolidated
+2026-02-12 11:33:44,559 - INFO - 📂 Archivo de salida: /mnt/datos_backup/proy_xauusd/dukascopy/XAUUSD_GLOBAL_2010-2023.parquet
+2026-02-12 11:33:44,562 - INFO - 📁 Encontrados 14 archivos anuales:
+2026-02-12 11:33:44,562 - INFO -    • XAUUSD_2010_FULL.parquet
+2026-02-12 11:33:44,562 - INFO -    • XAUUSD_2011_FULL.parquet
+2026-02-12 11:33:44,562 - INFO -    • XAUUSD_2012_FULL.parquet
+2026-02-12 11:33:44,563 - INFO -    • XAUUSD_2013_FULL.parquet
+2026-02-12 11:33:44,563 - INFO -    • XAUUSD_2014_FULL.parquet
+2026-02-12 11:33:44,563 - INFO -    • XAUUSD_2015_FULL.parquet
+2026-02-12 11:33:44,563 - INFO -    • XAUUSD_2016_FULL.parquet
+2026-02-12 11:33:44,563 - INFO -    • XAUUSD_2017_FULL.parquet
+2026-02-12 11:33:44,563 - INFO -    • XAUUSD_2018_FULL.parquet
+2026-02-12 11:33:44,563 - INFO -    • XAUUSD_2019_FULL.parquet
+2026-02-12 11:33:44,563 - INFO -    ... y 4 archivos más
+2026-02-12 11:33:44,563 - INFO - 🌍 Iniciando consolidación global de 14 archivos anuales
+2026-02-12 11:33:44,563 - INFO - 🔍 Validando 14 archivos...
+2026-02-12 11:34:32,380 - INFO - 📖 Leyendo archivos anuales...
+2026-02-12 11:34:48,458 - INFO - 📊 Total preliminar: 472,804,909 filas, 5930.7 MB
+2026-02-12 11:34:48,458 - INFO - 🔗 Concatenando tablas anuales...
+2026-02-12 11:34:48,489 - INFO - ⚙️  Optimizando esquema global...
+2026-02-12 11:34:53,481 - INFO - 💾 Guardando archivo global: /mnt/datos_backup/proy_xauusd/dukascopy/XAUUSD_GLOBAL_2010-2023.parquet
+2026-02-12 11:36:53,372 - INFO - 
+======================================================================
+2026-02-12 11:36:53,464 - INFO - 🌍 CONSOLIDACIÓN GLOBAL COMPLETADA EXITOSAMENTE
+2026-02-12 11:36:53,464 - INFO - ======================================================================
+2026-02-12 11:36:53,464 - INFO - 📊 ESTADÍSTICAS GLOBALES:
+2026-02-12 11:36:53,465 - INFO -    • Archivos consolidados: 14
+2026-02-12 11:36:53,465 - INFO -    • Símbolo: XAUUSD
+2026-02-12 11:36:53,466 - INFO -    • Filas totales: 472,804,909
+2026-02-12 11:36:53,466 - INFO -    • Columnas: 5
+2026-02-12 11:36:53,466 - INFO -    • Rango temporal: 2010-01-01 00:02:01.950000 a 2023-12-29 21:58:59.074000
+2026-02-12 11:36:53,467 - INFO -    • Período cubierto: 5110 días (14.0 años)
+2026-02-12 11:36:53,467 - INFO -    • Tamaño original total: 5930.7 MB
+2026-02-12 11:36:53,467 - INFO -    • Tamaño consolidado: 5538.3 MB
+2026-02-12 11:36:53,467 - INFO -    • Ratio de compresión: 6.6%
+2026-02-12 11:36:53,468 - INFO -    • Compresión utilizada: snappy
+2026-02-12 11:36:53,468 - INFO -    • Tiempo de procesamiento: 116.8 segundos
+2026-02-12 11:36:53,468 - INFO -    • Rendimiento: 4,048,608 filas/seg, 50.8 MB/seg
+2026-02-12 11:36:53,468 - INFO -    • Archivo de salida: /mnt/datos_backup/proy_xauusd/dukascopy/XAUUSD_GLOBAL_2010-2023.parquet
+2026-02-12 11:36:53,468 - INFO - 
+📅 DESGLOSE POR AÑO:
+2026-02-12 11:36:53,469 - INFO -    • 2010: 12,727,047 filas, 193.1 MB
+2026-02-12 11:36:53,469 - INFO -    • 2011: 16,993,432 filas, 267.0 MB
+2026-02-12 11:36:53,469 - INFO -    • 2012: 22,351,221 filas, 300.9 MB
+2026-02-12 11:36:53,469 - INFO -    • 2013: 22,508,192 filas, 299.8 MB
+2026-02-12 11:36:53,470 - INFO -    • 2014: 20,795,350 filas, 271.4 MB
+2026-02-12 11:36:53,470 - INFO -    • 2015: 24,961,205 filas, 311.4 MB
+2026-02-12 11:36:53,470 - INFO -    • 2016: 44,768,428 filas, 545.0 MB
+2026-02-12 11:36:53,470 - INFO -    • 2017: 44,277,967 filas, 519.5 MB
+2026-02-12 11:36:53,471 - INFO -    • 2018: 34,776,283 filas, 420.7 MB
+2026-02-12 11:36:53,471 - INFO -    • 2019: 35,702,249 filas, 427.9 MB
+2026-02-12 11:36:53,471 - INFO -    • 2020: 54,013,058 filas, 652.0 MB
+2026-02-12 11:36:53,471 - INFO -    • 2021: 51,637,723 filas, 637.4 MB
+2026-02-12 11:36:53,472 - INFO -    • 2022: 52,073,048 filas, 660.6 MB
+2026-02-12 11:36:53,472 - INFO -    • 2023: 35,219,706 filas, 424.0 MB
+2026-02-12 11:36:53,472 - INFO - ======================================================================
+2026-02-12 11:36:53,475 - INFO - 📋 Metadatos guardados en: /mnt/datos_backup/proy_xauusd/dukascopy/XAUUSD_GLOBAL_2010-2023.metadata.json
+2026-02-12 11:36:53,533 - INFO - 🎉 ¡Consolidación global completada exitosamente!
+2026-02-12 11:36:53,533 - INFO - 📁 Archivo creado: /mnt/datos_backup/proy_xauusd/dukascopy/XAUUSD_GLOBAL_2010-2023.parquet
+2026-02-12 11:36:53,533 - INFO - 📈 Tamaño final: 5538.3 MB
+2026-02-18 17:24:11,742 - INFO - ======================================================================
+2026-02-18 17:24:11,743 - INFO - 🌍 CONSOLIDADOR GLOBAL DE ARCHIVOS ANUALES
+2026-02-18 17:24:11,743 - INFO - ======================================================================
+2026-02-18 17:24:11,743 - INFO - 📂 Entrada: consolidated
+2026-02-18 17:24:11,743 - INFO - 📂 Salida: XAUUSD_2019-2024.parquet
+2026-02-18 17:24:11,743 - INFO - 📊 Símbolo: TODOS
+2026-02-18 17:24:11,743 - INFO - 📅 Años: TODOS
+2026-02-18 17:24:11,743 - INFO - ⚙️  Compresión: snappy
+2026-02-18 17:24:11,743 - INFO - 🔧 Optimización: SÍ
+2026-02-18 17:24:11,743 - INFO - 🔍 Validación: SÍ
+2026-02-18 17:24:11,743 - INFO - ======================================================================
+2026-02-18 17:24:11,743 - INFO - 📂 Directorio de entrada: /home/wilson/GOLD/dukascopy/consolidated
+2026-02-18 17:24:11,743 - INFO - 📂 Archivo de salida: /home/wilson/GOLD/dukascopy/XAUUSD_2019-2024.parquet
+2026-02-18 17:24:11,744 - INFO - 📁 Encontrados 6 archivos anuales:
+2026-02-18 17:24:11,744 - INFO -    • XAUUSD_2019_FULL.parquet
+2026-02-18 17:24:11,744 - INFO -    • XAUUSD_2020_FULL.parquet
+2026-02-18 17:24:11,744 - INFO -    • XAUUSD_2021_FULL.parquet
+2026-02-18 17:24:11,744 - INFO -    • XAUUSD_2022_FULL.parquet
+2026-02-18 17:24:11,744 - INFO -    • XAUUSD_2023_FULL.parquet
+2026-02-18 17:24:11,744 - INFO -    • XAUUSD_2024_FULL.parquet
+2026-02-18 17:24:11,744 - INFO - 🌍 Iniciando consolidación global de 6 archivos anuales
+2026-02-18 17:24:11,744 - INFO - 🔍 Validando 6 archivos...
+2026-02-18 17:24:13,426 - INFO - 📖 Leyendo archivos anuales...
+2026-02-18 17:24:15,201 - INFO - 📊 Total preliminar: 283,191,038 filas, 3472.5 MB
+2026-02-18 17:24:15,201 - INFO - 🔗 Concatenando tablas anuales...
+2026-02-18 17:24:15,212 - INFO - ⚙️  Optimizando esquema global...
+2026-02-18 17:24:17,676 - INFO - 💾 Guardando archivo global: /home/wilson/GOLD/dukascopy/XAUUSD_2019-2024.parquet
+2026-02-18 17:24:54,906 - INFO - 
+======================================================================
+2026-02-18 17:24:54,906 - INFO - 🌍 CONSOLIDACIÓN GLOBAL COMPLETADA EXITOSAMENTE
+2026-02-18 17:24:54,906 - INFO - ======================================================================
+2026-02-18 17:24:54,906 - INFO - 📊 ESTADÍSTICAS GLOBALES:
+2026-02-18 17:24:54,906 - INFO -    • Archivos consolidados: 6
+2026-02-18 17:24:54,906 - INFO -    • Símbolo: XAUUSD
+2026-02-18 17:24:54,907 - INFO -    • Filas totales: 283,191,038
+2026-02-18 17:24:54,907 - INFO -    • Columnas: 5
+2026-02-18 17:24:54,907 - INFO -    • Rango temporal: 2019-01-01 23:00:07.151000 a 2024-12-31 00:59:59.818000
+2026-02-18 17:24:54,907 - INFO -    • Período cubierto: 2190 días (6.0 años)
+2026-02-18 17:24:54,907 - INFO -    • Tamaño original total: 3472.5 MB
+2026-02-18 17:24:54,907 - INFO -    • Tamaño consolidado: 3227.8 MB
+2026-02-18 17:24:54,907 - INFO -    • Ratio de compresión: 7.0%
+2026-02-18 17:24:54,907 - INFO -    • Compresión utilizada: snappy
+2026-02-18 17:24:54,907 - INFO -    • Tiempo de procesamiento: 36.7 segundos
+2026-02-18 17:24:54,907 - INFO -    • Rendimiento: 7,707,825 filas/seg, 94.5 MB/seg
+2026-02-18 17:24:54,907 - INFO -    • Archivo de salida: /home/wilson/GOLD/dukascopy/XAUUSD_2019-2024.parquet
+2026-02-18 17:24:54,907 - INFO - 
+📅 DESGLOSE POR AÑO:
+2026-02-18 17:24:54,907 - INFO -    • 2019: 35,702,249 filas, 427.9 MB
+2026-02-18 17:24:54,907 - INFO -    • 2020: 54,013,058 filas, 652.0 MB
+2026-02-18 17:24:54,907 - INFO -    • 2021: 51,637,723 filas, 637.4 MB
+2026-02-18 17:24:54,907 - INFO -    • 2022: 52,073,048 filas, 660.6 MB
+2026-02-18 17:24:54,907 - INFO -    • 2023: 35,219,706 filas, 424.0 MB
+2026-02-18 17:24:54,907 - INFO -    • 2024: 54,545,254 filas, 670.6 MB
+2026-02-18 17:24:54,907 - INFO - ======================================================================
+2026-02-18 17:24:54,908 - INFO - 📋 Metadatos guardados en: /home/wilson/GOLD/dukascopy/XAUUSD_2019-2024.metadata.json
+2026-02-18 17:24:54,921 - INFO - 🎉 ¡Consolidación global completada exitosamente!
+2026-02-18 17:24:54,921 - INFO - 📁 Archivo creado: /home/wilson/GOLD/dukascopy/XAUUSD_2019-2024.parquet
+2026-02-18 17:24:54,922 - INFO - 📈 Tamaño final: 3227.8 MB
+2026-02-18 20:58:36,798 - INFO - ======================================================================
+2026-02-18 20:58:36,799 - INFO - 🌍 CONSOLIDADOR GLOBAL DE ARCHIVOS ANUALES
+2026-02-18 20:58:36,799 - INFO - ======================================================================
+2026-02-18 20:58:36,799 - INFO - 📂 Entrada: consolidated
+2026-02-18 20:58:36,799 - INFO - 📂 Salida: XAUUSD_GLOBAL_2021-2024.parquet
+2026-02-18 20:58:36,799 - INFO - 📊 Símbolo: TODOS
+2026-02-18 20:58:36,799 - INFO - 📅 Años: [2021, 2022, 2023, 2024]
+2026-02-18 20:58:36,799 - INFO - ⚙️  Compresión: snappy
+2026-02-18 20:58:36,799 - INFO - 🔧 Optimización: SÍ
+2026-02-18 20:58:36,799 - INFO - 🔍 Validación: SÍ
+2026-02-18 20:58:36,799 - INFO - ======================================================================
+2026-02-18 20:58:36,799 - INFO - 📂 Directorio de entrada: /home/wilson/GOLD/dukascopy/consolidated
+2026-02-18 20:58:36,799 - INFO - 📂 Archivo de salida: /home/wilson/GOLD/dukascopy/XAUUSD_GLOBAL_2021-2024.parquet
+2026-02-18 20:58:36,800 - INFO - 📁 Encontrados 4 archivos anuales:
+2026-02-18 20:58:36,800 - INFO -    • XAUUSD_2021_FULL.parquet
+2026-02-18 20:58:36,800 - INFO -    • XAUUSD_2022_FULL.parquet
+2026-02-18 20:58:36,800 - INFO -    • XAUUSD_2023_FULL.parquet
+2026-02-18 20:58:36,801 - INFO -    • XAUUSD_2024_FULL.parquet
+2026-02-18 20:58:36,801 - INFO - 🌍 Iniciando consolidación global de 4 archivos anuales
+2026-02-18 20:58:36,801 - INFO - 🔍 Validando 4 archivos...
+2026-02-18 20:58:38,501 - INFO - 📖 Leyendo archivos anuales...
+2026-02-18 20:58:39,781 - INFO - 📊 Total preliminar: 193,475,731 filas, 2392.6 MB
+2026-02-18 20:58:39,781 - INFO - 🔗 Concatenando tablas anuales...
+2026-02-18 20:58:39,793 - INFO - ⚙️  Optimizando esquema global...
+2026-02-18 20:58:41,515 - INFO - 💾 Guardando archivo global: /home/wilson/GOLD/dukascopy/XAUUSD_GLOBAL_2021-2024.parquet
+2026-02-18 20:59:08,317 - INFO - 
+======================================================================
+2026-02-18 20:59:08,317 - INFO - 🌍 CONSOLIDACIÓN GLOBAL COMPLETADA EXITOSAMENTE
+2026-02-18 20:59:08,317 - INFO - ======================================================================
+2026-02-18 20:59:08,317 - INFO - 📊 ESTADÍSTICAS GLOBALES:
+2026-02-18 20:59:08,318 - INFO -    • Archivos consolidados: 4
+2026-02-18 20:59:08,318 - INFO -    • Símbolo: XAUUSD
+2026-02-18 20:59:08,318 - INFO -    • Filas totales: 193,475,731
+2026-02-18 20:59:08,318 - INFO -    • Columnas: 5
+2026-02-18 20:59:08,318 - INFO -    • Rango temporal: 2021-01-03 23:00:00.413000 a 2024-12-31 00:59:59.818000
+2026-02-18 20:59:08,318 - INFO -    • Período cubierto: 1457 días (4.0 años)
+2026-02-18 20:59:08,318 - INFO -    • Tamaño original total: 2392.6 MB
+2026-02-18 20:59:08,318 - INFO -    • Tamaño consolidado: 2226.9 MB
+2026-02-18 20:59:08,318 - INFO -    • Ratio de compresión: 6.9%
+2026-02-18 20:59:08,318 - INFO -    • Compresión utilizada: snappy
+2026-02-18 20:59:08,318 - INFO -    • Tiempo de procesamiento: 26.5 segundos
+2026-02-18 20:59:08,318 - INFO -    • Rendimiento: 7,298,453 filas/seg, 90.3 MB/seg
+2026-02-18 20:59:08,318 - INFO -    • Archivo de salida: /home/wilson/GOLD/dukascopy/XAUUSD_GLOBAL_2021-2024.parquet
+2026-02-18 20:59:08,318 - INFO - 
+📅 DESGLOSE POR AÑO:
+2026-02-18 20:59:08,318 - INFO -    • 2021: 51,637,723 filas, 637.4 MB
+2026-02-18 20:59:08,318 - INFO -    • 2022: 52,073,048 filas, 660.6 MB
+2026-02-18 20:59:08,318 - INFO -    • 2023: 35,219,706 filas, 424.0 MB
+2026-02-18 20:59:08,318 - INFO -    • 2024: 54,545,254 filas, 670.6 MB
+2026-02-18 20:59:08,318 - INFO - ======================================================================
+2026-02-18 20:59:08,319 - INFO - 📋 Metadatos guardados en: /home/wilson/GOLD/dukascopy/XAUUSD_GLOBAL_2021-2024.metadata.json
+2026-02-18 20:59:08,328 - INFO - 🎉 ¡Consolidación global completada exitosamente!
+2026-02-18 20:59:08,328 - INFO - 📁 Archivo creado: /home/wilson/GOLD/dukascopy/XAUUSD_GLOBAL_2021-2024.parquet
+2026-02-18 20:59:08,328 - INFO - 📈 Tamaño final: 2226.9 MB
