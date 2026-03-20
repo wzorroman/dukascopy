@@ -19,11 +19,11 @@ def load_progress(symbol, year, output_dir='data'):
     """Carga el progreso previo desde archivo"""
     if not os.path.exists(PROGRESS_FILE):
         return {}
-    
+
     try:
         with open(PROGRESS_FILE, 'r') as f:
             progress_data = json.load(f)
-        
+
         # key = f"{symbol}_{year}"
         key = f"{symbol}_{year}_{output_dir}"
         if key in progress_data:
@@ -43,16 +43,16 @@ def save_progress(symbol, year, progress_data, output_dir='data'):
         if os.path.exists(PROGRESS_FILE):
             with open(PROGRESS_FILE, 'r') as f:
                 existing_data = json.load(f)
-        
+
         # Actualizar con nuevo progreso
         # key = f"{symbol}_{year}"
         key = f"{symbol}_{year}_{output_dir}"
         existing_data[key] = progress_data
-        
+
         # Guardar
         with open(PROGRESS_FILE, 'w') as f:
             json.dump(existing_data, f, indent=2)
-        
+
         logger.debug(f"💾 Progreso guardado para {symbol} {year}")
         return True
     except Exception as e:
@@ -63,13 +63,13 @@ def get_month_range(year, month):
     """Obtiene el primer y último día del mes"""
     # Primer día del mes
     start_date = datetime(year, month, 1)
-    
+
     # Último día del mes
     if month == 12:
         end_date = datetime(year + 1, 1, 1) - timedelta(days=1)
     else:
         end_date = datetime(year, month + 1, 1) - timedelta(days=1)
-    
+
     return start_date.strftime("%Y-%m-%d"), end_date.strftime("%Y-%m-%d")
 
 def format_file_size(bytes_size):
@@ -87,7 +87,7 @@ def parse_tqdm_progress(line):
     """
     if 'Downloading:' not in line:
         return None
-    
+
     try:
         # Extraer porcentaje
         if '%|' in line:
@@ -95,7 +95,7 @@ def parse_tqdm_progress(line):
             percent = float(percent_part.split(':')[-1].strip())
         else:
             percent = 0
-        
+
         # Extraer estadísticas (X/Y [tiempo transcurrido<tiempo restante, velocidad])
         if '[' in line and ']' in line:
             stats_part = line.split('[')[1].split(']')[0]
@@ -110,7 +110,7 @@ def parse_tqdm_progress(line):
                 elapsed = remaining = speed = "?"
         else:
             elapsed = remaining = speed = "?"
-        
+
         return {
             'percent': percent,
             'elapsed': elapsed,
@@ -126,13 +126,13 @@ def run_subprocess_with_detailed_output_v0(cmd, logger, month_name):
     Distingue claramente entre stdout (info) y stderr (errores)
     """
     logger.info(f"Ejecutando comando: {' '.join(cmd)}")
-    
+
     try:
         # Variables para seguimiento
         start_time = time.time()
         last_progress_update = 0
         last_percent = 0
-        
+
         # Ejecutar proceso
         process = subprocess.Popen(
             cmd,
@@ -142,7 +142,7 @@ def run_subprocess_with_detailed_output_v0(cmd, logger, month_name):
             bufsize=1,
             universal_newlines=True
         )
-        
+
         # Leer salida en tiempo real
         while True:
             # Leer stdout (información normal)
@@ -155,7 +155,7 @@ def run_subprocess_with_detailed_output_v0(cmd, logger, month_name):
                     if progress_info:
                         # Actualizar progreso cada 5% o cada 10 segundos
                         current_time = time.time()
-                        if (progress_info['percent'] - last_percent >= 5 or 
+                        if (progress_info['percent'] - last_percent >= 5 or
                             current_time - last_progress_update >= 10):
                             logger.info(
                                 f"📊 {month_name}: {progress_info['percent']:.1f}% - "
@@ -176,7 +176,7 @@ def run_subprocess_with_detailed_output_v0(cmd, logger, month_name):
                         elif any(x in cleaned_stdout for x in ["INFO", "Descargando", "Descargados", "Generadas"]):
                             # Info normal del proceso hijo
                             logger.info(f"ℹ️  {month_name}: {cleaned_stdout}")
-            
+
             # Leer stderr (errores reales)
             stderr_line = process.stderr.readline()
             if stderr_line:
@@ -184,7 +184,7 @@ def run_subprocess_with_detailed_output_v0(cmd, logger, month_name):
                 if cleaned_stderr:
                     # Estos son errores reales, no solo información
                     logger.error(f"🔥 {month_name} - ERROR REAL: {cleaned_stderr}")
-            
+
             # Verificar si el proceso terminó
             if process.poll() is not None:
                 # Leer cualquier salida restante
@@ -195,11 +195,11 @@ def run_subprocess_with_detailed_output_v0(cmd, logger, month_name):
                     if line.strip():
                         logger.error(f"🔥 {month_name} - Error final: {line.strip()}")
                 break
-        
+
         # Obtener código de retorno
         return_code = process.wait()
         total_time = time.time() - start_time
-        
+
         if return_code == 0:
             logger.info(f"✅ {month_name} completado exitosamente en {total_time:.1f}s")
             return True, ""
@@ -207,7 +207,7 @@ def run_subprocess_with_detailed_output_v0(cmd, logger, month_name):
             error_msg = f"Proceso falló con código: {return_code}"
             logger.error(f"❌ {month_name} - {error_msg}")
             return False, error_msg
-            
+
     except Exception as e:
         error_msg = f"Error ejecutando subproceso: {str(e)}"
         logger.error(f"❌ {month_name} - {error_msg}")
@@ -219,13 +219,13 @@ def run_subprocess_with_detailed_output(cmd, logger, month_name, verbose=False):
     Distingue claramente entre stdout (info) y stderr (errores)
     """
     logger.info(f"Ejecutando comando: {' '.join(cmd)}")
-    
+
     # MODO VERBOSE: Mostrar toda la salida directamente
     if verbose:
         logger.info(f"🔧 MODO VERBOSE ACTIVADO para {month_name}")
         logger.info(f"📋 Comando completo: {' '.join(cmd)}")
         logger.info("-" * 50)
-        
+
         try:
             # Ejecutar proceso y mostrar toda la salida en tiempo real
             process = subprocess.Popen(
@@ -234,10 +234,10 @@ def run_subprocess_with_detailed_output(cmd, logger, month_name, verbose=False):
                 stderr=None,  # None = heredar stderr del padre
                 text=True
             )
-            
+
             # Esperar a que termine
             return_code = process.wait()
-            
+
             if return_code == 0:
                 logger.info(f"✅ {month_name} completado exitosamente (modo verbose)")
                 return True, ""
@@ -245,19 +245,19 @@ def run_subprocess_with_detailed_output(cmd, logger, month_name, verbose=False):
                 error_msg = f"Proceso falló con código: {return_code}"
                 logger.error(f"❌ {month_name} - {error_msg}")
                 return False, error_msg
-                
+
         except Exception as e:
             error_msg = f"Error ejecutando subproceso: {str(e)}"
             logger.error(f"❌ {month_name} - {error_msg}")
             return False, error_msg
-    
+
     # MODO NORMAL (tu código actual)
     try:
         # Variables para seguimiento
         start_time = time.time()
         last_progress_update = 0
         last_percent = 0
-        
+
         # Ejecutar proceso
         process = subprocess.Popen(
             cmd,
@@ -267,7 +267,7 @@ def run_subprocess_with_detailed_output(cmd, logger, month_name, verbose=False):
             bufsize=1,
             universal_newlines=True
         )
-        
+
         # Leer salida en tiempo real
         while True:
             # Leer stdout (información normal)
@@ -280,7 +280,7 @@ def run_subprocess_with_detailed_output(cmd, logger, month_name, verbose=False):
                     if progress_info:
                         # Actualizar progreso cada 5% o cada 10 segundos
                         current_time = time.time()
-                        if (progress_info['percent'] - last_percent >= 5 or 
+                        if (progress_info['percent'] - last_percent >= 5 or
                             current_time - last_progress_update >= 10):
                             logger.info(
                                 f"📊 {month_name}: {progress_info['percent']:.1f}% - "
@@ -301,7 +301,7 @@ def run_subprocess_with_detailed_output(cmd, logger, month_name, verbose=False):
                         elif any(x in cleaned_stdout for x in ["INFO", "Descargando", "Descargados", "Generadas"]):
                             # Info normal del proceso hijo
                             logger.info(f"ℹ️  {month_name}: {cleaned_stdout}")
-            
+
             # Leer stderr (errores reales)
             stderr_line = process.stderr.readline()
             if stderr_line:
@@ -309,7 +309,7 @@ def run_subprocess_with_detailed_output(cmd, logger, month_name, verbose=False):
                 if cleaned_stderr:
                     # Estos son errores reales, no solo información
                     logger.error(f"🔥 {month_name} - ERROR REAL: {cleaned_stderr}")
-            
+
             # Verificar si el proceso terminó
             if process.poll() is not None:
                 # Leer cualquier salida restante
@@ -320,11 +320,11 @@ def run_subprocess_with_detailed_output(cmd, logger, month_name, verbose=False):
                     if line.strip():
                         logger.error(f"🔥 {month_name} - Error final: {line.strip()}")
                 break
-        
+
         # Obtener código de retorno
         return_code = process.wait()
         total_time = time.time() - start_time
-        
+
         if return_code == 0:
             logger.info(f"✅ {month_name} completado exitosamente en {total_time:.1f}s")
             return True, ""
@@ -332,22 +332,22 @@ def run_subprocess_with_detailed_output(cmd, logger, month_name, verbose=False):
             error_msg = f"Proceso falló con código: {return_code}"
             logger.error(f"❌ {month_name} - {error_msg}")
             return False, error_msg
-            
+
     except Exception as e:
         error_msg = f"Error ejecutando subproceso: {str(e)}"
         logger.error(f"❌ {month_name} - {error_msg}")
         return False, error_msg
-    
+
 def display_progress_bar(current, total, prefix="", length=50):
     """Muestra una barra de progreso en la consola"""
     filled_length = int(length * current // total)
     bar = '█' * filled_length + '░' * (length - filled_length)
     percent = 100.0 * current / total
-    
+
     # Usar sys.stdout.write para evitar saltos de línea innecesarios
     sys.stdout.write(f'\r{prefix} |{bar}| {current}/{total} ({percent:.1f}%)')
     sys.stdout.flush()
-    
+
     if current == total:
         print()  # Nueva línea al final
 
@@ -363,42 +363,42 @@ def main():
     parser.add_argument('--timeframe', type=str, default='1min', help='Timeframe (1min, 5min, etc)')
     parser.add_argument('--resume', action='store_true', help='Retomar descarga desde el último progreso guardado')
     parser.add_argument('--verbose', action='store_true', help='Mostrar toda la salida detallada del proceso hijo')
-    parser.add_argument('--output-dir', type=str, default='data', 
+    parser.add_argument('--output-dir', type=str, default='data',
                        help='Directorio de salida para los archivos (default: data)')
-    
+
     args = parser.parse_args()
 
     symbol = args.symbol
     year = args.year
     output_dir = args.output_dir
-    
+
     # Validar meses
     if args.start_month < 1 or args.start_month > 12:
         logger.error(f"Mes de inicio inválido: {args.start_month}. Debe ser entre 1-12")
         sys.exit(1)
-    
+
     if args.end_month < 1 or args.end_month > 12:
         logger.error(f"Mes final inválido: {args.end_month}. Debe ser entre 1-12")
         sys.exit(1)
-    
+
     if args.end_month < args.start_month:
         logger.error(f"Mes final ({args.end_month}) no puede ser menor que mes inicial ({args.start_month})")
         sys.exit(1)
-    
+
     # Obtener lista de meses a procesar
     all_months = list(range(args.start_month, args.end_month + 1))
-    
+
     # Cargar progreso previo si se usa --resume
     completed_months = []
     if args.resume:
         progress = load_progress(symbol, year, output_dir)
         completed_months = progress.get('completed_months', [])
-        
+
         if completed_months:
             logger.info(f"📊 Progreso cargado: {len(completed_months)} meses ya completados")
             # Filtrar meses pendientes
             months_to_process = [m for m in all_months if m not in completed_months]
-            
+
             if not months_to_process:
                 logger.info("🎯 Todos los meses ya están completados. Nada que procesar.")
                 sys.exit(0)
@@ -406,9 +406,9 @@ def main():
             months_to_process = all_months
     else:
         months_to_process = all_months
-    
+
     total_months = len(months_to_process)
-    
+
     logger.info("=" * 60)
     logger.info(f"🚀 {'REANUDANDO' if args.resume else 'INICIANDO'} DESCARGA MASIVA DE DATOS")
     logger.info(f"   Símbolo: {symbol}")
@@ -419,13 +419,13 @@ def main():
     logger.info(f"   Pausa entre meses: {args.sleep_min}-{args.sleep_max} segundos")
     logger.info(f"   Modo verbose: {'SI' if args.verbose else 'NO'}")
     logger.info("=" * 60)
-    
+
     successful_months = []
     failed_months = []
-    
+
     # Crear directorio de datos si no existe
     os.makedirs("data", exist_ok=True)
-    
+
     # Inicializar datos de progreso
     progress_data = {
         'symbol': symbol,
@@ -434,20 +434,20 @@ def main():
         'last_updated': datetime.now().isoformat(),
         'total_months': len(all_months)
     }
-    
+
     for i, month in enumerate(months_to_process, 1):
         # Obtener fechas del mes
         start_date, end_date = get_month_range(year, month)
         month_name = calendar.month_name[month]
         # output_file = f"data/{symbol}_{year}_{month:02d}.csv"
-        output_file = f"{output_dir}/{symbol}_{year}_{month:02d}.csv" 
-        
+        output_file = f"{output_dir}/{symbol}_{year}_{month:02d}.csv"
+
         logger.info("─" * 50)
         logger.info(f"📅 PROCESANDO MES {i}/{total_months}: {month_name} {year}")
         logger.info(f"   📅 Rango: {start_date} → {end_date}")
         logger.info(f"   💾 Archivo: {output_file}")
         logger.info(f"   📂 Directorio: {output_dir}")
-        
+
         # Crear directorio de salida si no existe
         os.makedirs(output_dir, exist_ok=True)
 
@@ -456,7 +456,7 @@ def main():
             file_size = os.path.getsize(output_file)
             size_str = format_file_size(file_size)
             logger.warning(f"   ⚠️  Archivo ya existe ({size_str}). Sobrescribiendo...")
-        
+
         # Construir comando
         cmd = [
             "python", "download_dukascopy.py",
@@ -467,7 +467,7 @@ def main():
             "--timeframe", args.timeframe,
             "--workers", str(args.workers)
         ]
-        
+
         # Mostrar barra de progreso general
         display_progress_bar(
             i - 1 + len(completed_months),
@@ -475,14 +475,14 @@ def main():
             prefix="📊 Progreso anual:",
             length=30
         )
-        
+
         # Registrar inicio de descarga
         start_time = time.time()
         logger.info(f"\n   ⬇️  Iniciando descarga a las {datetime.now().strftime('%H:%M:%S')}")
-        
+
         # Ejecutar proceso con manejo mejorado de salida
         success, error_message = run_subprocess_with_detailed_output(cmd, logger, month_name, args.verbose)
-        
+
         # Calcular tiempo transcurrido
         elapsed_time = time.time() - start_time
         elapsed_str = f"{elapsed_time:.1f}s"
@@ -490,7 +490,7 @@ def main():
             minutes = int(elapsed_time // 60)
             seconds = int(elapsed_time % 60)
             elapsed_str = f"{minutes}m {seconds}s"
-        
+
         if success:
             # Verificar que el archivo se creó
             if os.path.exists(output_file):
@@ -498,7 +498,7 @@ def main():
                 size_str = format_file_size(file_size)
                 logger.info(f"   ✅ {month_name} completado en {elapsed_str}")
                 logger.info(f"   📊 Tamaño del archivo: {size_str}")
-                
+
                 # Leer estadísticas del archivo si es posible
                 try:
                     with open(output_file, 'r') as f:
@@ -506,18 +506,18 @@ def main():
                         logger.info(f"   📈 Filas de datos: {len(lines) - 1 if lines else 0}")  # -1 para header
                 except:
                     pass
-                
+
                 # Actualizar listas
                 successful_months.append(month)
                 progress_data['completed_months'].append(month)
-                
+
                 # Guardar progreso inmediatamente después de cada mes exitoso
                 save_progress(symbol, year, progress_data, output_dir)
                 logger.info(f"   💾 Progreso guardado: {len(progress_data['completed_months'])}/{len(all_months)} meses")
             else:
                 logger.error(f"   ❌ ERROR: Archivo no creado: {output_file}")
                 failed_months.append((month, "Archivo no creado"))
-                
+
                 # Guardar error en progreso
                 progress_data.setdefault('errors', []).append({
                     'month': month,
@@ -529,7 +529,7 @@ def main():
             logger.error(f"   ❌ FALLO {month_name} después de {elapsed_str}")
             logger.error(f"   🐛 Error: {error_message}")
             failed_months.append((month, error_message))
-            
+
             # Guardar error en progreso
             progress_data.setdefault('errors', []).append({
                 'month': month,
@@ -537,7 +537,7 @@ def main():
                 'timestamp': datetime.now().isoformat()
             })
             save_progress(symbol, year, progress_data)
-        
+
         # Mostrar progreso general actualizado
         display_progress_bar(
             i + len(completed_months),
@@ -545,12 +545,12 @@ def main():
             prefix="📊 Progreso anual:",
             length=30
         )
-        
+
         # Pausa entre meses (excepto después del último)
         if i < total_months:
             sleep_time = random.randint(args.sleep_min, args.sleep_max)
             logger.info(f"\n   😴 Pausando por {sleep_time} segundos...")
-            
+
             # Mostrar cuenta regresiva durante la pausa
             for remaining in range(sleep_time, 0, -1):
                 mins, secs = divmod(remaining, 60)
@@ -559,41 +559,41 @@ def main():
                 sys.stdout.flush()
                 time.sleep(1)
             print()  # Nueva línea después de la cuenta regresiva
-    
+
     # Resumen final
     logger.info("\n" + "=" * 60)
     logger.info(f"🎉 DESCARGA COMPLETADA!")
     logger.info(f"📊 RESUMEN FINAL:")
     logger.info(f"   ✅ Meses exitosos: {len(successful_months) + len(completed_months)}/{len(all_months)}")
-    
+
     all_successful = sorted(completed_months + successful_months)
     if all_successful:
         months_str = ", ".join([calendar.month_name[m] for m in all_successful])
         logger.info(f"   📅 Meses procesados: {months_str}")
-    
+
     if failed_months:
         logger.warning(f"   ❌ Meses fallidos: {len(failed_months)}")
         for month, error in failed_months:
             logger.warning(f"      - {calendar.month_name[month]}: {error}")
-    
+
     success_rate = ((len(successful_months) + len(completed_months)) / len(all_months)) * 100
     logger.info(f"   📈 Tasa de éxito: {success_rate:.1f}%")
-    
+
     # Mostrar ubicación de archivos
     if all_successful:
         logger.info(f"   💾 Archivos guardados en: data/{symbol}_{year}_*.csv")
-    
+
     # Mostrar tamaño total de datos descargados
     total_size = 0
     for month in all_successful:
         file_path = f"data/{symbol}_{year}_{month:02d}.csv"
         if os.path.exists(file_path):
             total_size += os.path.getsize(file_path)
-    
+
     if total_size > 0:
         total_size_str = format_file_size(total_size)
         logger.info(f"   💽 Tamaño total de datos: {total_size_str}")
-    
+
     # Eliminar archivo de progreso si todo fue exitoso
     if not failed_months:
         try:
@@ -601,25 +601,25 @@ def main():
             if os.path.exists(PROGRESS_FILE):
                 with open(PROGRESS_FILE, 'r') as f:
                     all_progress = json.load(f)
-                
+
                 # Eliminar la clave de este símbolo/año
                 key = f"{symbol}_{year}"
                 if key in all_progress:
                     del all_progress[key]
-                    
+
                     # Si queda algo, guardar; si no, eliminar el archivo
                     if all_progress:
                         with open(PROGRESS_FILE, 'w') as f:
                             json.dump(all_progress, f, indent=2)
                     else:
                         os.remove(PROGRESS_FILE)
-                        
+
                 logger.info(f"   🗑️  Archivo de progreso eliminado para {symbol} {year}")
         except Exception as e:
             logger.warning(f"   ⚠️  No se pudo eliminar archivo de progreso: {str(e)}")
-    
+
     logger.info("=" * 60)
-    
+
     # Retornar código de salida
     if failed_months:
         sys.exit(1)
@@ -629,26 +629,34 @@ def main():
 if __name__ == "__main__":
     # # Descarga básica
     # python download_batch_year.py --symbol XAUUSD --year 2010
-    
+
     # # Retomar descarga desde el último progreso
     # python download_batch_year.py --symbol XAUUSD --year 2010 --resume
-    
+
     # # Modo verbose para ver toda la salida
     # python download_batch_year.py --symbol XAUUSD --year 2010 --verbose
-    
+
     # # Con más workers y timeframe diferente
     # python download_batch_year.py --symbol XAUUSD --year 2010 --workers 8 --timeframe 5min --resume --verbose
-    
+
     # python download_batch_year.py --symbol XAUUSD --year 2010 --workers 8 --sleep-min 15 --sleep-max 30 --resume --verbose
-    
+
     # Directorio diferente para cada año:
+    # python download_batch_year_v3.py --symbol XAUUSD --year 2025 --output-dir data_2025 --verbose
     # python download_batch_year_v3.py --symbol XAUUSD --year 2010 --output-dir data_2010
     # python download_batch_year_v3.py --symbol XAUUSD --year 2011 --output-dir data_2011
 
     # ** OK FUNCIONA **- continuar la descarga y ver la barra de progreso
     # python3 download_batch_year_v3.py --symbol XAUUSD --year 2010 --workers 8 --sleep-min 15 --sleep-max 30 --resume --verbose
     # python3 download_batch_year_v3.py --symbol XAUUSD --year 2013 --workers 8 ----output-dir data_2013 --resume --verbose
-    
+    # python3 download_batch_year_v3.py --symbol XAUUSD --year 2025 --workers 8 ----output-dir data_2025 --resume --verbose
+
+    # python3 download_batch_year_v3.py --symbol AUDUSD --year 2024 --workers 8 --output-dir AUDUSD/data_2024 --resume --verbose
+    # python3 download_batch_year_v3.py --symbol USDJPY --year 2024 --workers 8 --output-dir USDJPY/data_2024 --resume --verbose
+    # python3 download_batch_year_v3.py --symbol EURUSD --year 2024 --workers 8 --output-dir EURUSD/data_2024 --resume --verbose
+    # python3 download_batch_year_v3.py --symbol XAGUSD --year 2024 --workers 8 --output-dir XAGUSD/data_2024 --resume --verbose
+    # python3 download_batch_year_v3.py --symbol GBPUSD --year 2019 --workers 8 --output-dir GBPUSD/data_2019 --resume --verbose
+
     try:
         main()
     except KeyboardInterrupt:

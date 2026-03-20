@@ -270,7 +270,436 @@
       11,
       12
     ],
-    "last_updated": "2026-01-21T00:02:16.566074",
+    "last_updated": "2026-03-09T11:10:22.091893",
+    "total_months": 12
+  },
+  "EURUSD_2010_EURUSD/data_2010": {
+    "symbol": "EURUSD",
+    "year": 2010,
+    "completed_months": [
+      1
+    ],
+    "last_updated": "2026-03-11T15:30:18.224039",
+    "total_months": 12
+  },
+  "USDJPY_2019_USDJPY/data_2019": {
+    "symbol": "USDJPY",
+    "year": 2019,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-11T15:38:59.110396",
+    "total_months": 12
+  },
+  "EURUSD_2019_EURUSD/data_2019": {
+    "symbol": "EURUSD",
+    "year": 2019,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-11T15:39:54.943436",
+    "total_months": 12
+  },
+  "AUDUSD_2019_AUDUSD/data_2019": {
+    "symbol": "AUDUSD",
+    "year": 2019,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-11T15:41:07.375377",
+    "total_months": 12
+  },
+  "EURUSD_2020_EURUSD/data_2020": {
+    "symbol": "EURUSD",
+    "year": 2020,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-11T17:42:04.226693",
+    "total_months": 12
+  },
+  "AUDUSD_2020_AUDUSD/data_2020": {
+    "symbol": "AUDUSD",
+    "year": 2020,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-11T17:42:26.755026",
+    "total_months": 12
+  },
+  "USDJPY_2020_USDJPY/data_2020": {
+    "symbol": "USDJPY",
+    "year": 2020,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-11T17:42:15.730668",
+    "total_months": 12
+  },
+  "USDJPY_2021_USDJPY/data_2021": {
+    "symbol": "USDJPY",
+    "year": 2021,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-11T19:45:51.981425",
+    "total_months": 12
+  },
+  "EURUSD_2021_EURUSD/data_2021": {
+    "symbol": "EURUSD",
+    "year": 2021,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-11T19:45:41.286931",
+    "total_months": 12
+  },
+  "AUDUSD_2021_AUDUSD/data_2021": {
+    "symbol": "AUDUSD",
+    "year": 2021,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-11T19:46:04.704319",
+    "total_months": 12
+  },
+  "AUDUSD_2022_AUDUSD/data_2022": {
+    "symbol": "AUDUSD",
+    "year": 2022,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-11T21:24:01.766611",
+    "total_months": 12
+  },
+  "EURUSD_2022_EURUSD/data_2022": {
+    "symbol": "EURUSD",
+    "year": 2022,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-11T21:23:37.594858",
+    "total_months": 12
+  },
+  "USDJPY_2022_USDJPY/data_2022": {
+    "symbol": "USDJPY",
+    "year": 2022,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-11T21:23:50.013945",
+    "total_months": 12
+  },
+  "AUDUSD_2023_AUDUSD/data_2023": {
+    "symbol": "AUDUSD",
+    "year": 2023,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-11T23:05:04.954129",
+    "total_months": 12
+  },
+  "USDJPY_2023_USDJPY/data_2023": {
+    "symbol": "USDJPY",
+    "year": 2023,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-11T23:05:18.306227",
+    "total_months": 12
+  },
+  "EURUSD_2023_EURUSD/data_2023": {
+    "symbol": "EURUSD",
+    "year": 2023,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-11T23:05:35.429465",
+    "total_months": 12
+  },
+  "USDJPY_2024_USDJPY/data_2024": {
+    "symbol": "USDJPY",
+    "year": 2024,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-12T00:20:44.883980",
+    "total_months": 12
+  },
+  "EURUSD_2024_EURUSD/data_2024": {
+    "symbol": "EURUSD",
+    "year": 2024,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-12T00:19:45.972768",
+    "total_months": 12
+  },
+  "EURUSD_2025_EURUSD/data_2025": {
+    "symbol": "EURUSD",
+    "year": 2025,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-12T09:12:55.447103",
+    "total_months": 12
+  },
+  "USDJPY_2025_USDJPY/data_2025": {
+    "symbol": "USDJPY",
+    "year": 2025,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-12T09:13:15.133433",
+    "total_months": 12
+  },
+  "AUDUSD_2025_AUDUSD/data_2025": {
+    "symbol": "AUDUSD",
+    "year": 2025,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-12T09:13:26.771732",
+    "total_months": 12
+  },
+  "AUDUSD_2024_AUDUSD/data_2024": {
+    "symbol": "AUDUSD",
+    "year": 2024,
+    "completed_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "last_updated": "2026-03-18T19:12:11.096251",
     "total_months": 12
   }
 }

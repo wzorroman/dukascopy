@@ -1,0 +1,236 @@
+2026-03-18 19:12:11,085 - [app:79] - INFO - === INICIO DE APLICACIÓN (1.0.1) ===
+2026-03-18 19:12:11,086 - [app:80] - INFO - Logging configurado en: /home/wilson/GOLD/dukascopy/LOGS/app_daily_dukascopy.log
+2026-03-18 19:12:11,095 - [app.__main__:412] - INFO - ============================================================
+2026-03-18 19:12:11,095 - [app.__main__:413] - INFO - 🚀 REANUDANDO DESCARGA MASIVA DE DATOS
+2026-03-18 19:12:11,095 - [app.__main__:414] - INFO -    Símbolo: AUDUSD
+2026-03-18 19:12:11,095 - [app.__main__:415] - INFO -    Año: 2024
+2026-03-18 19:12:11,096 - [app.__main__:416] - INFO -    Meses pendientes: 12 de 12
+2026-03-18 19:12:11,096 - [app.__main__:417] - INFO -    Timeframe: 1min
+2026-03-18 19:12:11,096 - [app.__main__:418] - INFO -    Workers: 8
+2026-03-18 19:12:11,096 - [app.__main__:419] - INFO -    Pausa entre meses: 10-30 segundos
+2026-03-18 19:12:11,096 - [app.__main__:420] - INFO -    Modo verbose: SI
+2026-03-18 19:12:11,096 - [app.__main__:421] - INFO - ============================================================
+2026-03-18 19:12:11,096 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-18 19:12:11,096 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 1/12: January 2024
+2026-03-18 19:12:11,096 - [app.__main__:447] - INFO -    📅 Rango: 2024-01-01 → 2024-01-31
+2026-03-18 19:12:11,096 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2024/AUDUSD_2024_01.csv
+2026-03-18 19:12:11,096 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2024
+2026-03-18 19:12:11,096 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 19:12:11
+2026-03-18 19:12:11,096 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2024-01-01 --end 2024-01-31 --output AUDUSD/data_2024/AUDUSD_2024_01.csv --timeframe 1min --workers 8
+2026-03-18 19:12:11,096 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para January
+2026-03-18 19:12:11,096 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2024-01-01 --end 2024-01-31 --output AUDUSD/data_2024/AUDUSD_2024_01.csv --timeframe 1min --workers 8
+2026-03-18 19:12:11,096 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-18 19:15:36,878 - [app.__main__:242] - INFO - ✅ January completado exitosamente (modo verbose)
+2026-03-18 19:15:36,878 - [app.__main__:499] - INFO -    ✅ January completado en 3m 25s
+2026-03-18 19:15:36,878 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-18 19:15:36,884 - [app.__main__:506] - INFO -    📈 Filas de datos: 41937
+2026-03-18 19:15:36,886 - [app.__main__:516] - INFO -    💾 Progreso guardado: 1/12 meses
+2026-03-18 19:15:36,886 - [app.__main__:552] - INFO - 
+   😴 Pausando por 18 segundos...
+2026-03-18 19:15:54,889 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-18 19:15:54,889 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 2/12: February 2024
+2026-03-18 19:15:54,889 - [app.__main__:447] - INFO -    📅 Rango: 2024-02-01 → 2024-02-29
+2026-03-18 19:15:54,890 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2024/AUDUSD_2024_02.csv
+2026-03-18 19:15:54,890 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2024
+2026-03-18 19:15:54,890 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 19:15:54
+2026-03-18 19:15:54,890 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2024-02-01 --end 2024-02-29 --output AUDUSD/data_2024/AUDUSD_2024_02.csv --timeframe 1min --workers 8
+2026-03-18 19:15:54,890 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para February
+2026-03-18 19:15:54,890 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2024-02-01 --end 2024-02-29 --output AUDUSD/data_2024/AUDUSD_2024_02.csv --timeframe 1min --workers 8
+2026-03-18 19:15:54,890 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-18 19:18:12,563 - [app.__main__:242] - INFO - ✅ February completado exitosamente (modo verbose)
+2026-03-18 19:18:12,563 - [app.__main__:499] - INFO -    ✅ February completado en 2m 17s
+2026-03-18 19:18:12,563 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.4 MB
+2026-03-18 19:18:12,569 - [app.__main__:506] - INFO -    📈 Filas de datos: 40381
+2026-03-18 19:18:12,570 - [app.__main__:516] - INFO -    💾 Progreso guardado: 2/12 meses
+2026-03-18 19:18:12,571 - [app.__main__:552] - INFO - 
+   😴 Pausando por 26 segundos...
+2026-03-18 19:18:38,575 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-18 19:18:38,575 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 3/12: March 2024
+2026-03-18 19:18:38,576 - [app.__main__:447] - INFO -    📅 Rango: 2024-03-01 → 2024-03-31
+2026-03-18 19:18:38,576 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2024/AUDUSD_2024_03.csv
+2026-03-18 19:18:38,576 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2024
+2026-03-18 19:18:38,576 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 19:18:38
+2026-03-18 19:18:38,576 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2024-03-01 --end 2024-03-31 --output AUDUSD/data_2024/AUDUSD_2024_03.csv --timeframe 1min --workers 8
+2026-03-18 19:18:38,577 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para March
+2026-03-18 19:18:38,577 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2024-03-01 --end 2024-03-31 --output AUDUSD/data_2024/AUDUSD_2024_03.csv --timeframe 1min --workers 8
+2026-03-18 19:18:38,577 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-18 19:21:05,815 - [app.__main__:242] - INFO - ✅ March completado exitosamente (modo verbose)
+2026-03-18 19:21:05,815 - [app.__main__:499] - INFO -    ✅ March completado en 2m 27s
+2026-03-18 19:21:05,815 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.5 MB
+2026-03-18 19:21:05,820 - [app.__main__:506] - INFO -    📈 Filas de datos: 41581
+2026-03-18 19:21:05,821 - [app.__main__:516] - INFO -    💾 Progreso guardado: 3/12 meses
+2026-03-18 19:21:05,821 - [app.__main__:552] - INFO - 
+   😴 Pausando por 24 segundos...
+2026-03-18 19:21:29,827 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-18 19:21:29,827 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 4/12: April 2024
+2026-03-18 19:21:29,827 - [app.__main__:447] - INFO -    📅 Rango: 2024-04-01 → 2024-04-30
+2026-03-18 19:21:29,828 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2024/AUDUSD_2024_04.csv
+2026-03-18 19:21:29,828 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2024
+2026-03-18 19:21:29,828 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 19:21:29
+2026-03-18 19:21:29,828 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2024-04-01 --end 2024-04-30 --output AUDUSD/data_2024/AUDUSD_2024_04.csv --timeframe 1min --workers 8
+2026-03-18 19:21:29,828 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para April
+2026-03-18 19:21:29,828 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2024-04-01 --end 2024-04-30 --output AUDUSD/data_2024/AUDUSD_2024_04.csv --timeframe 1min --workers 8
+2026-03-18 19:21:29,828 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-18 19:23:52,468 - [app.__main__:242] - INFO - ✅ April completado exitosamente (modo verbose)
+2026-03-18 19:23:52,468 - [app.__main__:499] - INFO -    ✅ April completado en 2m 22s
+2026-03-18 19:23:52,468 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.7 MB
+2026-03-18 19:23:52,473 - [app.__main__:506] - INFO -    📈 Filas de datos: 41821
+2026-03-18 19:23:52,474 - [app.__main__:516] - INFO -    💾 Progreso guardado: 4/12 meses
+2026-03-18 19:23:52,475 - [app.__main__:552] - INFO - 
+   😴 Pausando por 24 segundos...
+2026-03-18 19:24:16,479 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-18 19:24:16,479 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 5/12: May 2024
+2026-03-18 19:24:16,479 - [app.__main__:447] - INFO -    📅 Rango: 2024-05-01 → 2024-05-31
+2026-03-18 19:24:16,479 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2024/AUDUSD_2024_05.csv
+2026-03-18 19:24:16,479 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2024
+2026-03-18 19:24:16,479 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 19:24:16
+2026-03-18 19:24:16,479 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2024-05-01 --end 2024-05-31 --output AUDUSD/data_2024/AUDUSD_2024_05.csv --timeframe 1min --workers 8
+2026-03-18 19:24:16,479 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para May
+2026-03-18 19:24:16,479 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2024-05-01 --end 2024-05-31 --output AUDUSD/data_2024/AUDUSD_2024_05.csv --timeframe 1min --workers 8
+2026-03-18 19:24:16,479 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-18 19:26:43,966 - [app.__main__:242] - INFO - ✅ May completado exitosamente (modo verbose)
+2026-03-18 19:26:43,967 - [app.__main__:499] - INFO -    ✅ May completado en 2m 27s
+2026-03-18 19:26:43,967 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-18 19:26:43,974 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-18 19:26:43,975 - [app.__main__:516] - INFO -    💾 Progreso guardado: 5/12 meses
+2026-03-18 19:26:43,975 - [app.__main__:552] - INFO - 
+   😴 Pausando por 16 segundos...
+2026-03-18 19:26:59,978 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-18 19:26:59,978 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 6/12: June 2024
+2026-03-18 19:26:59,978 - [app.__main__:447] - INFO -    📅 Rango: 2024-06-01 → 2024-06-30
+2026-03-18 19:26:59,978 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2024/AUDUSD_2024_06.csv
+2026-03-18 19:26:59,978 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2024
+2026-03-18 19:26:59,978 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 19:26:59
+2026-03-18 19:26:59,978 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2024-06-01 --end 2024-06-30 --output AUDUSD/data_2024/AUDUSD_2024_06.csv --timeframe 1min --workers 8
+2026-03-18 19:26:59,979 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para June
+2026-03-18 19:26:59,979 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2024-06-01 --end 2024-06-30 --output AUDUSD/data_2024/AUDUSD_2024_06.csv --timeframe 1min --workers 8
+2026-03-18 19:26:59,979 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-18 19:29:22,374 - [app.__main__:242] - INFO - ✅ June completado exitosamente (modo verbose)
+2026-03-18 19:29:22,374 - [app.__main__:499] - INFO -    ✅ June completado en 2m 22s
+2026-03-18 19:29:22,374 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.1 MB
+2026-03-18 19:29:22,380 - [app.__main__:506] - INFO -    📈 Filas de datos: 37440
+2026-03-18 19:29:22,380 - [app.__main__:516] - INFO -    💾 Progreso guardado: 6/12 meses
+2026-03-18 19:29:22,381 - [app.__main__:552] - INFO - 
+   😴 Pausando por 11 segundos...
+2026-03-18 19:29:33,383 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-18 19:29:33,383 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 7/12: July 2024
+2026-03-18 19:29:33,383 - [app.__main__:447] - INFO -    📅 Rango: 2024-07-01 → 2024-07-31
+2026-03-18 19:29:33,384 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2024/AUDUSD_2024_07.csv
+2026-03-18 19:29:33,384 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2024
+2026-03-18 19:29:33,384 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 19:29:33
+2026-03-18 19:29:33,384 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2024-07-01 --end 2024-07-31 --output AUDUSD/data_2024/AUDUSD_2024_07.csv --timeframe 1min --workers 8
+2026-03-18 19:29:33,384 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para July
+2026-03-18 19:29:33,385 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2024-07-01 --end 2024-07-31 --output AUDUSD/data_2024/AUDUSD_2024_07.csv --timeframe 1min --workers 8
+2026-03-18 19:29:33,385 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-18 19:34:33,361 - [app.__main__:242] - INFO - ✅ July completado exitosamente (modo verbose)
+2026-03-18 19:34:33,361 - [app.__main__:499] - INFO -    ✅ July completado en 4m 59s
+2026-03-18 19:34:33,361 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-18 19:34:33,366 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-18 19:34:33,367 - [app.__main__:516] - INFO -    💾 Progreso guardado: 7/12 meses
+2026-03-18 19:34:33,367 - [app.__main__:552] - INFO - 
+   😴 Pausando por 17 segundos...
+2026-03-18 19:34:50,373 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-18 19:34:50,373 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 8/12: August 2024
+2026-03-18 19:34:50,373 - [app.__main__:447] - INFO -    📅 Rango: 2024-08-01 → 2024-08-31
+2026-03-18 19:34:50,373 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2024/AUDUSD_2024_08.csv
+2026-03-18 19:34:50,374 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2024
+2026-03-18 19:34:50,374 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 19:34:50
+2026-03-18 19:34:50,374 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2024-08-01 --end 2024-08-31 --output AUDUSD/data_2024/AUDUSD_2024_08.csv --timeframe 1min --workers 8
+2026-03-18 19:34:50,374 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para August
+2026-03-18 19:34:50,374 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2024-08-01 --end 2024-08-31 --output AUDUSD/data_2024/AUDUSD_2024_08.csv --timeframe 1min --workers 8
+2026-03-18 19:34:50,375 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-18 19:37:17,741 - [app.__main__:242] - INFO - ✅ August completado exitosamente (modo verbose)
+2026-03-18 19:37:17,741 - [app.__main__:499] - INFO -    ✅ August completado en 2m 27s
+2026-03-18 19:37:17,741 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-18 19:37:17,746 - [app.__main__:506] - INFO -    📈 Filas de datos: 43021
+2026-03-18 19:37:17,747 - [app.__main__:516] - INFO -    💾 Progreso guardado: 8/12 meses
+2026-03-18 19:37:17,747 - [app.__main__:552] - INFO - 
+   😴 Pausando por 21 segundos...
+2026-03-18 19:37:38,754 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-18 19:37:38,754 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 9/12: September 2024
+2026-03-18 19:37:38,754 - [app.__main__:447] - INFO -    📅 Rango: 2024-09-01 → 2024-09-30
+2026-03-18 19:37:38,754 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2024/AUDUSD_2024_09.csv
+2026-03-18 19:37:38,754 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2024
+2026-03-18 19:37:38,754 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 19:37:38
+2026-03-18 19:37:38,754 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2024-09-01 --end 2024-09-30 --output AUDUSD/data_2024/AUDUSD_2024_09.csv --timeframe 1min --workers 8
+2026-03-18 19:37:38,754 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para September
+2026-03-18 19:37:38,754 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2024-09-01 --end 2024-09-30 --output AUDUSD/data_2024/AUDUSD_2024_09.csv --timeframe 1min --workers 8
+2026-03-18 19:37:38,754 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-18 19:40:00,839 - [app.__main__:242] - INFO - ✅ September completado exitosamente (modo verbose)
+2026-03-18 19:40:00,840 - [app.__main__:499] - INFO -    ✅ September completado en 2m 22s
+2026-03-18 19:40:00,840 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.5 MB
+2026-03-18 19:40:00,844 - [app.__main__:506] - INFO -    📈 Filas de datos: 40561
+2026-03-18 19:40:00,844 - [app.__main__:516] - INFO -    💾 Progreso guardado: 9/12 meses
+2026-03-18 19:40:00,845 - [app.__main__:552] - INFO - 
+   😴 Pausando por 27 segundos...
+2026-03-18 19:40:27,851 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-18 19:40:27,851 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 10/12: October 2024
+2026-03-18 19:40:27,851 - [app.__main__:447] - INFO -    📅 Rango: 2024-10-01 → 2024-10-31
+2026-03-18 19:40:27,851 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2024/AUDUSD_2024_10.csv
+2026-03-18 19:40:27,851 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2024
+2026-03-18 19:40:27,851 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 19:40:27
+2026-03-18 19:40:27,851 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2024-10-01 --end 2024-10-31 --output AUDUSD/data_2024/AUDUSD_2024_10.csv --timeframe 1min --workers 8
+2026-03-18 19:40:27,851 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para October
+2026-03-18 19:40:27,851 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2024-10-01 --end 2024-10-31 --output AUDUSD/data_2024/AUDUSD_2024_10.csv --timeframe 1min --workers 8
+2026-03-18 19:40:27,851 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-18 19:42:55,443 - [app.__main__:242] - INFO - ✅ October completado exitosamente (modo verbose)
+2026-03-18 19:42:55,444 - [app.__main__:499] - INFO -    ✅ October completado en 2m 27s
+2026-03-18 19:42:55,444 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-18 19:42:55,448 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-18 19:42:55,449 - [app.__main__:516] - INFO -    💾 Progreso guardado: 10/12 meses
+2026-03-18 19:42:55,449 - [app.__main__:552] - INFO - 
+   😴 Pausando por 17 segundos...
+2026-03-18 19:43:12,452 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-18 19:43:12,452 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 11/12: November 2024
+2026-03-18 19:43:12,452 - [app.__main__:447] - INFO -    📅 Rango: 2024-11-01 → 2024-11-30
+2026-03-18 19:43:12,452 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2024/AUDUSD_2024_11.csv
+2026-03-18 19:43:12,452 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2024
+2026-03-18 19:43:12,453 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 19:43:12
+2026-03-18 19:43:12,453 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2024-11-01 --end 2024-11-30 --output AUDUSD/data_2024/AUDUSD_2024_11.csv --timeframe 1min --workers 8
+2026-03-18 19:43:12,453 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para November
+2026-03-18 19:43:12,453 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2024-11-01 --end 2024-11-30 --output AUDUSD/data_2024/AUDUSD_2024_11.csv --timeframe 1min --workers 8
+2026-03-18 19:43:12,453 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-18 19:45:36,228 - [app.__main__:242] - INFO - ✅ November completado exitosamente (modo verbose)
+2026-03-18 19:45:36,228 - [app.__main__:499] - INFO -    ✅ November completado en 2m 23s
+2026-03-18 19:45:36,228 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-18 19:45:36,233 - [app.__main__:506] - INFO -    📈 Filas de datos: 41640
+2026-03-18 19:45:36,234 - [app.__main__:516] - INFO -    💾 Progreso guardado: 11/12 meses
+2026-03-18 19:45:36,235 - [app.__main__:552] - INFO - 
+   😴 Pausando por 13 segundos...
+2026-03-18 19:45:49,237 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-18 19:45:49,237 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 12/12: December 2024
+2026-03-18 19:45:49,237 - [app.__main__:447] - INFO -    📅 Rango: 2024-12-01 → 2024-12-31
+2026-03-18 19:45:49,237 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2024/AUDUSD_2024_12.csv
+2026-03-18 19:45:49,237 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2024
+2026-03-18 19:45:49,237 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 19:45:49
+2026-03-18 19:45:49,238 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2024-12-01 --end 2024-12-31 --output AUDUSD/data_2024/AUDUSD_2024_12.csv --timeframe 1min --workers 8
+2026-03-18 19:45:49,238 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para December
+2026-03-18 19:45:49,238 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2024-12-01 --end 2024-12-31 --output AUDUSD/data_2024/AUDUSD_2024_12.csv --timeframe 1min --workers 8
+2026-03-18 19:45:49,238 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-18 19:49:08,847 - [app.__main__:242] - INFO - ✅ December completado exitosamente (modo verbose)
+2026-03-18 19:49:08,848 - [app.__main__:499] - INFO -    ✅ December completado en 3m 19s
+2026-03-18 19:49:08,848 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.7 MB
+2026-03-18 19:49:08,852 - [app.__main__:506] - INFO -    📈 Filas de datos: 41941
+2026-03-18 19:49:08,853 - [app.__main__:516] - INFO -    💾 Progreso guardado: 12/12 meses
+2026-03-18 19:49:08,853 - [app.__main__:564] - INFO - 
+============================================================
+2026-03-18 19:49:08,853 - [app.__main__:565] - INFO - 🎉 DESCARGA COMPLETADA!
+2026-03-18 19:49:08,853 - [app.__main__:566] - INFO - 📊 RESUMEN FINAL:
+2026-03-18 19:49:08,853 - [app.__main__:567] - INFO -    ✅ Meses exitosos: 12/12
+2026-03-18 19:49:08,853 - [app.__main__:572] - INFO -    📅 Meses procesados: January, February, March, April, May, June, July, August, September, October, November, December
+2026-03-18 19:49:08,853 - [app.__main__:580] - INFO -    📈 Tasa de éxito: 100.0%
+2026-03-18 19:49:08,853 - [app.__main__:584] - INFO -    💾 Archivos guardados en: data/AUDUSD_2024_*.csv
+2026-03-18 19:49:08,854 - [app.__main__:617] - INFO -    🗑️  Archivo de progreso eliminado para AUDUSD 2024
+2026-03-18 19:49:08,854 - [app.__main__:621] - INFO - ============================================================

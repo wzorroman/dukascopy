@@ -4,6 +4,7 @@ Script para consolidar archivos CSV mensuales de XAUUSD por trimestre y converti
 
 Uso:
     python3 consolidate_year_quarter_csv_v1.py --year 2019 --quarter 1 --input_dir ../DATOS_ORIGEN/data_2019 --output_dir ../DATOS_ORIGEN/consolidated_quarter
+    python3 consolidate_year_quarter_csv_v1.py --year 2019 --quarter 1 --input_dir ../DATOS_ORIGEN/data_2019 --output_dir ../DATOS_ORIGEN/consolidated_quarter_csv
     python3 consolidate_year_quarter_csv_v1.py --year 2019 --quarter 1 --input_dir ../DATOS_ORIGEN/data_2019 --output_dir ../DATOS_ORIGEN/consolidated_quarter --log_level INFO
 """
 

@@ -1,0 +1,268 @@
+2026-03-09 11:06:17,256 - [app:79] - INFO - === INICIO DE APLICACIÓN (1.0.1) ===
+2026-03-09 11:06:17,256 - [app:80] - INFO - Logging configurado en: /home/wilson/GOLD/dukascopy/LOGS/app_daily_dukascopy.log
+2026-03-09 11:06:17,270 - [app.__main__:412] - INFO - ============================================================
+2026-03-09 11:06:17,270 - [app.__main__:413] - INFO - 🚀 INICIANDO DESCARGA MASIVA DE DATOS
+2026-03-09 11:06:17,270 - [app.__main__:414] - INFO -    Símbolo: XAUUSD
+2026-03-09 11:06:17,270 - [app.__main__:415] - INFO -    Año: 2025
+2026-03-09 11:06:17,270 - [app.__main__:416] - INFO -    Meses pendientes: 12 de 12
+2026-03-09 11:06:17,270 - [app.__main__:417] - INFO -    Timeframe: 1min
+2026-03-09 11:06:17,270 - [app.__main__:418] - INFO -    Workers: 6
+2026-03-09 11:06:17,270 - [app.__main__:419] - INFO -    Pausa entre meses: 10-30 segundos
+2026-03-09 11:06:17,270 - [app.__main__:420] - INFO -    Modo verbose: SI
+2026-03-09 11:06:17,270 - [app.__main__:421] - INFO - ============================================================
+2026-03-09 11:06:17,270 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-09 11:06:17,270 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 1/12: January 2025
+2026-03-09 11:06:17,270 - [app.__main__:447] - INFO -    📅 Rango: 2025-01-01 → 2025-01-31
+2026-03-09 11:06:17,270 - [app.__main__:448] - INFO -    💾 Archivo: data_2025/XAUUSD_2025_01.csv
+2026-03-09 11:06:17,270 - [app.__main__:449] - INFO -    📂 Directorio: data_2025
+2026-03-09 11:06:17,270 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 11:06:17
+2026-03-09 11:06:17,270 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol XAUUSD --start 2025-01-01 --end 2025-01-31 --output data_2025/XAUUSD_2025_01.csv --timeframe 1min --workers 6
+2026-03-09 11:06:17,270 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para January
+2026-03-09 11:06:17,271 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol XAUUSD --start 2025-01-01 --end 2025-01-31 --output data_2025/XAUUSD_2025_01.csv --timeframe 1min --workers 6
+2026-03-09 11:06:17,271 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-09 11:08:52,697 - [app.__main__:242] - INFO - ✅ January completado exitosamente (modo verbose)
+2026-03-09 11:08:52,697 - [app.__main__:499] - INFO -    ✅ January completado en 2m 35s
+2026-03-09 11:08:52,697 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-09 11:08:52,702 - [app.__main__:506] - INFO -    📈 Filas de datos: 41881
+2026-03-09 11:08:52,703 - [app.__main__:516] - INFO -    💾 Progreso guardado: 1/12 meses
+2026-03-09 11:08:52,703 - [app.__main__:552] - INFO - 
+   😴 Pausando por 11 segundos...
+2026-03-09 11:09:03,706 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-09 11:09:03,706 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 2/12: February 2025
+2026-03-09 11:09:03,706 - [app.__main__:447] - INFO -    📅 Rango: 2025-02-01 → 2025-02-28
+2026-03-09 11:09:03,707 - [app.__main__:448] - INFO -    💾 Archivo: data_2025/XAUUSD_2025_02.csv
+2026-03-09 11:09:03,707 - [app.__main__:449] - INFO -    📂 Directorio: data_2025
+2026-03-09 11:09:03,707 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 11:09:03
+2026-03-09 11:09:03,707 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol XAUUSD --start 2025-02-01 --end 2025-02-28 --output data_2025/XAUUSD_2025_02.csv --timeframe 1min --workers 6
+2026-03-09 11:09:03,707 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para February
+2026-03-09 11:09:03,708 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol XAUUSD --start 2025-02-01 --end 2025-02-28 --output data_2025/XAUUSD_2025_02.csv --timeframe 1min --workers 6
+2026-03-09 11:09:03,708 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-09 11:09:45,043 - [app.__main__:655] - WARNING - 
+
+⚠️  Descarga interrumpida por el usuario
+2026-03-09 11:09:45,043 - [app.__main__:656] - WARNING - 💾 El progreso ha sido guardado automáticamente
+2026-03-09 11:09:45,043 - [app.__main__:657] - WARNING - ▶️  Para reanudar, ejecuta con la opción --resume
+2026-03-09 11:10:12,605 - [app:79] - INFO - === INICIO DE APLICACIÓN (1.0.1) ===
+2026-03-09 11:10:12,605 - [app:80] - INFO - Logging configurado en: /home/wilson/GOLD/dukascopy/LOGS/app_daily_dukascopy.log
+2026-03-09 11:10:22,082 - [app:79] - INFO - === INICIO DE APLICACIÓN (1.0.1) ===
+2026-03-09 11:10:22,082 - [app:80] - INFO - Logging configurado en: /home/wilson/GOLD/dukascopy/LOGS/app_daily_dukascopy.log
+2026-03-09 11:10:22,091 - [app.__main__:30] - INFO - 📂 Progreso anterior encontrado para XAUUSD 2025
+2026-03-09 11:10:22,091 - [app.__main__:398] - INFO - 📊 Progreso cargado: 1 meses ya completados
+2026-03-09 11:10:22,091 - [app.__main__:412] - INFO - ============================================================
+2026-03-09 11:10:22,091 - [app.__main__:413] - INFO - 🚀 REANUDANDO DESCARGA MASIVA DE DATOS
+2026-03-09 11:10:22,091 - [app.__main__:414] - INFO -    Símbolo: XAUUSD
+2026-03-09 11:10:22,091 - [app.__main__:415] - INFO -    Año: 2025
+2026-03-09 11:10:22,091 - [app.__main__:416] - INFO -    Meses pendientes: 11 de 12
+2026-03-09 11:10:22,091 - [app.__main__:417] - INFO -    Timeframe: 1min
+2026-03-09 11:10:22,091 - [app.__main__:418] - INFO -    Workers: 8
+2026-03-09 11:10:22,091 - [app.__main__:419] - INFO -    Pausa entre meses: 10-30 segundos
+2026-03-09 11:10:22,091 - [app.__main__:420] - INFO -    Modo verbose: SI
+2026-03-09 11:10:22,091 - [app.__main__:421] - INFO - ============================================================
+2026-03-09 11:10:22,091 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-09 11:10:22,091 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 1/11: February 2025
+2026-03-09 11:10:22,091 - [app.__main__:447] - INFO -    📅 Rango: 2025-02-01 → 2025-02-28
+2026-03-09 11:10:22,092 - [app.__main__:448] - INFO -    💾 Archivo: data_2025/XAUUSD_2025_02.csv
+2026-03-09 11:10:22,092 - [app.__main__:449] - INFO -    📂 Directorio: data_2025
+2026-03-09 11:10:22,092 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 11:10:22
+2026-03-09 11:10:22,092 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol XAUUSD --start 2025-02-01 --end 2025-02-28 --output data_2025/XAUUSD_2025_02.csv --timeframe 1min --workers 8
+2026-03-09 11:10:22,092 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para February
+2026-03-09 11:10:22,092 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol XAUUSD --start 2025-02-01 --end 2025-02-28 --output data_2025/XAUUSD_2025_02.csv --timeframe 1min --workers 8
+2026-03-09 11:10:22,092 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-09 11:13:35,223 - [app.__main__:242] - INFO - ✅ February completado exitosamente (modo verbose)
+2026-03-09 11:13:35,223 - [app.__main__:499] - INFO -    ✅ February completado en 3m 13s
+2026-03-09 11:13:35,224 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.1 MB
+2026-03-09 11:13:35,229 - [app.__main__:506] - INFO -    📈 Filas de datos: 36118
+2026-03-09 11:13:35,230 - [app.__main__:516] - INFO -    💾 Progreso guardado: 2/12 meses
+2026-03-09 11:13:35,230 - [app.__main__:552] - INFO - 
+   😴 Pausando por 26 segundos...
+2026-03-09 11:14:01,234 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-09 11:14:01,234 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 2/11: March 2025
+2026-03-09 11:14:01,234 - [app.__main__:447] - INFO -    📅 Rango: 2025-03-01 → 2025-03-31
+2026-03-09 11:14:01,235 - [app.__main__:448] - INFO -    💾 Archivo: data_2025/XAUUSD_2025_03.csv
+2026-03-09 11:14:01,235 - [app.__main__:449] - INFO -    📂 Directorio: data_2025
+2026-03-09 11:14:01,235 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 11:14:01
+2026-03-09 11:14:01,235 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol XAUUSD --start 2025-03-01 --end 2025-03-31 --output data_2025/XAUUSD_2025_03.csv --timeframe 1min --workers 8
+2026-03-09 11:14:01,235 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para March
+2026-03-09 11:14:01,235 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol XAUUSD --start 2025-03-01 --end 2025-03-31 --output data_2025/XAUUSD_2025_03.csv --timeframe 1min --workers 8
+2026-03-09 11:14:01,235 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-09 11:18:14,525 - [app.__main__:242] - INFO - ✅ March completado exitosamente (modo verbose)
+2026-03-09 11:18:14,526 - [app.__main__:499] - INFO -    ✅ March completado en 4m 13s
+2026-03-09 11:18:14,526 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.5 MB
+2026-03-09 11:18:14,532 - [app.__main__:506] - INFO -    📈 Filas de datos: 40441
+2026-03-09 11:18:14,533 - [app.__main__:516] - INFO -    💾 Progreso guardado: 3/12 meses
+2026-03-09 11:18:14,533 - [app.__main__:552] - INFO - 
+   😴 Pausando por 20 segundos...
+2026-03-09 11:18:34,537 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-09 11:18:34,537 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 3/11: April 2025
+2026-03-09 11:18:34,537 - [app.__main__:447] - INFO -    📅 Rango: 2025-04-01 → 2025-04-30
+2026-03-09 11:18:34,537 - [app.__main__:448] - INFO -    💾 Archivo: data_2025/XAUUSD_2025_04.csv
+2026-03-09 11:18:34,538 - [app.__main__:449] - INFO -    📂 Directorio: data_2025
+2026-03-09 11:18:34,538 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 11:18:34
+2026-03-09 11:18:34,538 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol XAUUSD --start 2025-04-01 --end 2025-04-30 --output data_2025/XAUUSD_2025_04.csv --timeframe 1min --workers 8
+2026-03-09 11:18:34,538 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para April
+2026-03-09 11:18:34,538 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol XAUUSD --start 2025-04-01 --end 2025-04-30 --output data_2025/XAUUSD_2025_04.csv --timeframe 1min --workers 8
+2026-03-09 11:18:34,539 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-09 11:22:48,836 - [app.__main__:242] - INFO - ✅ April completado exitosamente (modo verbose)
+2026-03-09 11:22:48,836 - [app.__main__:499] - INFO -    ✅ April completado en 4m 14s
+2026-03-09 11:22:48,836 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-09 11:22:48,842 - [app.__main__:506] - INFO -    📈 Filas de datos: 41821
+2026-03-09 11:22:48,843 - [app.__main__:516] - INFO -    💾 Progreso guardado: 4/12 meses
+2026-03-09 11:22:48,843 - [app.__main__:552] - INFO - 
+   😴 Pausando por 16 segundos...
+2026-03-09 11:23:04,846 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-09 11:23:04,846 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 4/11: May 2025
+2026-03-09 11:23:04,846 - [app.__main__:447] - INFO -    📅 Rango: 2025-05-01 → 2025-05-31
+2026-03-09 11:23:04,847 - [app.__main__:448] - INFO -    💾 Archivo: data_2025/XAUUSD_2025_05.csv
+2026-03-09 11:23:04,847 - [app.__main__:449] - INFO -    📂 Directorio: data_2025
+2026-03-09 11:23:04,847 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 11:23:04
+2026-03-09 11:23:04,847 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol XAUUSD --start 2025-05-01 --end 2025-05-31 --output data_2025/XAUUSD_2025_05.csv --timeframe 1min --workers 8
+2026-03-09 11:23:04,847 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para May
+2026-03-09 11:23:04,848 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol XAUUSD --start 2025-05-01 --end 2025-05-31 --output data_2025/XAUUSD_2025_05.csv --timeframe 1min --workers 8
+2026-03-09 11:23:04,848 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-09 11:25:37,865 - [app.__main__:242] - INFO - ✅ May completado exitosamente (modo verbose)
+2026-03-09 11:25:37,865 - [app.__main__:499] - INFO -    ✅ May completado en 2m 33s
+2026-03-09 11:25:37,866 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.9 MB
+2026-03-09 11:25:37,872 - [app.__main__:506] - INFO -    📈 Filas de datos: 43021
+2026-03-09 11:25:37,873 - [app.__main__:516] - INFO -    💾 Progreso guardado: 5/12 meses
+2026-03-09 11:25:37,873 - [app.__main__:552] - INFO - 
+   😴 Pausando por 13 segundos...
+2026-03-09 11:25:50,875 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-09 11:25:50,875 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 5/11: June 2025
+2026-03-09 11:25:50,875 - [app.__main__:447] - INFO -    📅 Rango: 2025-06-01 → 2025-06-30
+2026-03-09 11:25:50,875 - [app.__main__:448] - INFO -    💾 Archivo: data_2025/XAUUSD_2025_06.csv
+2026-03-09 11:25:50,875 - [app.__main__:449] - INFO -    📂 Directorio: data_2025
+2026-03-09 11:25:50,875 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 11:25:50
+2026-03-09 11:25:50,875 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol XAUUSD --start 2025-06-01 --end 2025-06-30 --output data_2025/XAUUSD_2025_06.csv --timeframe 1min --workers 8
+2026-03-09 11:25:50,875 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para June
+2026-03-09 11:25:50,875 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol XAUUSD --start 2025-06-01 --end 2025-06-30 --output data_2025/XAUUSD_2025_06.csv --timeframe 1min --workers 8
+2026-03-09 11:25:50,875 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-09 11:28:18,454 - [app.__main__:242] - INFO - ✅ June completado exitosamente (modo verbose)
+2026-03-09 11:28:18,455 - [app.__main__:499] - INFO -    ✅ June completado en 2m 27s
+2026-03-09 11:28:18,455 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.9 MB
+2026-03-09 11:28:18,461 - [app.__main__:506] - INFO -    📈 Filas de datos: 40501
+2026-03-09 11:28:18,462 - [app.__main__:516] - INFO -    💾 Progreso guardado: 6/12 meses
+2026-03-09 11:28:18,462 - [app.__main__:552] - INFO - 
+   😴 Pausando por 28 segundos...
+2026-03-09 11:28:46,467 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-09 11:28:46,467 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 6/11: July 2025
+2026-03-09 11:28:46,467 - [app.__main__:447] - INFO -    📅 Rango: 2025-07-01 → 2025-07-31
+2026-03-09 11:28:46,467 - [app.__main__:448] - INFO -    💾 Archivo: data_2025/XAUUSD_2025_07.csv
+2026-03-09 11:28:46,467 - [app.__main__:449] - INFO -    📂 Directorio: data_2025
+2026-03-09 11:28:46,467 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 11:28:46
+2026-03-09 11:28:46,467 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol XAUUSD --start 2025-07-01 --end 2025-07-31 --output data_2025/XAUUSD_2025_07.csv --timeframe 1min --workers 8
+2026-03-09 11:28:46,467 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para July
+2026-03-09 11:28:46,467 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol XAUUSD --start 2025-07-01 --end 2025-07-31 --output data_2025/XAUUSD_2025_07.csv --timeframe 1min --workers 8
+2026-03-09 11:28:46,467 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-09 11:31:17,600 - [app.__main__:242] - INFO - ✅ July completado exitosamente (modo verbose)
+2026-03-09 11:31:17,601 - [app.__main__:499] - INFO -    ✅ July completado en 2m 31s
+2026-03-09 11:31:17,601 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 5.0 MB
+2026-03-09 11:31:17,606 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-09 11:31:17,606 - [app.__main__:516] - INFO -    💾 Progreso guardado: 7/12 meses
+2026-03-09 11:31:17,606 - [app.__main__:552] - INFO - 
+   😴 Pausando por 19 segundos...
+2026-03-09 11:31:36,610 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-09 11:31:36,610 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 7/11: August 2025
+2026-03-09 11:31:36,610 - [app.__main__:447] - INFO -    📅 Rango: 2025-08-01 → 2025-08-31
+2026-03-09 11:31:36,611 - [app.__main__:448] - INFO -    💾 Archivo: data_2025/XAUUSD_2025_08.csv
+2026-03-09 11:31:36,611 - [app.__main__:449] - INFO -    📂 Directorio: data_2025
+2026-03-09 11:31:36,611 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 11:31:36
+2026-03-09 11:31:36,611 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol XAUUSD --start 2025-08-01 --end 2025-08-31 --output data_2025/XAUUSD_2025_08.csv --timeframe 1min --workers 8
+2026-03-09 11:31:36,611 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para August
+2026-03-09 11:31:36,612 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol XAUUSD --start 2025-08-01 --end 2025-08-31 --output data_2025/XAUUSD_2025_08.csv --timeframe 1min --workers 8
+2026-03-09 11:31:36,612 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-09 11:34:08,070 - [app.__main__:242] - INFO - ✅ August completado exitosamente (modo verbose)
+2026-03-09 11:34:08,070 - [app.__main__:499] - INFO -    ✅ August completado en 2m 31s
+2026-03-09 11:34:08,070 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-09 11:34:08,074 - [app.__main__:506] - INFO -    📈 Filas de datos: 41581
+2026-03-09 11:34:08,075 - [app.__main__:516] - INFO -    💾 Progreso guardado: 8/12 meses
+2026-03-09 11:34:08,075 - [app.__main__:552] - INFO - 
+   😴 Pausando por 30 segundos...
+2026-03-09 11:34:38,081 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-09 11:34:38,081 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 8/11: September 2025
+2026-03-09 11:34:38,081 - [app.__main__:447] - INFO -    📅 Rango: 2025-09-01 → 2025-09-30
+2026-03-09 11:34:38,081 - [app.__main__:448] - INFO -    💾 Archivo: data_2025/XAUUSD_2025_09.csv
+2026-03-09 11:34:38,082 - [app.__main__:449] - INFO -    📂 Directorio: data_2025
+2026-03-09 11:34:38,082 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 11:34:38
+2026-03-09 11:34:38,082 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol XAUUSD --start 2025-09-01 --end 2025-09-30 --output data_2025/XAUUSD_2025_09.csv --timeframe 1min --workers 8
+2026-03-09 11:34:38,082 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para September
+2026-03-09 11:34:38,082 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol XAUUSD --start 2025-09-01 --end 2025-09-30 --output data_2025/XAUUSD_2025_09.csv --timeframe 1min --workers 8
+2026-03-09 11:34:38,082 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-09 11:37:06,991 - [app.__main__:242] - INFO - ✅ September completado exitosamente (modo verbose)
+2026-03-09 11:37:06,991 - [app.__main__:499] - INFO -    ✅ September completado en 2m 28s
+2026-03-09 11:37:06,992 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-09 11:37:06,996 - [app.__main__:506] - INFO -    📈 Filas de datos: 41821
+2026-03-09 11:37:06,996 - [app.__main__:516] - INFO -    💾 Progreso guardado: 9/12 meses
+2026-03-09 11:37:06,996 - [app.__main__:552] - INFO - 
+   😴 Pausando por 17 segundos...
+2026-03-09 11:37:24,000 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-09 11:37:24,000 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 9/11: October 2025
+2026-03-09 11:37:24,001 - [app.__main__:447] - INFO -    📅 Rango: 2025-10-01 → 2025-10-31
+2026-03-09 11:37:24,001 - [app.__main__:448] - INFO -    💾 Archivo: data_2025/XAUUSD_2025_10.csv
+2026-03-09 11:37:24,001 - [app.__main__:449] - INFO -    📂 Directorio: data_2025
+2026-03-09 11:37:24,001 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 11:37:24
+2026-03-09 11:37:24,001 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol XAUUSD --start 2025-10-01 --end 2025-10-31 --output data_2025/XAUUSD_2025_10.csv --timeframe 1min --workers 8
+2026-03-09 11:37:24,002 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para October
+2026-03-09 11:37:24,002 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol XAUUSD --start 2025-10-01 --end 2025-10-31 --output data_2025/XAUUSD_2025_10.csv --timeframe 1min --workers 8
+2026-03-09 11:37:24,002 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-09 11:40:02,080 - [app.__main__:242] - INFO - ✅ October completado exitosamente (modo verbose)
+2026-03-09 11:40:02,080 - [app.__main__:499] - INFO -    ✅ October completado en 2m 38s
+2026-03-09 11:40:02,080 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-09 11:40:02,085 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-09 11:40:02,085 - [app.__main__:516] - INFO -    💾 Progreso guardado: 10/12 meses
+2026-03-09 11:40:02,085 - [app.__main__:552] - INFO - 
+   😴 Pausando por 28 segundos...
+2026-03-09 11:40:30,090 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-09 11:40:30,091 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 10/11: November 2025
+2026-03-09 11:40:30,091 - [app.__main__:447] - INFO -    📅 Rango: 2025-11-01 → 2025-11-30
+2026-03-09 11:40:30,091 - [app.__main__:448] - INFO -    💾 Archivo: data_2025/XAUUSD_2025_11.csv
+2026-03-09 11:40:30,091 - [app.__main__:449] - INFO -    📂 Directorio: data_2025
+2026-03-09 11:40:30,091 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 11:40:30
+2026-03-09 11:40:30,092 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol XAUUSD --start 2025-11-01 --end 2025-11-30 --output data_2025/XAUUSD_2025_11.csv --timeframe 1min --workers 8
+2026-03-09 11:40:30,092 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para November
+2026-03-09 11:40:30,092 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol XAUUSD --start 2025-11-01 --end 2025-11-30 --output data_2025/XAUUSD_2025_11.csv --timeframe 1min --workers 8
+2026-03-09 11:40:30,092 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-09 11:43:00,025 - [app.__main__:242] - INFO - ✅ November completado exitosamente (modo verbose)
+2026-03-09 11:43:00,025 - [app.__main__:499] - INFO -    ✅ November completado en 2m 29s
+2026-03-09 11:43:00,025 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.2 MB
+2026-03-09 11:43:00,029 - [app.__main__:506] - INFO -    📈 Filas de datos: 37245
+2026-03-09 11:43:00,029 - [app.__main__:516] - INFO -    💾 Progreso guardado: 11/12 meses
+2026-03-09 11:43:00,030 - [app.__main__:552] - INFO - 
+   😴 Pausando por 29 segundos...
+2026-03-09 11:43:29,035 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-09 11:43:29,036 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 11/11: December 2025
+2026-03-09 11:43:29,036 - [app.__main__:447] - INFO -    📅 Rango: 2025-12-01 → 2025-12-31
+2026-03-09 11:43:29,036 - [app.__main__:448] - INFO -    💾 Archivo: data_2025/XAUUSD_2025_12.csv
+2026-03-09 11:43:29,036 - [app.__main__:449] - INFO -    📂 Directorio: data_2025
+2026-03-09 11:43:29,036 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 11:43:29
+2026-03-09 11:43:29,036 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol XAUUSD --start 2025-12-01 --end 2025-12-31 --output data_2025/XAUUSD_2025_12.csv --timeframe 1min --workers 8
+2026-03-09 11:43:29,037 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para December
+2026-03-09 11:43:29,037 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol XAUUSD --start 2025-12-01 --end 2025-12-31 --output data_2025/XAUUSD_2025_12.csv --timeframe 1min --workers 8
+2026-03-09 11:43:29,037 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-09 11:46:34,059 - [app.__main__:242] - INFO - ✅ December completado exitosamente (modo verbose)
+2026-03-09 11:46:34,060 - [app.__main__:499] - INFO -    ✅ December completado en 3m 5s
+2026-03-09 11:46:34,060 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-09 11:46:34,064 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-09 11:46:34,065 - [app.__main__:516] - INFO -    💾 Progreso guardado: 12/12 meses
+2026-03-09 11:46:34,065 - [app.__main__:564] - INFO - 
+============================================================
+2026-03-09 11:46:34,065 - [app.__main__:565] - INFO - 🎉 DESCARGA COMPLETADA!
+2026-03-09 11:46:34,065 - [app.__main__:566] - INFO - 📊 RESUMEN FINAL:
+2026-03-09 11:46:34,065 - [app.__main__:567] - INFO -    ✅ Meses exitosos: 12/12
+2026-03-09 11:46:34,066 - [app.__main__:572] - INFO -    📅 Meses procesados: January, February, March, April, May, June, July, August, September, October, November, December
+2026-03-09 11:46:34,066 - [app.__main__:580] - INFO -    📈 Tasa de éxito: 100.0%
+2026-03-09 11:46:34,066 - [app.__main__:584] - INFO -    💾 Archivos guardados en: data/XAUUSD_2025_*.csv
+2026-03-09 11:46:34,066 - [app.__main__:617] - INFO -    🗑️  Archivo de progreso eliminado para XAUUSD 2025
+2026-03-09 11:46:34,066 - [app.__main__:621] - INFO - ============================================================

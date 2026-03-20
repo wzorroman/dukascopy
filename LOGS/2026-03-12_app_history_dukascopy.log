@@ -1,0 +1,1505 @@
+2026-03-12 00:04:59,166 - [app.__main__:242] - INFO - ✅ August completado exitosamente (modo verbose)
+2026-03-12 00:04:59,166 - [app.__main__:499] - INFO -    ✅ August completado en 8m 11s
+2026-03-12 00:04:59,166 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-12 00:04:59,172 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 00:04:59,172 - [app.__main__:516] - INFO -    💾 Progreso guardado: 8/12 meses
+2026-03-12 00:04:59,173 - [app.__main__:552] - INFO - 
+   😴 Pausando por 27 segundos...
+2026-03-12 00:05:26,178 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 00:05:26,178 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 9/12: September 2023
+2026-03-12 00:05:26,178 - [app.__main__:447] - INFO -    📅 Rango: 2023-09-01 → 2023-09-30
+2026-03-12 00:05:26,178 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2023/AUDUSD_2023_09.csv
+2026-03-12 00:05:26,178 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2023
+2026-03-12 00:05:26,178 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 00:05:26
+2026-03-12 00:05:26,178 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2023-09-01 --end 2023-09-30 --output AUDUSD/data_2023/AUDUSD_2023_09.csv --timeframe 1min --workers 8
+2026-03-12 00:05:26,178 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para September
+2026-03-12 00:05:26,178 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2023-09-01 --end 2023-09-30 --output AUDUSD/data_2023/AUDUSD_2023_09.csv --timeframe 1min --workers 8
+2026-03-12 00:05:26,178 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 00:12:27,911 - [app.__main__:242] - INFO - ✅ September completado exitosamente (modo verbose)
+2026-03-12 00:12:27,911 - [app.__main__:499] - INFO -    ✅ September completado en 7m 1s
+2026-03-12 00:12:27,911 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.7 MB
+2026-03-12 00:12:27,915 - [app.__main__:506] - INFO -    📈 Filas de datos: 41581
+2026-03-12 00:12:27,916 - [app.__main__:516] - INFO -    💾 Progreso guardado: 9/12 meses
+2026-03-12 00:12:27,916 - [app.__main__:552] - INFO - 
+   😴 Pausando por 14 segundos...
+2026-03-12 00:12:41,918 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 00:12:41,918 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 10/12: October 2023
+2026-03-12 00:12:41,919 - [app.__main__:447] - INFO -    📅 Rango: 2023-10-01 → 2023-10-31
+2026-03-12 00:12:41,919 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2023/AUDUSD_2023_10.csv
+2026-03-12 00:12:41,919 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2023
+2026-03-12 00:12:41,919 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 00:12:41
+2026-03-12 00:12:41,919 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2023-10-01 --end 2023-10-31 --output AUDUSD/data_2023/AUDUSD_2023_10.csv --timeframe 1min --workers 8
+2026-03-12 00:12:41,919 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para October
+2026-03-12 00:12:41,919 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2023-10-01 --end 2023-10-31 --output AUDUSD/data_2023/AUDUSD_2023_10.csv --timeframe 1min --workers 8
+2026-03-12 00:12:41,919 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 00:19:34,860 - [app:79] - INFO - === INICIO DE APLICACIÓN (1.0.1) ===
+2026-03-12 00:19:34,860 - [app:80] - INFO - Logging configurado en: /home/wilson/GOLD/dukascopy/LOGS/app_daily_dukascopy.log
+2026-03-12 00:19:45,963 - [app:79] - INFO - === INICIO DE APLICACIÓN (1.0.1) ===
+2026-03-12 00:19:45,963 - [app:80] - INFO - Logging configurado en: /home/wilson/GOLD/dukascopy/LOGS/app_daily_dukascopy.log
+2026-03-12 00:19:45,972 - [app.__main__:412] - INFO - ============================================================
+2026-03-12 00:19:45,972 - [app.__main__:413] - INFO - 🚀 REANUDANDO DESCARGA MASIVA DE DATOS
+2026-03-12 00:19:45,972 - [app.__main__:414] - INFO -    Símbolo: EURUSD
+2026-03-12 00:19:45,972 - [app.__main__:415] - INFO -    Año: 2024
+2026-03-12 00:19:45,972 - [app.__main__:416] - INFO -    Meses pendientes: 12 de 12
+2026-03-12 00:19:45,972 - [app.__main__:417] - INFO -    Timeframe: 1min
+2026-03-12 00:19:45,972 - [app.__main__:418] - INFO -    Workers: 8
+2026-03-12 00:19:45,972 - [app.__main__:419] - INFO -    Pausa entre meses: 10-30 segundos
+2026-03-12 00:19:45,972 - [app.__main__:420] - INFO -    Modo verbose: SI
+2026-03-12 00:19:45,972 - [app.__main__:421] - INFO - ============================================================
+2026-03-12 00:19:45,972 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 00:19:45,972 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 1/12: January 2024
+2026-03-12 00:19:45,972 - [app.__main__:447] - INFO -    📅 Rango: 2024-01-01 → 2024-01-31
+2026-03-12 00:19:45,972 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_01.csv
+2026-03-12 00:19:45,972 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 00:19:45,973 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 00:19:45
+2026-03-12 00:19:45,973 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-01-01 --end 2024-01-31 --output EURUSD/data_2024/EURUSD_2024_01.csv --timeframe 1min --workers 8
+2026-03-12 00:19:45,973 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para January
+2026-03-12 00:19:45,973 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-01-01 --end 2024-01-31 --output EURUSD/data_2024/EURUSD_2024_01.csv --timeframe 1min --workers 8
+2026-03-12 00:19:45,973 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 00:20:44,874 - [app:79] - INFO - === INICIO DE APLICACIÓN (1.0.1) ===
+2026-03-12 00:20:44,874 - [app:80] - INFO - Logging configurado en: /home/wilson/GOLD/dukascopy/LOGS/app_daily_dukascopy.log
+2026-03-12 00:20:44,883 - [app.__main__:412] - INFO - ============================================================
+2026-03-12 00:20:44,883 - [app.__main__:413] - INFO - 🚀 REANUDANDO DESCARGA MASIVA DE DATOS
+2026-03-12 00:20:44,883 - [app.__main__:414] - INFO -    Símbolo: USDJPY
+2026-03-12 00:20:44,883 - [app.__main__:415] - INFO -    Año: 2024
+2026-03-12 00:20:44,883 - [app.__main__:416] - INFO -    Meses pendientes: 12 de 12
+2026-03-12 00:20:44,883 - [app.__main__:417] - INFO -    Timeframe: 1min
+2026-03-12 00:20:44,883 - [app.__main__:418] - INFO -    Workers: 8
+2026-03-12 00:20:44,883 - [app.__main__:419] - INFO -    Pausa entre meses: 10-30 segundos
+2026-03-12 00:20:44,883 - [app.__main__:420] - INFO -    Modo verbose: SI
+2026-03-12 00:20:44,883 - [app.__main__:421] - INFO - ============================================================
+2026-03-12 00:20:44,884 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 00:20:44,884 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 1/12: January 2024
+2026-03-12 00:20:44,884 - [app.__main__:447] - INFO -    📅 Rango: 2024-01-01 → 2024-01-31
+2026-03-12 00:20:44,884 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2024/USDJPY_2024_01.csv
+2026-03-12 00:20:44,884 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2024
+2026-03-12 00:20:44,884 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 00:20:44
+2026-03-12 00:20:44,884 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2024-01-01 --end 2024-01-31 --output USDJPY/data_2024/USDJPY_2024_01.csv --timeframe 1min --workers 8
+2026-03-12 00:20:44,884 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para January
+2026-03-12 00:20:44,884 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2024-01-01 --end 2024-01-31 --output USDJPY/data_2024/USDJPY_2024_01.csv --timeframe 1min --workers 8
+2026-03-12 00:20:44,884 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 00:21:13,932 - [app:79] - INFO - === INICIO DE APLICACIÓN (1.0.1) ===
+2026-03-12 00:21:13,932 - [app:80] - INFO - Logging configurado en: /home/wilson/GOLD/dukascopy/LOGS/app_daily_dukascopy.log
+2026-03-12 00:21:13,941 - [app.__main__:412] - INFO - ============================================================
+2026-03-12 00:21:13,941 - [app.__main__:413] - INFO - 🚀 REANUDANDO DESCARGA MASIVA DE DATOS
+2026-03-12 00:21:13,941 - [app.__main__:414] - INFO -    Símbolo: EURUSD
+2026-03-12 00:21:13,941 - [app.__main__:415] - INFO -    Año: 2024
+2026-03-12 00:21:13,941 - [app.__main__:416] - INFO -    Meses pendientes: 12 de 12
+2026-03-12 00:21:13,941 - [app.__main__:417] - INFO -    Timeframe: 1min
+2026-03-12 00:21:13,941 - [app.__main__:418] - INFO -    Workers: 8
+2026-03-12 00:21:13,941 - [app.__main__:419] - INFO -    Pausa entre meses: 10-30 segundos
+2026-03-12 00:21:13,941 - [app.__main__:420] - INFO -    Modo verbose: SI
+2026-03-12 00:21:13,941 - [app.__main__:421] - INFO - ============================================================
+2026-03-12 00:21:13,941 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 00:21:13,941 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 1/12: January 2024
+2026-03-12 00:21:13,941 - [app.__main__:447] - INFO -    📅 Rango: 2024-01-01 → 2024-01-31
+2026-03-12 00:21:13,941 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_01.csv
+2026-03-12 00:21:13,942 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 00:21:13,942 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 00:21:13
+2026-03-12 00:21:13,942 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-01-01 --end 2024-01-31 --output EURUSD/data_2024/EURUSD_2024_01.csv --timeframe 1min --workers 8
+2026-03-12 00:21:13,942 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para January
+2026-03-12 00:21:13,942 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-01-01 --end 2024-01-31 --output EURUSD/data_2024/EURUSD_2024_01.csv --timeframe 1min --workers 8
+2026-03-12 00:21:13,942 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 00:32:22,586 - [app.__main__:242] - INFO - ✅ January completado exitosamente (modo verbose)
+2026-03-12 00:32:22,586 - [app.__main__:499] - INFO -    ✅ January completado en 11m 37s
+2026-03-12 00:32:22,586 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-12 00:32:22,591 - [app.__main__:506] - INFO -    📈 Filas de datos: 41941
+2026-03-12 00:32:22,592 - [app.__main__:516] - INFO -    💾 Progreso guardado: 1/12 meses
+2026-03-12 00:32:22,592 - [app.__main__:552] - INFO - 
+   😴 Pausando por 25 segundos...
+2026-03-12 00:32:47,596 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 00:32:47,597 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 2/12: February 2024
+2026-03-12 00:32:47,597 - [app.__main__:447] - INFO -    📅 Rango: 2024-02-01 → 2024-02-29
+2026-03-12 00:32:47,597 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2024/USDJPY_2024_02.csv
+2026-03-12 00:32:47,597 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2024
+2026-03-12 00:32:47,598 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 00:32:47
+2026-03-12 00:32:47,598 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2024-02-01 --end 2024-02-29 --output USDJPY/data_2024/USDJPY_2024_02.csv --timeframe 1min --workers 8
+2026-03-12 00:32:47,598 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para February
+2026-03-12 00:32:47,598 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2024-02-01 --end 2024-02-29 --output USDJPY/data_2024/USDJPY_2024_02.csv --timeframe 1min --workers 8
+2026-03-12 00:32:47,598 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 00:32:59,408 - [app.__main__:242] - INFO - ✅ October completado exitosamente (modo verbose)
+2026-03-12 00:32:59,409 - [app.__main__:499] - INFO -    ✅ October completado en 20m 17s
+2026-03-12 00:32:59,409 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.7 MB
+2026-03-12 00:32:59,413 - [app.__main__:506] - INFO -    📈 Filas de datos: 42001
+2026-03-12 00:32:59,413 - [app.__main__:516] - INFO -    💾 Progreso guardado: 10/12 meses
+2026-03-12 00:32:59,413 - [app.__main__:552] - INFO - 
+   😴 Pausando por 30 segundos...
+2026-03-12 00:33:00,716 - [app.__main__:242] - INFO - ✅ January completado exitosamente (modo verbose)
+2026-03-12 00:33:00,716 - [app.__main__:499] - INFO -    ✅ January completado en 11m 46s
+2026-03-12 00:33:00,716 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.7 MB
+2026-03-12 00:33:00,722 - [app.__main__:506] - INFO -    📈 Filas de datos: 41941
+2026-03-12 00:33:00,723 - [app.__main__:516] - INFO -    💾 Progreso guardado: 1/12 meses
+2026-03-12 00:33:00,723 - [app.__main__:552] - INFO - 
+   😴 Pausando por 24 segundos...
+2026-03-12 00:33:24,728 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 00:33:24,728 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 2/12: February 2024
+2026-03-12 00:33:24,728 - [app.__main__:447] - INFO -    📅 Rango: 2024-02-01 → 2024-02-29
+2026-03-12 00:33:24,728 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_02.csv
+2026-03-12 00:33:24,728 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 00:33:24,728 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 00:33:24
+2026-03-12 00:33:24,728 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-02-01 --end 2024-02-29 --output EURUSD/data_2024/EURUSD_2024_02.csv --timeframe 1min --workers 8
+2026-03-12 00:33:24,728 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para February
+2026-03-12 00:33:24,728 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-02-01 --end 2024-02-29 --output EURUSD/data_2024/EURUSD_2024_02.csv --timeframe 1min --workers 8
+2026-03-12 00:33:24,728 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 00:33:29,422 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 00:33:29,422 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 11/12: November 2023
+2026-03-12 00:33:29,422 - [app.__main__:447] - INFO -    📅 Rango: 2023-11-01 → 2023-11-30
+2026-03-12 00:33:29,422 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2023/AUDUSD_2023_11.csv
+2026-03-12 00:33:29,422 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2023
+2026-03-12 00:33:29,423 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 00:33:29
+2026-03-12 00:33:29,423 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2023-11-01 --end 2023-11-30 --output AUDUSD/data_2023/AUDUSD_2023_11.csv --timeframe 1min --workers 8
+2026-03-12 00:33:29,423 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para November
+2026-03-12 00:33:29,423 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2023-11-01 --end 2023-11-30 --output AUDUSD/data_2023/AUDUSD_2023_11.csv --timeframe 1min --workers 8
+2026-03-12 00:33:29,423 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 00:37:01,998 - [app.__main__:242] - INFO - ✅ January completado exitosamente (modo verbose)
+2026-03-12 00:37:01,998 - [app.__main__:499] - INFO -    ✅ January completado en 17m 16s
+2026-03-12 00:37:01,998 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.7 MB
+2026-03-12 00:37:02,004 - [app.__main__:506] - INFO -    📈 Filas de datos: 41941
+2026-03-12 00:37:02,004 - [app.__main__:516] - INFO -    💾 Progreso guardado: 1/12 meses
+2026-03-12 00:37:02,004 - [app.__main__:552] - INFO - 
+   😴 Pausando por 27 segundos...
+2026-03-12 00:37:29,009 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 00:37:29,009 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 2/12: February 2024
+2026-03-12 00:37:29,009 - [app.__main__:447] - INFO -    📅 Rango: 2024-02-01 → 2024-02-29
+2026-03-12 00:37:29,009 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_02.csv
+2026-03-12 00:37:29,009 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 00:37:29,009 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 00:37:29
+2026-03-12 00:37:29,009 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-02-01 --end 2024-02-29 --output EURUSD/data_2024/EURUSD_2024_02.csv --timeframe 1min --workers 8
+2026-03-12 00:37:29,009 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para February
+2026-03-12 00:37:29,009 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-02-01 --end 2024-02-29 --output EURUSD/data_2024/EURUSD_2024_02.csv --timeframe 1min --workers 8
+2026-03-12 00:37:29,009 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 00:44:47,863 - [app.__main__:242] - INFO - ✅ February completado exitosamente (modo verbose)
+2026-03-12 00:44:47,863 - [app.__main__:499] - INFO -    ✅ February completado en 12m 0s
+2026-03-12 00:44:47,863 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 00:44:47,870 - [app.__main__:506] - INFO -    📈 Filas de datos: 40381
+2026-03-12 00:44:47,870 - [app.__main__:516] - INFO -    💾 Progreso guardado: 2/12 meses
+2026-03-12 00:44:47,871 - [app.__main__:552] - INFO - 
+   😴 Pausando por 18 segundos...
+2026-03-12 00:45:05,874 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 00:45:05,874 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 3/12: March 2024
+2026-03-12 00:45:05,874 - [app.__main__:447] - INFO -    📅 Rango: 2024-03-01 → 2024-03-31
+2026-03-12 00:45:05,874 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2024/USDJPY_2024_03.csv
+2026-03-12 00:45:05,874 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2024
+2026-03-12 00:45:05,874 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 00:45:05
+2026-03-12 00:45:05,874 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2024-03-01 --end 2024-03-31 --output USDJPY/data_2024/USDJPY_2024_03.csv --timeframe 1min --workers 8
+2026-03-12 00:45:05,874 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para March
+2026-03-12 00:45:05,874 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2024-03-01 --end 2024-03-31 --output USDJPY/data_2024/USDJPY_2024_03.csv --timeframe 1min --workers 8
+2026-03-12 00:45:05,874 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 00:45:10,201 - [app.__main__:242] - INFO - ✅ February completado exitosamente (modo verbose)
+2026-03-12 00:45:10,201 - [app.__main__:499] - INFO -    ✅ February completado en 11m 45s
+2026-03-12 00:45:10,201 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.4 MB
+2026-03-12 00:45:10,207 - [app.__main__:506] - INFO -    📈 Filas de datos: 40381
+2026-03-12 00:45:10,207 - [app.__main__:516] - INFO -    💾 Progreso guardado: 2/12 meses
+2026-03-12 00:45:10,207 - [app.__main__:552] - INFO - 
+   😴 Pausando por 22 segundos...
+2026-03-12 00:45:32,211 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 00:45:32,211 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 3/12: March 2024
+2026-03-12 00:45:32,211 - [app.__main__:447] - INFO -    📅 Rango: 2024-03-01 → 2024-03-31
+2026-03-12 00:45:32,211 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_03.csv
+2026-03-12 00:45:32,211 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 00:45:32,211 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 00:45:32
+2026-03-12 00:45:32,211 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-03-01 --end 2024-03-31 --output EURUSD/data_2024/EURUSD_2024_03.csv --timeframe 1min --workers 8
+2026-03-12 00:45:32,211 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para March
+2026-03-12 00:45:32,211 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-03-01 --end 2024-03-31 --output EURUSD/data_2024/EURUSD_2024_03.csv --timeframe 1min --workers 8
+2026-03-12 00:45:32,211 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 00:46:15,779 - [app.__main__:242] - INFO - ✅ November completado exitosamente (modo verbose)
+2026-03-12 00:46:15,779 - [app.__main__:499] - INFO -    ✅ November completado en 12m 46s
+2026-03-12 00:46:15,779 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.5 MB
+2026-03-12 00:46:15,783 - [app.__main__:506] - INFO -    📈 Filas de datos: 41821
+2026-03-12 00:46:15,783 - [app.__main__:516] - INFO -    💾 Progreso guardado: 11/12 meses
+2026-03-12 00:46:15,783 - [app.__main__:552] - INFO - 
+   😴 Pausando por 19 segundos...
+2026-03-12 00:46:34,786 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 00:46:34,786 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 12/12: December 2023
+2026-03-12 00:46:34,787 - [app.__main__:447] - INFO -    📅 Rango: 2023-12-01 → 2023-12-31
+2026-03-12 00:46:34,787 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2023/AUDUSD_2023_12.csv
+2026-03-12 00:46:34,787 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2023
+2026-03-12 00:46:34,787 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 00:46:34
+2026-03-12 00:46:34,787 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2023-12-01 --end 2023-12-31 --output AUDUSD/data_2023/AUDUSD_2023_12.csv --timeframe 1min --workers 8
+2026-03-12 00:46:34,787 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para December
+2026-03-12 00:46:34,787 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2023-12-01 --end 2023-12-31 --output AUDUSD/data_2023/AUDUSD_2023_12.csv --timeframe 1min --workers 8
+2026-03-12 00:46:34,787 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 00:54:57,171 - [app.__main__:242] - INFO - ✅ February completado exitosamente (modo verbose)
+2026-03-12 00:54:57,171 - [app.__main__:499] - INFO -    ✅ February completado en 17m 28s
+2026-03-12 00:54:57,171 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.4 MB
+2026-03-12 00:54:57,177 - [app.__main__:506] - INFO -    📈 Filas de datos: 40381
+2026-03-12 00:54:57,177 - [app.__main__:516] - INFO -    💾 Progreso guardado: 2/12 meses
+2026-03-12 00:54:57,177 - [app.__main__:552] - INFO - 
+   😴 Pausando por 11 segundos...
+2026-03-12 00:55:08,181 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 00:55:08,181 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 3/12: March 2024
+2026-03-12 00:55:08,181 - [app.__main__:447] - INFO -    📅 Rango: 2024-03-01 → 2024-03-31
+2026-03-12 00:55:08,181 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_03.csv
+2026-03-12 00:55:08,182 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 00:55:08,182 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 00:55:08
+2026-03-12 00:55:08,182 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-03-01 --end 2024-03-31 --output EURUSD/data_2024/EURUSD_2024_03.csv --timeframe 1min --workers 8
+2026-03-12 00:55:08,182 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para March
+2026-03-12 00:55:08,182 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-03-01 --end 2024-03-31 --output EURUSD/data_2024/EURUSD_2024_03.csv --timeframe 1min --workers 8
+2026-03-12 00:55:08,182 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 00:58:11,076 - [app.__main__:242] - INFO - ✅ March completado exitosamente (modo verbose)
+2026-03-12 00:58:11,076 - [app.__main__:499] - INFO -    ✅ March completado en 13m 5s
+2026-03-12 00:58:11,076 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.5 MB
+2026-03-12 00:58:11,082 - [app.__main__:506] - INFO -    📈 Filas de datos: 41581
+2026-03-12 00:58:11,082 - [app.__main__:516] - INFO -    💾 Progreso guardado: 3/12 meses
+2026-03-12 00:58:11,082 - [app.__main__:552] - INFO - 
+   😴 Pausando por 14 segundos...
+2026-03-12 00:58:25,085 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 00:58:25,085 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 4/12: April 2024
+2026-03-12 00:58:25,085 - [app.__main__:447] - INFO -    📅 Rango: 2024-04-01 → 2024-04-30
+2026-03-12 00:58:25,085 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2024/USDJPY_2024_04.csv
+2026-03-12 00:58:25,085 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2024
+2026-03-12 00:58:25,085 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 00:58:25
+2026-03-12 00:58:25,085 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2024-04-01 --end 2024-04-30 --output USDJPY/data_2024/USDJPY_2024_04.csv --timeframe 1min --workers 8
+2026-03-12 00:58:25,085 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para April
+2026-03-12 00:58:25,085 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2024-04-01 --end 2024-04-30 --output USDJPY/data_2024/USDJPY_2024_04.csv --timeframe 1min --workers 8
+2026-03-12 00:58:25,085 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 00:58:52,842 - [app.__main__:242] - INFO - ✅ March completado exitosamente (modo verbose)
+2026-03-12 00:58:52,842 - [app.__main__:499] - INFO -    ✅ March completado en 13m 20s
+2026-03-12 00:58:52,842 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 00:58:52,847 - [app.__main__:506] - INFO -    📈 Filas de datos: 41581
+2026-03-12 00:58:52,848 - [app.__main__:516] - INFO -    💾 Progreso guardado: 3/12 meses
+2026-03-12 00:58:52,848 - [app.__main__:552] - INFO - 
+   😴 Pausando por 18 segundos...
+2026-03-12 00:59:10,853 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 00:59:10,854 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 4/12: April 2024
+2026-03-12 00:59:10,854 - [app.__main__:447] - INFO -    📅 Rango: 2024-04-01 → 2024-04-30
+2026-03-12 00:59:10,854 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_04.csv
+2026-03-12 00:59:10,854 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 00:59:10,854 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 00:59:10
+2026-03-12 00:59:10,854 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-04-01 --end 2024-04-30 --output EURUSD/data_2024/EURUSD_2024_04.csv --timeframe 1min --workers 8
+2026-03-12 00:59:10,854 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para April
+2026-03-12 00:59:10,854 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-04-01 --end 2024-04-30 --output EURUSD/data_2024/EURUSD_2024_04.csv --timeframe 1min --workers 8
+2026-03-12 00:59:10,854 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:00:27,335 - [app.__main__:242] - INFO - ✅ December completado exitosamente (modo verbose)
+2026-03-12 01:00:27,335 - [app.__main__:499] - INFO -    ✅ December completado en 13m 52s
+2026-03-12 01:00:27,335 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 01:00:27,338 - [app.__main__:506] - INFO -    📈 Filas de datos: 41641
+2026-03-12 01:00:27,339 - [app.__main__:516] - INFO -    💾 Progreso guardado: 12/12 meses
+2026-03-12 01:00:27,339 - [app.__main__:564] - INFO - 
+============================================================
+2026-03-12 01:00:27,339 - [app.__main__:565] - INFO - 🎉 DESCARGA COMPLETADA!
+2026-03-12 01:00:27,339 - [app.__main__:566] - INFO - 📊 RESUMEN FINAL:
+2026-03-12 01:00:27,339 - [app.__main__:567] - INFO -    ✅ Meses exitosos: 12/12
+2026-03-12 01:00:27,339 - [app.__main__:572] - INFO -    📅 Meses procesados: January, February, March, April, May, June, July, August, September, October, November, December
+2026-03-12 01:00:27,339 - [app.__main__:580] - INFO -    📈 Tasa de éxito: 100.0%
+2026-03-12 01:00:27,339 - [app.__main__:584] - INFO -    💾 Archivos guardados en: data/AUDUSD_2023_*.csv
+2026-03-12 01:00:27,339 - [app.__main__:617] - INFO -    🗑️  Archivo de progreso eliminado para AUDUSD 2023
+2026-03-12 01:00:27,339 - [app.__main__:621] - INFO - ============================================================
+2026-03-12 01:04:27,808 - [app.__main__:242] - INFO - ✅ March completado exitosamente (modo verbose)
+2026-03-12 01:04:27,808 - [app.__main__:499] - INFO -    ✅ March completado en 9m 19s
+2026-03-12 01:04:27,808 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 01:04:27,813 - [app.__main__:506] - INFO -    📈 Filas de datos: 41581
+2026-03-12 01:04:27,814 - [app.__main__:516] - INFO -    💾 Progreso guardado: 3/12 meses
+2026-03-12 01:04:27,814 - [app.__main__:552] - INFO - 
+   😴 Pausando por 13 segundos...
+2026-03-12 01:04:40,818 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:04:40,818 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 4/12: April 2024
+2026-03-12 01:04:40,818 - [app.__main__:447] - INFO -    📅 Rango: 2024-04-01 → 2024-04-30
+2026-03-12 01:04:40,818 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_04.csv
+2026-03-12 01:04:40,818 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 01:04:40,818 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:04:40
+2026-03-12 01:04:40,818 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-04-01 --end 2024-04-30 --output EURUSD/data_2024/EURUSD_2024_04.csv --timeframe 1min --workers 8
+2026-03-12 01:04:40,818 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para April
+2026-03-12 01:04:40,818 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-04-01 --end 2024-04-30 --output EURUSD/data_2024/EURUSD_2024_04.csv --timeframe 1min --workers 8
+2026-03-12 01:04:40,818 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:05:51,358 - [app.__main__:242] - INFO - ✅ April completado exitosamente (modo verbose)
+2026-03-12 01:05:51,359 - [app.__main__:499] - INFO -    ✅ April completado en 7m 26s
+2026-03-12 01:05:51,359 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 01:05:51,364 - [app.__main__:506] - INFO -    📈 Filas de datos: 41821
+2026-03-12 01:05:51,364 - [app.__main__:516] - INFO -    💾 Progreso guardado: 4/12 meses
+2026-03-12 01:05:51,364 - [app.__main__:552] - INFO - 
+   😴 Pausando por 19 segundos...
+2026-03-12 01:06:06,660 - [app.__main__:242] - INFO - ✅ April completado exitosamente (modo verbose)
+2026-03-12 01:06:06,660 - [app.__main__:499] - INFO -    ✅ April completado en 6m 55s
+2026-03-12 01:06:06,660 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.7 MB
+2026-03-12 01:06:06,665 - [app.__main__:506] - INFO -    📈 Filas de datos: 41821
+2026-03-12 01:06:06,665 - [app.__main__:516] - INFO -    💾 Progreso guardado: 4/12 meses
+2026-03-12 01:06:06,665 - [app.__main__:552] - INFO - 
+   😴 Pausando por 24 segundos...
+2026-03-12 01:06:10,369 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:06:10,369 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 5/12: May 2024
+2026-03-12 01:06:10,369 - [app.__main__:447] - INFO -    📅 Rango: 2024-05-01 → 2024-05-31
+2026-03-12 01:06:10,369 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2024/USDJPY_2024_05.csv
+2026-03-12 01:06:10,369 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2024
+2026-03-12 01:06:10,369 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:06:10
+2026-03-12 01:06:10,369 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2024-05-01 --end 2024-05-31 --output USDJPY/data_2024/USDJPY_2024_05.csv --timeframe 1min --workers 8
+2026-03-12 01:06:10,369 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para May
+2026-03-12 01:06:10,370 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2024-05-01 --end 2024-05-31 --output USDJPY/data_2024/USDJPY_2024_05.csv --timeframe 1min --workers 8
+2026-03-12 01:06:10,370 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:06:30,672 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:06:30,672 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 5/12: May 2024
+2026-03-12 01:06:30,672 - [app.__main__:447] - INFO -    📅 Rango: 2024-05-01 → 2024-05-31
+2026-03-12 01:06:30,672 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_05.csv
+2026-03-12 01:06:30,673 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 01:06:30,673 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:06:30
+2026-03-12 01:06:30,673 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-05-01 --end 2024-05-31 --output EURUSD/data_2024/EURUSD_2024_05.csv --timeframe 1min --workers 8
+2026-03-12 01:06:30,673 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para May
+2026-03-12 01:06:30,673 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-05-01 --end 2024-05-31 --output EURUSD/data_2024/EURUSD_2024_05.csv --timeframe 1min --workers 8
+2026-03-12 01:06:30,674 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:11:26,901 - [app.__main__:242] - INFO - ✅ April completado exitosamente (modo verbose)
+2026-03-12 01:11:26,902 - [app.__main__:499] - INFO -    ✅ April completado en 6m 46s
+2026-03-12 01:11:26,902 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.7 MB
+2026-03-12 01:11:26,906 - [app.__main__:506] - INFO -    📈 Filas de datos: 41821
+2026-03-12 01:11:26,907 - [app.__main__:516] - INFO -    💾 Progreso guardado: 4/12 meses
+2026-03-12 01:11:26,907 - [app.__main__:552] - INFO - 
+   😴 Pausando por 28 segundos...
+2026-03-12 01:11:54,912 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:11:54,912 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 5/12: May 2024
+2026-03-12 01:11:54,912 - [app.__main__:447] - INFO -    📅 Rango: 2024-05-01 → 2024-05-31
+2026-03-12 01:11:54,912 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_05.csv
+2026-03-12 01:11:54,912 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 01:11:54,913 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:11:54
+2026-03-12 01:11:54,913 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-05-01 --end 2024-05-31 --output EURUSD/data_2024/EURUSD_2024_05.csv --timeframe 1min --workers 8
+2026-03-12 01:11:54,913 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para May
+2026-03-12 01:11:54,913 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-05-01 --end 2024-05-31 --output EURUSD/data_2024/EURUSD_2024_05.csv --timeframe 1min --workers 8
+2026-03-12 01:11:54,913 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:13:26,353 - [app.__main__:242] - INFO - ✅ May completado exitosamente (modo verbose)
+2026-03-12 01:13:26,353 - [app.__main__:499] - INFO -    ✅ May completado en 7m 15s
+2026-03-12 01:13:26,353 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 01:13:26,358 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 01:13:26,359 - [app.__main__:516] - INFO -    💾 Progreso guardado: 5/12 meses
+2026-03-12 01:13:26,359 - [app.__main__:552] - INFO - 
+   😴 Pausando por 24 segundos...
+2026-03-12 01:13:38,599 - [app.__main__:242] - INFO - ✅ May completado exitosamente (modo verbose)
+2026-03-12 01:13:38,599 - [app.__main__:499] - INFO -    ✅ May completado en 7m 7s
+2026-03-12 01:13:38,599 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 5.0 MB
+2026-03-12 01:13:38,605 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 01:13:38,606 - [app.__main__:516] - INFO -    💾 Progreso guardado: 5/12 meses
+2026-03-12 01:13:38,606 - [app.__main__:552] - INFO - 
+   😴 Pausando por 25 segundos...
+2026-03-12 01:13:50,364 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:13:50,364 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 6/12: June 2024
+2026-03-12 01:13:50,365 - [app.__main__:447] - INFO -    📅 Rango: 2024-06-01 → 2024-06-30
+2026-03-12 01:13:50,365 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2024/USDJPY_2024_06.csv
+2026-03-12 01:13:50,365 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2024
+2026-03-12 01:13:50,365 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:13:50
+2026-03-12 01:13:50,365 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2024-06-01 --end 2024-06-30 --output USDJPY/data_2024/USDJPY_2024_06.csv --timeframe 1min --workers 8
+2026-03-12 01:13:50,365 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para June
+2026-03-12 01:13:50,365 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2024-06-01 --end 2024-06-30 --output USDJPY/data_2024/USDJPY_2024_06.csv --timeframe 1min --workers 8
+2026-03-12 01:13:50,365 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:14:03,614 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:14:03,614 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 6/12: June 2024
+2026-03-12 01:14:03,614 - [app.__main__:447] - INFO -    📅 Rango: 2024-06-01 → 2024-06-30
+2026-03-12 01:14:03,615 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_06.csv
+2026-03-12 01:14:03,615 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 01:14:03,615 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:14:03
+2026-03-12 01:14:03,615 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-06-01 --end 2024-06-30 --output EURUSD/data_2024/EURUSD_2024_06.csv --timeframe 1min --workers 8
+2026-03-12 01:14:03,615 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para June
+2026-03-12 01:14:03,616 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-06-01 --end 2024-06-30 --output EURUSD/data_2024/EURUSD_2024_06.csv --timeframe 1min --workers 8
+2026-03-12 01:14:03,616 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:18:35,384 - [app.__main__:242] - INFO - ✅ May completado exitosamente (modo verbose)
+2026-03-12 01:18:35,384 - [app.__main__:499] - INFO -    ✅ May completado en 6m 40s
+2026-03-12 01:18:35,384 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 5.0 MB
+2026-03-12 01:18:35,389 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 01:18:35,389 - [app.__main__:516] - INFO -    💾 Progreso guardado: 5/12 meses
+2026-03-12 01:18:35,390 - [app.__main__:552] - INFO - 
+   😴 Pausando por 15 segundos...
+2026-03-12 01:18:50,394 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:18:50,394 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 6/12: June 2024
+2026-03-12 01:18:50,394 - [app.__main__:447] - INFO -    📅 Rango: 2024-06-01 → 2024-06-30
+2026-03-12 01:18:50,394 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_06.csv
+2026-03-12 01:18:50,394 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 01:18:50,394 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:18:50
+2026-03-12 01:18:50,394 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-06-01 --end 2024-06-30 --output EURUSD/data_2024/EURUSD_2024_06.csv --timeframe 1min --workers 8
+2026-03-12 01:18:50,394 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para June
+2026-03-12 01:18:50,394 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-06-01 --end 2024-06-30 --output EURUSD/data_2024/EURUSD_2024_06.csv --timeframe 1min --workers 8
+2026-03-12 01:18:50,394 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:20:25,817 - [app.__main__:242] - INFO - ✅ June completado exitosamente (modo verbose)
+2026-03-12 01:20:25,817 - [app.__main__:499] - INFO -    ✅ June completado en 6m 35s
+2026-03-12 01:20:25,818 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.2 MB
+2026-03-12 01:20:25,822 - [app.__main__:506] - INFO -    📈 Filas de datos: 37440
+2026-03-12 01:20:25,822 - [app.__main__:516] - INFO -    💾 Progreso guardado: 6/12 meses
+2026-03-12 01:20:25,822 - [app.__main__:552] - INFO - 
+   😴 Pausando por 12 segundos...
+2026-03-12 01:20:27,481 - [app.__main__:242] - INFO - ✅ June completado exitosamente (modo verbose)
+2026-03-12 01:20:27,482 - [app.__main__:499] - INFO -    ✅ June completado en 6m 23s
+2026-03-12 01:20:27,482 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.2 MB
+2026-03-12 01:20:27,485 - [app.__main__:506] - INFO -    📈 Filas de datos: 37441
+2026-03-12 01:20:27,486 - [app.__main__:516] - INFO -    💾 Progreso guardado: 6/12 meses
+2026-03-12 01:20:27,486 - [app.__main__:552] - INFO - 
+   😴 Pausando por 16 segundos...
+2026-03-12 01:20:37,827 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:20:37,827 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 7/12: July 2024
+2026-03-12 01:20:37,827 - [app.__main__:447] - INFO -    📅 Rango: 2024-07-01 → 2024-07-31
+2026-03-12 01:20:37,827 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2024/USDJPY_2024_07.csv
+2026-03-12 01:20:37,827 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2024
+2026-03-12 01:20:37,828 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:20:37
+2026-03-12 01:20:37,828 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2024-07-01 --end 2024-07-31 --output USDJPY/data_2024/USDJPY_2024_07.csv --timeframe 1min --workers 8
+2026-03-12 01:20:37,828 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para July
+2026-03-12 01:20:37,828 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2024-07-01 --end 2024-07-31 --output USDJPY/data_2024/USDJPY_2024_07.csv --timeframe 1min --workers 8
+2026-03-12 01:20:37,828 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:20:43,493 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:20:43,493 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 7/12: July 2024
+2026-03-12 01:20:43,493 - [app.__main__:447] - INFO -    📅 Rango: 2024-07-01 → 2024-07-31
+2026-03-12 01:20:43,493 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_07.csv
+2026-03-12 01:20:43,493 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 01:20:43,493 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:20:43
+2026-03-12 01:20:43,493 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-07-01 --end 2024-07-31 --output EURUSD/data_2024/EURUSD_2024_07.csv --timeframe 1min --workers 8
+2026-03-12 01:20:43,493 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para July
+2026-03-12 01:20:43,493 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-07-01 --end 2024-07-31 --output EURUSD/data_2024/EURUSD_2024_07.csv --timeframe 1min --workers 8
+2026-03-12 01:20:43,493 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:26:12,416 - [app.__main__:242] - INFO - ✅ June completado exitosamente (modo verbose)
+2026-03-12 01:26:12,416 - [app.__main__:499] - INFO -    ✅ June completado en 7m 22s
+2026-03-12 01:26:12,417 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.2 MB
+2026-03-12 01:26:12,420 - [app.__main__:506] - INFO -    📈 Filas de datos: 37441
+2026-03-12 01:26:12,421 - [app.__main__:516] - INFO -    💾 Progreso guardado: 6/12 meses
+2026-03-12 01:26:12,421 - [app.__main__:552] - INFO - 
+   😴 Pausando por 22 segundos...
+2026-03-12 01:26:34,428 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:26:34,428 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 7/12: July 2024
+2026-03-12 01:26:34,428 - [app.__main__:447] - INFO -    📅 Rango: 2024-07-01 → 2024-07-31
+2026-03-12 01:26:34,428 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_07.csv
+2026-03-12 01:26:34,428 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 01:26:34,428 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:26:34
+2026-03-12 01:26:34,428 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-07-01 --end 2024-07-31 --output EURUSD/data_2024/EURUSD_2024_07.csv --timeframe 1min --workers 8
+2026-03-12 01:26:34,428 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para July
+2026-03-12 01:26:34,428 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-07-01 --end 2024-07-31 --output EURUSD/data_2024/EURUSD_2024_07.csv --timeframe 1min --workers 8
+2026-03-12 01:26:34,428 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:31:24,971 - [app.__main__:242] - INFO - ✅ July completado exitosamente (modo verbose)
+2026-03-12 01:31:24,971 - [app.__main__:499] - INFO -    ✅ July completado en 10m 47s
+2026-03-12 01:31:24,971 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.9 MB
+2026-03-12 01:31:24,975 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 01:31:24,976 - [app.__main__:516] - INFO -    💾 Progreso guardado: 7/12 meses
+2026-03-12 01:31:24,976 - [app.__main__:552] - INFO - 
+   😴 Pausando por 30 segundos...
+2026-03-12 01:31:29,437 - [app.__main__:242] - INFO - ✅ July completado exitosamente (modo verbose)
+2026-03-12 01:31:29,437 - [app.__main__:499] - INFO -    ✅ July completado en 10m 45s
+2026-03-12 01:31:29,437 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.9 MB
+2026-03-12 01:31:29,442 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 01:31:29,442 - [app.__main__:516] - INFO -    💾 Progreso guardado: 7/12 meses
+2026-03-12 01:31:29,442 - [app.__main__:552] - INFO - 
+   😴 Pausando por 14 segundos...
+2026-03-12 01:31:43,445 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:31:43,445 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 8/12: August 2024
+2026-03-12 01:31:43,445 - [app.__main__:447] - INFO -    📅 Rango: 2024-08-01 → 2024-08-31
+2026-03-12 01:31:43,445 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_08.csv
+2026-03-12 01:31:43,445 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 01:31:43,445 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:31:43
+2026-03-12 01:31:43,445 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-08-01 --end 2024-08-31 --output EURUSD/data_2024/EURUSD_2024_08.csv --timeframe 1min --workers 8
+2026-03-12 01:31:43,445 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para August
+2026-03-12 01:31:43,445 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-08-01 --end 2024-08-31 --output EURUSD/data_2024/EURUSD_2024_08.csv --timeframe 1min --workers 8
+2026-03-12 01:31:43,445 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:31:54,983 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:31:54,983 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 8/12: August 2024
+2026-03-12 01:31:54,984 - [app.__main__:447] - INFO -    📅 Rango: 2024-08-01 → 2024-08-31
+2026-03-12 01:31:54,984 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2024/USDJPY_2024_08.csv
+2026-03-12 01:31:54,984 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2024
+2026-03-12 01:31:54,984 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:31:54
+2026-03-12 01:31:54,984 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2024-08-01 --end 2024-08-31 --output USDJPY/data_2024/USDJPY_2024_08.csv --timeframe 1min --workers 8
+2026-03-12 01:31:54,984 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para August
+2026-03-12 01:31:54,985 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2024-08-01 --end 2024-08-31 --output USDJPY/data_2024/USDJPY_2024_08.csv --timeframe 1min --workers 8
+2026-03-12 01:31:54,985 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:35:50,235 - [app.__main__:242] - INFO - ✅ July completado exitosamente (modo verbose)
+2026-03-12 01:35:50,236 - [app.__main__:499] - INFO -    ✅ July completado en 9m 15s
+2026-03-12 01:35:50,236 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.9 MB
+2026-03-12 01:35:50,240 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 01:35:50,241 - [app.__main__:516] - INFO -    💾 Progreso guardado: 7/12 meses
+2026-03-12 01:35:50,241 - [app.__main__:552] - INFO - 
+   😴 Pausando por 24 segundos...
+2026-03-12 01:36:14,246 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:36:14,247 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 8/12: August 2024
+2026-03-12 01:36:14,247 - [app.__main__:447] - INFO -    📅 Rango: 2024-08-01 → 2024-08-31
+2026-03-12 01:36:14,247 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_08.csv
+2026-03-12 01:36:14,247 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 01:36:14,247 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:36:14
+2026-03-12 01:36:14,247 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-08-01 --end 2024-08-31 --output EURUSD/data_2024/EURUSD_2024_08.csv --timeframe 1min --workers 8
+2026-03-12 01:36:14,247 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para August
+2026-03-12 01:36:14,247 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-08-01 --end 2024-08-31 --output EURUSD/data_2024/EURUSD_2024_08.csv --timeframe 1min --workers 8
+2026-03-12 01:36:14,247 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:38:32,996 - [app.__main__:242] - INFO - ✅ August completado exitosamente (modo verbose)
+2026-03-12 01:38:32,996 - [app.__main__:499] - INFO -    ✅ August completado en 6m 49s
+2026-03-12 01:38:32,996 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.9 MB
+2026-03-12 01:38:33,001 - [app.__main__:506] - INFO -    📈 Filas de datos: 43021
+2026-03-12 01:38:33,002 - [app.__main__:516] - INFO -    💾 Progreso guardado: 8/12 meses
+2026-03-12 01:38:33,002 - [app.__main__:552] - INFO - 
+   😴 Pausando por 24 segundos...
+2026-03-12 01:38:57,005 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:38:57,005 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 9/12: September 2024
+2026-03-12 01:38:57,005 - [app.__main__:447] - INFO -    📅 Rango: 2024-09-01 → 2024-09-30
+2026-03-12 01:38:57,005 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_09.csv
+2026-03-12 01:38:57,005 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 01:38:57,006 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:38:57
+2026-03-12 01:38:57,006 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-09-01 --end 2024-09-30 --output EURUSD/data_2024/EURUSD_2024_09.csv --timeframe 1min --workers 8
+2026-03-12 01:38:57,006 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para September
+2026-03-12 01:38:57,006 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-09-01 --end 2024-09-30 --output EURUSD/data_2024/EURUSD_2024_09.csv --timeframe 1min --workers 8
+2026-03-12 01:38:57,006 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:38:57,673 - [app.__main__:242] - INFO - ✅ August completado exitosamente (modo verbose)
+2026-03-12 01:38:57,673 - [app.__main__:499] - INFO -    ✅ August completado en 7m 2s
+2026-03-12 01:38:57,673 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 01:38:57,678 - [app.__main__:506] - INFO -    📈 Filas de datos: 43021
+2026-03-12 01:38:57,679 - [app.__main__:516] - INFO -    💾 Progreso guardado: 8/12 meses
+2026-03-12 01:38:57,679 - [app.__main__:552] - INFO - 
+   😴 Pausando por 26 segundos...
+2026-03-12 01:39:23,687 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:39:23,688 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 9/12: September 2024
+2026-03-12 01:39:23,688 - [app.__main__:447] - INFO -    📅 Rango: 2024-09-01 → 2024-09-30
+2026-03-12 01:39:23,688 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2024/USDJPY_2024_09.csv
+2026-03-12 01:39:23,688 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2024
+2026-03-12 01:39:23,688 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:39:23
+2026-03-12 01:39:23,689 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2024-09-01 --end 2024-09-30 --output USDJPY/data_2024/USDJPY_2024_09.csv --timeframe 1min --workers 8
+2026-03-12 01:39:23,689 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para September
+2026-03-12 01:39:23,689 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2024-09-01 --end 2024-09-30 --output USDJPY/data_2024/USDJPY_2024_09.csv --timeframe 1min --workers 8
+2026-03-12 01:39:23,689 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:43:36,477 - [app.__main__:242] - INFO - ✅ August completado exitosamente (modo verbose)
+2026-03-12 01:43:36,478 - [app.__main__:499] - INFO -    ✅ August completado en 7m 22s
+2026-03-12 01:43:36,478 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.9 MB
+2026-03-12 01:43:36,482 - [app.__main__:506] - INFO -    📈 Filas de datos: 43021
+2026-03-12 01:43:36,483 - [app.__main__:516] - INFO -    💾 Progreso guardado: 8/12 meses
+2026-03-12 01:43:36,483 - [app.__main__:552] - INFO - 
+   😴 Pausando por 24 segundos...
+2026-03-12 01:44:00,490 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:44:00,490 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 9/12: September 2024
+2026-03-12 01:44:00,490 - [app.__main__:447] - INFO -    📅 Rango: 2024-09-01 → 2024-09-30
+2026-03-12 01:44:00,490 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_09.csv
+2026-03-12 01:44:00,490 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 01:44:00,490 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:44:00
+2026-03-12 01:44:00,490 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-09-01 --end 2024-09-30 --output EURUSD/data_2024/EURUSD_2024_09.csv --timeframe 1min --workers 8
+2026-03-12 01:44:00,490 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para September
+2026-03-12 01:44:00,490 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-09-01 --end 2024-09-30 --output EURUSD/data_2024/EURUSD_2024_09.csv --timeframe 1min --workers 8
+2026-03-12 01:44:00,490 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:46:12,822 - [app.__main__:242] - INFO - ✅ September completado exitosamente (modo verbose)
+2026-03-12 01:46:12,822 - [app.__main__:499] - INFO -    ✅ September completado en 7m 15s
+2026-03-12 01:46:12,823 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.7 MB
+2026-03-12 01:46:12,826 - [app.__main__:506] - INFO -    📈 Filas de datos: 40561
+2026-03-12 01:46:12,827 - [app.__main__:516] - INFO -    💾 Progreso guardado: 9/12 meses
+2026-03-12 01:46:12,827 - [app.__main__:552] - INFO - 
+   😴 Pausando por 28 segundos...
+2026-03-12 01:46:40,837 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:46:40,838 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 10/12: October 2024
+2026-03-12 01:46:40,838 - [app.__main__:447] - INFO -    📅 Rango: 2024-10-01 → 2024-10-31
+2026-03-12 01:46:40,838 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_10.csv
+2026-03-12 01:46:40,838 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 01:46:40,839 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:46:40
+2026-03-12 01:46:40,839 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-10-01 --end 2024-10-31 --output EURUSD/data_2024/EURUSD_2024_10.csv --timeframe 1min --workers 8
+2026-03-12 01:46:40,839 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para October
+2026-03-12 01:46:40,839 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-10-01 --end 2024-10-31 --output EURUSD/data_2024/EURUSD_2024_10.csv --timeframe 1min --workers 8
+2026-03-12 01:46:40,839 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:48:26,308 - [app.__main__:242] - INFO - ✅ September completado exitosamente (modo verbose)
+2026-03-12 01:48:26,309 - [app.__main__:499] - INFO -    ✅ September completado en 9m 2s
+2026-03-12 01:48:26,309 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.5 MB
+2026-03-12 01:48:26,312 - [app.__main__:506] - INFO -    📈 Filas de datos: 40557
+2026-03-12 01:48:26,313 - [app.__main__:516] - INFO -    💾 Progreso guardado: 9/12 meses
+2026-03-12 01:48:26,313 - [app.__main__:552] - INFO - 
+   😴 Pausando por 26 segundos...
+2026-03-12 01:48:52,320 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:48:52,320 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 10/12: October 2024
+2026-03-12 01:48:52,320 - [app.__main__:447] - INFO -    📅 Rango: 2024-10-01 → 2024-10-31
+2026-03-12 01:48:52,320 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2024/USDJPY_2024_10.csv
+2026-03-12 01:48:52,321 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2024
+2026-03-12 01:48:52,321 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:48:52
+2026-03-12 01:48:52,321 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2024-10-01 --end 2024-10-31 --output USDJPY/data_2024/USDJPY_2024_10.csv --timeframe 1min --workers 8
+2026-03-12 01:48:52,321 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para October
+2026-03-12 01:48:52,321 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2024-10-01 --end 2024-10-31 --output USDJPY/data_2024/USDJPY_2024_10.csv --timeframe 1min --workers 8
+2026-03-12 01:48:52,321 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:52:39,882 - [app.__main__:242] - INFO - ✅ September completado exitosamente (modo verbose)
+2026-03-12 01:52:39,882 - [app.__main__:499] - INFO -    ✅ September completado en 8m 39s
+2026-03-12 01:52:39,882 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.7 MB
+2026-03-12 01:52:39,886 - [app.__main__:506] - INFO -    📈 Filas de datos: 40561
+2026-03-12 01:52:39,887 - [app.__main__:516] - INFO -    💾 Progreso guardado: 9/12 meses
+2026-03-12 01:52:39,887 - [app.__main__:552] - INFO - 
+   😴 Pausando por 10 segundos...
+2026-03-12 01:52:49,889 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:52:49,889 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 10/12: October 2024
+2026-03-12 01:52:49,890 - [app.__main__:447] - INFO -    📅 Rango: 2024-10-01 → 2024-10-31
+2026-03-12 01:52:49,890 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_10.csv
+2026-03-12 01:52:49,890 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 01:52:49,890 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:52:49
+2026-03-12 01:52:49,890 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-10-01 --end 2024-10-31 --output EURUSD/data_2024/EURUSD_2024_10.csv --timeframe 1min --workers 8
+2026-03-12 01:52:49,891 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para October
+2026-03-12 01:52:49,891 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-10-01 --end 2024-10-31 --output EURUSD/data_2024/EURUSD_2024_10.csv --timeframe 1min --workers 8
+2026-03-12 01:52:49,891 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:54:21,914 - [app.__main__:242] - INFO - ✅ October completado exitosamente (modo verbose)
+2026-03-12 01:54:21,914 - [app.__main__:499] - INFO -    ✅ October completado en 7m 41s
+2026-03-12 01:54:21,914 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.9 MB
+2026-03-12 01:54:21,918 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 01:54:21,919 - [app.__main__:516] - INFO -    💾 Progreso guardado: 10/12 meses
+2026-03-12 01:54:21,919 - [app.__main__:552] - INFO - 
+   😴 Pausando por 15 segundos...
+2026-03-12 01:54:36,922 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:54:36,922 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 11/12: November 2024
+2026-03-12 01:54:36,922 - [app.__main__:447] - INFO -    📅 Rango: 2024-11-01 → 2024-11-30
+2026-03-12 01:54:36,922 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_11.csv
+2026-03-12 01:54:36,922 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 01:54:36,923 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:54:36
+2026-03-12 01:54:36,923 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-11-01 --end 2024-11-30 --output EURUSD/data_2024/EURUSD_2024_11.csv --timeframe 1min --workers 8
+2026-03-12 01:54:36,923 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para November
+2026-03-12 01:54:36,923 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-11-01 --end 2024-11-30 --output EURUSD/data_2024/EURUSD_2024_11.csv --timeframe 1min --workers 8
+2026-03-12 01:54:36,923 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 01:56:35,560 - [app.__main__:242] - INFO - ✅ October completado exitosamente (modo verbose)
+2026-03-12 01:56:35,560 - [app.__main__:499] - INFO -    ✅ October completado en 7m 43s
+2026-03-12 01:56:35,560 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-12 01:56:35,564 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 01:56:35,565 - [app.__main__:516] - INFO -    💾 Progreso guardado: 10/12 meses
+2026-03-12 01:56:35,565 - [app.__main__:552] - INFO - 
+   😴 Pausando por 10 segundos...
+2026-03-12 01:56:45,568 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 01:56:45,568 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 11/12: November 2024
+2026-03-12 01:56:45,568 - [app.__main__:447] - INFO -    📅 Rango: 2024-11-01 → 2024-11-30
+2026-03-12 01:56:45,568 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2024/USDJPY_2024_11.csv
+2026-03-12 01:56:45,568 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2024
+2026-03-12 01:56:45,568 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 01:56:45
+2026-03-12 01:56:45,568 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2024-11-01 --end 2024-11-30 --output USDJPY/data_2024/USDJPY_2024_11.csv --timeframe 1min --workers 8
+2026-03-12 01:56:45,568 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para November
+2026-03-12 01:56:45,568 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2024-11-01 --end 2024-11-30 --output USDJPY/data_2024/USDJPY_2024_11.csv --timeframe 1min --workers 8
+2026-03-12 01:56:45,568 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 02:00:04,070 - [app.__main__:242] - INFO - ✅ October completado exitosamente (modo verbose)
+2026-03-12 02:00:04,070 - [app.__main__:499] - INFO -    ✅ October completado en 7m 14s
+2026-03-12 02:00:04,070 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.9 MB
+2026-03-12 02:00:04,074 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 02:00:04,075 - [app.__main__:516] - INFO -    💾 Progreso guardado: 10/12 meses
+2026-03-12 02:00:04,075 - [app.__main__:552] - INFO - 
+   😴 Pausando por 18 segundos...
+2026-03-12 02:00:22,080 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 02:00:22,080 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 11/12: November 2024
+2026-03-12 02:00:22,081 - [app.__main__:447] - INFO -    📅 Rango: 2024-11-01 → 2024-11-30
+2026-03-12 02:00:22,081 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_11.csv
+2026-03-12 02:00:22,081 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 02:00:22,081 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 02:00:22
+2026-03-12 02:00:22,081 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-11-01 --end 2024-11-30 --output EURUSD/data_2024/EURUSD_2024_11.csv --timeframe 1min --workers 8
+2026-03-12 02:00:22,081 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para November
+2026-03-12 02:00:22,082 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-11-01 --end 2024-11-30 --output EURUSD/data_2024/EURUSD_2024_11.csv --timeframe 1min --workers 8
+2026-03-12 02:00:22,082 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 02:02:52,258 - [app.__main__:242] - INFO - ✅ November completado exitosamente (modo verbose)
+2026-03-12 02:02:52,258 - [app.__main__:499] - INFO -    ✅ November completado en 8m 15s
+2026-03-12 02:02:52,258 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 02:02:52,262 - [app.__main__:506] - INFO -    📈 Filas de datos: 41641
+2026-03-12 02:02:52,262 - [app.__main__:516] - INFO -    💾 Progreso guardado: 11/12 meses
+2026-03-12 02:02:52,263 - [app.__main__:552] - INFO - 
+   😴 Pausando por 21 segundos...
+2026-03-12 02:03:13,269 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 02:03:13,269 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 12/12: December 2024
+2026-03-12 02:03:13,269 - [app.__main__:447] - INFO -    📅 Rango: 2024-12-01 → 2024-12-31
+2026-03-12 02:03:13,269 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_12.csv
+2026-03-12 02:03:13,269 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 02:03:13,269 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 02:03:13
+2026-03-12 02:03:13,269 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-12-01 --end 2024-12-31 --output EURUSD/data_2024/EURUSD_2024_12.csv --timeframe 1min --workers 8
+2026-03-12 02:03:13,269 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para December
+2026-03-12 02:03:13,269 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-12-01 --end 2024-12-31 --output EURUSD/data_2024/EURUSD_2024_12.csv --timeframe 1min --workers 8
+2026-03-12 02:03:13,269 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 02:04:25,574 - [app.__main__:242] - INFO - ✅ November completado exitosamente (modo verbose)
+2026-03-12 02:04:25,574 - [app.__main__:499] - INFO -    ✅ November completado en 7m 40s
+2026-03-12 02:04:25,574 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 02:04:25,578 - [app.__main__:506] - INFO -    📈 Filas de datos: 41641
+2026-03-12 02:04:25,579 - [app.__main__:516] - INFO -    💾 Progreso guardado: 11/12 meses
+2026-03-12 02:04:25,579 - [app.__main__:552] - INFO - 
+   😴 Pausando por 26 segundos...
+2026-03-12 02:04:51,584 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 02:04:51,584 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 12/12: December 2024
+2026-03-12 02:04:51,584 - [app.__main__:447] - INFO -    📅 Rango: 2024-12-01 → 2024-12-31
+2026-03-12 02:04:51,584 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2024/USDJPY_2024_12.csv
+2026-03-12 02:04:51,585 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2024
+2026-03-12 02:04:51,585 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 02:04:51
+2026-03-12 02:04:51,585 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2024-12-01 --end 2024-12-31 --output USDJPY/data_2024/USDJPY_2024_12.csv --timeframe 1min --workers 8
+2026-03-12 02:04:51,585 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para December
+2026-03-12 02:04:51,585 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2024-12-01 --end 2024-12-31 --output USDJPY/data_2024/USDJPY_2024_12.csv --timeframe 1min --workers 8
+2026-03-12 02:04:51,586 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 02:07:55,872 - [app.__main__:242] - INFO - ✅ November completado exitosamente (modo verbose)
+2026-03-12 02:07:55,872 - [app.__main__:499] - INFO -    ✅ November completado en 7m 33s
+2026-03-12 02:07:55,872 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 02:07:55,876 - [app.__main__:506] - INFO -    📈 Filas de datos: 41641
+2026-03-12 02:07:55,876 - [app.__main__:516] - INFO -    💾 Progreso guardado: 11/12 meses
+2026-03-12 02:07:55,876 - [app.__main__:552] - INFO - 
+   😴 Pausando por 17 segundos...
+2026-03-12 02:08:12,883 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 02:08:12,883 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 12/12: December 2024
+2026-03-12 02:08:12,883 - [app.__main__:447] - INFO -    📅 Rango: 2024-12-01 → 2024-12-31
+2026-03-12 02:08:12,883 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2024/EURUSD_2024_12.csv
+2026-03-12 02:08:12,883 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2024
+2026-03-12 02:08:12,883 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 02:08:12
+2026-03-12 02:08:12,884 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2024-12-01 --end 2024-12-31 --output EURUSD/data_2024/EURUSD_2024_12.csv --timeframe 1min --workers 8
+2026-03-12 02:08:12,884 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para December
+2026-03-12 02:08:12,884 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2024-12-01 --end 2024-12-31 --output EURUSD/data_2024/EURUSD_2024_12.csv --timeframe 1min --workers 8
+2026-03-12 02:08:12,884 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 02:10:15,796 - [app.__main__:242] - INFO - ✅ December completado exitosamente (modo verbose)
+2026-03-12 02:10:15,796 - [app.__main__:499] - INFO -    ✅ December completado en 7m 2s
+2026-03-12 02:10:15,796 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-12 02:10:15,800 - [app.__main__:506] - INFO -    📈 Filas de datos: 41941
+2026-03-12 02:10:15,801 - [app.__main__:516] - INFO -    💾 Progreso guardado: 12/12 meses
+2026-03-12 02:10:15,801 - [app.__main__:564] - INFO - 
+============================================================
+2026-03-12 02:10:15,801 - [app.__main__:565] - INFO - 🎉 DESCARGA COMPLETADA!
+2026-03-12 02:10:15,801 - [app.__main__:566] - INFO - 📊 RESUMEN FINAL:
+2026-03-12 02:10:15,801 - [app.__main__:567] - INFO -    ✅ Meses exitosos: 12/12
+2026-03-12 02:10:15,801 - [app.__main__:572] - INFO -    📅 Meses procesados: January, February, March, April, May, June, July, August, September, October, November, December
+2026-03-12 02:10:15,801 - [app.__main__:580] - INFO -    📈 Tasa de éxito: 100.0%
+2026-03-12 02:10:15,801 - [app.__main__:584] - INFO -    💾 Archivos guardados en: data/EURUSD_2024_*.csv
+2026-03-12 02:10:15,801 - [app.__main__:617] - INFO -    🗑️  Archivo de progreso eliminado para EURUSD 2024
+2026-03-12 02:10:15,801 - [app.__main__:621] - INFO - ============================================================
+2026-03-12 02:11:22,241 - [app.__main__:242] - INFO - ✅ December completado exitosamente (modo verbose)
+2026-03-12 02:11:22,241 - [app.__main__:499] - INFO -    ✅ December completado en 6m 30s
+2026-03-12 02:11:22,241 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 02:11:22,244 - [app.__main__:506] - INFO -    📈 Filas de datos: 41937
+2026-03-12 02:11:22,245 - [app.__main__:516] - INFO -    💾 Progreso guardado: 12/12 meses
+2026-03-12 02:11:22,245 - [app.__main__:564] - INFO - 
+============================================================
+2026-03-12 02:11:22,245 - [app.__main__:565] - INFO - 🎉 DESCARGA COMPLETADA!
+2026-03-12 02:11:22,245 - [app.__main__:566] - INFO - 📊 RESUMEN FINAL:
+2026-03-12 02:11:22,245 - [app.__main__:567] - INFO -    ✅ Meses exitosos: 12/12
+2026-03-12 02:11:22,245 - [app.__main__:572] - INFO -    📅 Meses procesados: January, February, March, April, May, June, July, August, September, October, November, December
+2026-03-12 02:11:22,245 - [app.__main__:580] - INFO -    📈 Tasa de éxito: 100.0%
+2026-03-12 02:11:22,245 - [app.__main__:584] - INFO -    💾 Archivos guardados en: data/USDJPY_2024_*.csv
+2026-03-12 02:11:22,245 - [app.__main__:617] - INFO -    🗑️  Archivo de progreso eliminado para USDJPY 2024
+2026-03-12 02:11:22,245 - [app.__main__:621] - INFO - ============================================================
+2026-03-12 02:12:31,388 - [app.__main__:242] - INFO - ✅ December completado exitosamente (modo verbose)
+2026-03-12 02:12:31,388 - [app.__main__:499] - INFO -    ✅ December completado en 4m 18s
+2026-03-12 02:12:31,388 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-12 02:12:31,392 - [app.__main__:506] - INFO -    📈 Filas de datos: 41941
+2026-03-12 02:12:31,393 - [app.__main__:516] - INFO -    💾 Progreso guardado: 12/12 meses
+2026-03-12 02:12:31,393 - [app.__main__:564] - INFO - 
+============================================================
+2026-03-12 02:12:31,393 - [app.__main__:565] - INFO - 🎉 DESCARGA COMPLETADA!
+2026-03-12 02:12:31,393 - [app.__main__:566] - INFO - 📊 RESUMEN FINAL:
+2026-03-12 02:12:31,393 - [app.__main__:567] - INFO -    ✅ Meses exitosos: 12/12
+2026-03-12 02:12:31,393 - [app.__main__:572] - INFO -    📅 Meses procesados: January, February, March, April, May, June, July, August, September, October, November, December
+2026-03-12 02:12:31,393 - [app.__main__:580] - INFO -    📈 Tasa de éxito: 100.0%
+2026-03-12 02:12:31,393 - [app.__main__:584] - INFO -    💾 Archivos guardados en: data/EURUSD_2024_*.csv
+2026-03-12 02:12:31,393 - [app.__main__:617] - INFO -    🗑️  Archivo de progreso eliminado para EURUSD 2024
+2026-03-12 02:12:31,394 - [app.__main__:621] - INFO - ============================================================
+2026-03-12 09:12:55,438 - [app:79] - INFO - === INICIO DE APLICACIÓN (1.0.1) ===
+2026-03-12 09:12:55,438 - [app:80] - INFO - Logging configurado en: /home/wilson/GOLD/dukascopy/LOGS/app_daily_dukascopy.log
+2026-03-12 09:12:55,446 - [app.__main__:412] - INFO - ============================================================
+2026-03-12 09:12:55,446 - [app.__main__:413] - INFO - 🚀 REANUDANDO DESCARGA MASIVA DE DATOS
+2026-03-12 09:12:55,446 - [app.__main__:414] - INFO -    Símbolo: EURUSD
+2026-03-12 09:12:55,446 - [app.__main__:415] - INFO -    Año: 2025
+2026-03-12 09:12:55,446 - [app.__main__:416] - INFO -    Meses pendientes: 12 de 12
+2026-03-12 09:12:55,446 - [app.__main__:417] - INFO -    Timeframe: 1min
+2026-03-12 09:12:55,446 - [app.__main__:418] - INFO -    Workers: 8
+2026-03-12 09:12:55,446 - [app.__main__:419] - INFO -    Pausa entre meses: 10-30 segundos
+2026-03-12 09:12:55,446 - [app.__main__:420] - INFO -    Modo verbose: SI
+2026-03-12 09:12:55,447 - [app.__main__:421] - INFO - ============================================================
+2026-03-12 09:12:55,447 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:12:55,447 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 1/12: January 2025
+2026-03-12 09:12:55,447 - [app.__main__:447] - INFO -    📅 Rango: 2025-01-01 → 2025-01-31
+2026-03-12 09:12:55,447 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2025/EURUSD_2025_01.csv
+2026-03-12 09:12:55,447 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2025
+2026-03-12 09:12:55,447 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:12:55
+2026-03-12 09:12:55,447 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2025-01-01 --end 2025-01-31 --output EURUSD/data_2025/EURUSD_2025_01.csv --timeframe 1min --workers 8
+2026-03-12 09:12:55,447 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para January
+2026-03-12 09:12:55,447 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2025-01-01 --end 2025-01-31 --output EURUSD/data_2025/EURUSD_2025_01.csv --timeframe 1min --workers 8
+2026-03-12 09:12:55,447 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:13:15,123 - [app:79] - INFO - === INICIO DE APLICACIÓN (1.0.1) ===
+2026-03-12 09:13:15,123 - [app:80] - INFO - Logging configurado en: /home/wilson/GOLD/dukascopy/LOGS/app_daily_dukascopy.log
+2026-03-12 09:13:15,133 - [app.__main__:412] - INFO - ============================================================
+2026-03-12 09:13:15,133 - [app.__main__:413] - INFO - 🚀 REANUDANDO DESCARGA MASIVA DE DATOS
+2026-03-12 09:13:15,133 - [app.__main__:414] - INFO -    Símbolo: USDJPY
+2026-03-12 09:13:15,133 - [app.__main__:415] - INFO -    Año: 2025
+2026-03-12 09:13:15,133 - [app.__main__:416] - INFO -    Meses pendientes: 12 de 12
+2026-03-12 09:13:15,133 - [app.__main__:417] - INFO -    Timeframe: 1min
+2026-03-12 09:13:15,133 - [app.__main__:418] - INFO -    Workers: 8
+2026-03-12 09:13:15,133 - [app.__main__:419] - INFO -    Pausa entre meses: 10-30 segundos
+2026-03-12 09:13:15,133 - [app.__main__:420] - INFO -    Modo verbose: SI
+2026-03-12 09:13:15,133 - [app.__main__:421] - INFO - ============================================================
+2026-03-12 09:13:15,133 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:13:15,133 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 1/12: January 2025
+2026-03-12 09:13:15,133 - [app.__main__:447] - INFO -    📅 Rango: 2025-01-01 → 2025-01-31
+2026-03-12 09:13:15,133 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2025/USDJPY_2025_01.csv
+2026-03-12 09:13:15,133 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2025
+2026-03-12 09:13:15,133 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:13:15
+2026-03-12 09:13:15,133 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2025-01-01 --end 2025-01-31 --output USDJPY/data_2025/USDJPY_2025_01.csv --timeframe 1min --workers 8
+2026-03-12 09:13:15,133 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para January
+2026-03-12 09:13:15,133 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2025-01-01 --end 2025-01-31 --output USDJPY/data_2025/USDJPY_2025_01.csv --timeframe 1min --workers 8
+2026-03-12 09:13:15,133 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:13:26,761 - [app:79] - INFO - === INICIO DE APLICACIÓN (1.0.1) ===
+2026-03-12 09:13:26,761 - [app:80] - INFO - Logging configurado en: /home/wilson/GOLD/dukascopy/LOGS/app_daily_dukascopy.log
+2026-03-12 09:13:26,771 - [app.__main__:412] - INFO - ============================================================
+2026-03-12 09:13:26,771 - [app.__main__:413] - INFO - 🚀 REANUDANDO DESCARGA MASIVA DE DATOS
+2026-03-12 09:13:26,771 - [app.__main__:414] - INFO -    Símbolo: AUDUSD
+2026-03-12 09:13:26,771 - [app.__main__:415] - INFO -    Año: 2025
+2026-03-12 09:13:26,771 - [app.__main__:416] - INFO -    Meses pendientes: 12 de 12
+2026-03-12 09:13:26,771 - [app.__main__:417] - INFO -    Timeframe: 1min
+2026-03-12 09:13:26,771 - [app.__main__:418] - INFO -    Workers: 8
+2026-03-12 09:13:26,771 - [app.__main__:419] - INFO -    Pausa entre meses: 10-30 segundos
+2026-03-12 09:13:26,771 - [app.__main__:420] - INFO -    Modo verbose: SI
+2026-03-12 09:13:26,771 - [app.__main__:421] - INFO - ============================================================
+2026-03-12 09:13:26,771 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:13:26,771 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 1/12: January 2025
+2026-03-12 09:13:26,771 - [app.__main__:447] - INFO -    📅 Rango: 2025-01-01 → 2025-01-31
+2026-03-12 09:13:26,771 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2025/AUDUSD_2025_01.csv
+2026-03-12 09:13:26,771 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2025
+2026-03-12 09:13:26,771 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:13:26
+2026-03-12 09:13:26,772 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2025-01-01 --end 2025-01-31 --output AUDUSD/data_2025/AUDUSD_2025_01.csv --timeframe 1min --workers 8
+2026-03-12 09:13:26,772 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para January
+2026-03-12 09:13:26,772 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2025-01-01 --end 2025-01-31 --output AUDUSD/data_2025/AUDUSD_2025_01.csv --timeframe 1min --workers 8
+2026-03-12 09:13:26,772 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:19:21,672 - [app.__main__:242] - INFO - ✅ January completado exitosamente (modo verbose)
+2026-03-12 09:19:21,672 - [app.__main__:499] - INFO -    ✅ January completado en 6m 26s
+2026-03-12 09:19:21,672 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.9 MB
+2026-03-12 09:19:21,677 - [app.__main__:506] - INFO -    📈 Filas de datos: 41941
+2026-03-12 09:19:21,678 - [app.__main__:516] - INFO -    💾 Progreso guardado: 1/12 meses
+2026-03-12 09:19:21,678 - [app.__main__:552] - INFO - 
+   😴 Pausando por 11 segundos...
+2026-03-12 09:19:32,680 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:19:32,680 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 2/12: February 2025
+2026-03-12 09:19:32,680 - [app.__main__:447] - INFO -    📅 Rango: 2025-02-01 → 2025-02-28
+2026-03-12 09:19:32,680 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2025/EURUSD_2025_02.csv
+2026-03-12 09:19:32,680 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2025
+2026-03-12 09:19:32,681 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:19:32
+2026-03-12 09:19:32,681 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2025-02-01 --end 2025-02-28 --output EURUSD/data_2025/EURUSD_2025_02.csv --timeframe 1min --workers 8
+2026-03-12 09:19:32,681 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para February
+2026-03-12 09:19:32,681 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2025-02-01 --end 2025-02-28 --output EURUSD/data_2025/EURUSD_2025_02.csv --timeframe 1min --workers 8
+2026-03-12 09:19:32,681 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:20:05,344 - [app.__main__:242] - INFO - ✅ January completado exitosamente (modo verbose)
+2026-03-12 09:20:05,344 - [app.__main__:499] - INFO -    ✅ January completado en 6m 50s
+2026-03-12 09:20:05,344 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.5 MB
+2026-03-12 09:20:05,349 - [app.__main__:506] - INFO -    📈 Filas de datos: 41937
+2026-03-12 09:20:05,349 - [app.__main__:516] - INFO -    💾 Progreso guardado: 1/12 meses
+2026-03-12 09:20:05,349 - [app.__main__:552] - INFO - 
+   😴 Pausando por 23 segundos...
+2026-03-12 09:20:28,356 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:20:28,356 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 2/12: February 2025
+2026-03-12 09:20:28,357 - [app.__main__:447] - INFO -    📅 Rango: 2025-02-01 → 2025-02-28
+2026-03-12 09:20:28,357 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2025/USDJPY_2025_02.csv
+2026-03-12 09:20:28,357 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2025
+2026-03-12 09:20:28,357 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:20:28
+2026-03-12 09:20:28,357 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2025-02-01 --end 2025-02-28 --output USDJPY/data_2025/USDJPY_2025_02.csv --timeframe 1min --workers 8
+2026-03-12 09:20:28,358 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para February
+2026-03-12 09:20:28,358 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2025-02-01 --end 2025-02-28 --output USDJPY/data_2025/USDJPY_2025_02.csv --timeframe 1min --workers 8
+2026-03-12 09:20:28,358 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:20:33,606 - [app.__main__:242] - INFO - ✅ January completado exitosamente (modo verbose)
+2026-03-12 09:20:33,606 - [app.__main__:499] - INFO -    ✅ January completado en 7m 6s
+2026-03-12 09:20:33,606 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.5 MB
+2026-03-12 09:20:33,611 - [app.__main__:506] - INFO -    📈 Filas de datos: 41937
+2026-03-12 09:20:33,612 - [app.__main__:516] - INFO -    💾 Progreso guardado: 1/12 meses
+2026-03-12 09:20:33,612 - [app.__main__:552] - INFO - 
+   😴 Pausando por 22 segundos...
+2026-03-12 09:20:55,618 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:20:55,618 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 2/12: February 2025
+2026-03-12 09:20:55,618 - [app.__main__:447] - INFO -    📅 Rango: 2025-02-01 → 2025-02-28
+2026-03-12 09:20:55,618 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2025/AUDUSD_2025_02.csv
+2026-03-12 09:20:55,618 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2025
+2026-03-12 09:20:55,618 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:20:55
+2026-03-12 09:20:55,618 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2025-02-01 --end 2025-02-28 --output AUDUSD/data_2025/AUDUSD_2025_02.csv --timeframe 1min --workers 8
+2026-03-12 09:20:55,618 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para February
+2026-03-12 09:20:55,618 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2025-02-01 --end 2025-02-28 --output AUDUSD/data_2025/AUDUSD_2025_02.csv --timeframe 1min --workers 8
+2026-03-12 09:20:55,619 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:25:33,290 - [app.__main__:242] - INFO - ✅ February completado exitosamente (modo verbose)
+2026-03-12 09:25:33,291 - [app.__main__:499] - INFO -    ✅ February completado en 6m 0s
+2026-03-12 09:25:33,291 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.0 MB
+2026-03-12 09:25:33,296 - [app.__main__:506] - INFO -    📈 Filas de datos: 36181
+2026-03-12 09:25:33,297 - [app.__main__:516] - INFO -    💾 Progreso guardado: 2/12 meses
+2026-03-12 09:25:33,297 - [app.__main__:552] - INFO - 
+   😴 Pausando por 22 segundos...
+2026-03-12 09:25:55,302 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:25:55,302 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 3/12: March 2025
+2026-03-12 09:25:55,302 - [app.__main__:447] - INFO -    📅 Rango: 2025-03-01 → 2025-03-31
+2026-03-12 09:25:55,302 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2025/EURUSD_2025_03.csv
+2026-03-12 09:25:55,303 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2025
+2026-03-12 09:25:55,303 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:25:55
+2026-03-12 09:25:55,303 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2025-03-01 --end 2025-03-31 --output EURUSD/data_2025/EURUSD_2025_03.csv --timeframe 1min --workers 8
+2026-03-12 09:25:55,303 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para March
+2026-03-12 09:25:55,303 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2025-03-01 --end 2025-03-31 --output EURUSD/data_2025/EURUSD_2025_03.csv --timeframe 1min --workers 8
+2026-03-12 09:25:55,304 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:27:01,603 - [app.__main__:242] - INFO - ✅ February completado exitosamente (modo verbose)
+2026-03-12 09:27:01,603 - [app.__main__:499] - INFO -    ✅ February completado en 6m 33s
+2026-03-12 09:27:01,603 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 3.9 MB
+2026-03-12 09:27:01,608 - [app.__main__:506] - INFO -    📈 Filas de datos: 36181
+2026-03-12 09:27:01,608 - [app.__main__:516] - INFO -    💾 Progreso guardado: 2/12 meses
+2026-03-12 09:27:01,609 - [app.__main__:552] - INFO - 
+   😴 Pausando por 18 segundos...
+2026-03-12 09:27:04,689 - [app.__main__:242] - INFO - ✅ February completado exitosamente (modo verbose)
+2026-03-12 09:27:04,689 - [app.__main__:499] - INFO -    ✅ February completado en 6m 9s
+2026-03-12 09:27:04,689 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.2 MB
+2026-03-12 09:27:04,695 - [app.__main__:506] - INFO -    📈 Filas de datos: 36181
+2026-03-12 09:27:04,695 - [app.__main__:516] - INFO -    💾 Progreso guardado: 2/12 meses
+2026-03-12 09:27:04,695 - [app.__main__:552] - INFO - 
+   😴 Pausando por 16 segundos...
+2026-03-12 09:27:19,611 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:27:19,612 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 3/12: March 2025
+2026-03-12 09:27:19,612 - [app.__main__:447] - INFO -    📅 Rango: 2025-03-01 → 2025-03-31
+2026-03-12 09:27:19,612 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2025/USDJPY_2025_03.csv
+2026-03-12 09:27:19,612 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2025
+2026-03-12 09:27:19,612 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:27:19
+2026-03-12 09:27:19,612 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2025-03-01 --end 2025-03-31 --output USDJPY/data_2025/USDJPY_2025_03.csv --timeframe 1min --workers 8
+2026-03-12 09:27:19,612 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para March
+2026-03-12 09:27:19,612 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2025-03-01 --end 2025-03-31 --output USDJPY/data_2025/USDJPY_2025_03.csv --timeframe 1min --workers 8
+2026-03-12 09:27:19,612 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:27:20,698 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:27:20,698 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 3/12: March 2025
+2026-03-12 09:27:20,698 - [app.__main__:447] - INFO -    📅 Rango: 2025-03-01 → 2025-03-31
+2026-03-12 09:27:20,698 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2025/AUDUSD_2025_03.csv
+2026-03-12 09:27:20,698 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2025
+2026-03-12 09:27:20,698 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:27:20
+2026-03-12 09:27:20,698 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2025-03-01 --end 2025-03-31 --output AUDUSD/data_2025/AUDUSD_2025_03.csv --timeframe 1min --workers 8
+2026-03-12 09:27:20,698 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para March
+2026-03-12 09:27:20,698 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2025-03-01 --end 2025-03-31 --output AUDUSD/data_2025/AUDUSD_2025_03.csv --timeframe 1min --workers 8
+2026-03-12 09:27:20,698 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:32:43,938 - [app.__main__:242] - INFO - ✅ March completado exitosamente (modo verbose)
+2026-03-12 09:32:43,938 - [app.__main__:499] - INFO -    ✅ March completado en 6m 48s
+2026-03-12 09:32:43,938 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.7 MB
+2026-03-12 09:32:43,943 - [app.__main__:506] - INFO -    📈 Filas de datos: 40501
+2026-03-12 09:32:43,944 - [app.__main__:516] - INFO -    💾 Progreso guardado: 3/12 meses
+2026-03-12 09:32:43,944 - [app.__main__:552] - INFO - 
+   😴 Pausando por 23 segundos...
+2026-03-12 09:33:06,950 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:33:06,950 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 4/12: April 2025
+2026-03-12 09:33:06,950 - [app.__main__:447] - INFO -    📅 Rango: 2025-04-01 → 2025-04-30
+2026-03-12 09:33:06,950 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2025/EURUSD_2025_04.csv
+2026-03-12 09:33:06,951 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2025
+2026-03-12 09:33:06,951 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:33:06
+2026-03-12 09:33:06,951 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2025-04-01 --end 2025-04-30 --output EURUSD/data_2025/EURUSD_2025_04.csv --timeframe 1min --workers 8
+2026-03-12 09:33:06,951 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para April
+2026-03-12 09:33:06,951 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2025-04-01 --end 2025-04-30 --output EURUSD/data_2025/EURUSD_2025_04.csv --timeframe 1min --workers 8
+2026-03-12 09:33:06,951 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:34:53,442 - [app.__main__:242] - INFO - ✅ March completado exitosamente (modo verbose)
+2026-03-12 09:34:53,442 - [app.__main__:499] - INFO -    ✅ March completado en 7m 32s
+2026-03-12 09:34:53,442 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.7 MB
+2026-03-12 09:34:53,448 - [app.__main__:506] - INFO -    📈 Filas de datos: 40501
+2026-03-12 09:34:53,449 - [app.__main__:516] - INFO -    💾 Progreso guardado: 3/12 meses
+2026-03-12 09:34:53,449 - [app.__main__:552] - INFO - 
+   😴 Pausando por 24 segundos...
+2026-03-12 09:34:55,212 - [app.__main__:242] - INFO - ✅ March completado exitosamente (modo verbose)
+2026-03-12 09:34:55,213 - [app.__main__:499] - INFO -    ✅ March completado en 7m 35s
+2026-03-12 09:34:55,213 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 09:34:55,217 - [app.__main__:506] - INFO -    📈 Filas de datos: 40497
+2026-03-12 09:34:55,218 - [app.__main__:516] - INFO -    💾 Progreso guardado: 3/12 meses
+2026-03-12 09:34:55,218 - [app.__main__:552] - INFO - 
+   😴 Pausando por 21 segundos...
+2026-03-12 09:35:16,223 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:35:16,223 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 4/12: April 2025
+2026-03-12 09:35:16,223 - [app.__main__:447] - INFO -    📅 Rango: 2025-04-01 → 2025-04-30
+2026-03-12 09:35:16,223 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2025/USDJPY_2025_04.csv
+2026-03-12 09:35:16,223 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2025
+2026-03-12 09:35:16,223 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:35:16
+2026-03-12 09:35:16,223 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2025-04-01 --end 2025-04-30 --output USDJPY/data_2025/USDJPY_2025_04.csv --timeframe 1min --workers 8
+2026-03-12 09:35:16,223 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para April
+2026-03-12 09:35:16,223 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2025-04-01 --end 2025-04-30 --output USDJPY/data_2025/USDJPY_2025_04.csv --timeframe 1min --workers 8
+2026-03-12 09:35:16,223 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:35:17,454 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:35:17,454 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 4/12: April 2025
+2026-03-12 09:35:17,454 - [app.__main__:447] - INFO -    📅 Rango: 2025-04-01 → 2025-04-30
+2026-03-12 09:35:17,455 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2025/AUDUSD_2025_04.csv
+2026-03-12 09:35:17,455 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2025
+2026-03-12 09:35:17,455 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:35:17
+2026-03-12 09:35:17,455 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2025-04-01 --end 2025-04-30 --output AUDUSD/data_2025/AUDUSD_2025_04.csv --timeframe 1min --workers 8
+2026-03-12 09:35:17,455 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para April
+2026-03-12 09:35:17,455 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2025-04-01 --end 2025-04-30 --output AUDUSD/data_2025/AUDUSD_2025_04.csv --timeframe 1min --workers 8
+2026-03-12 09:35:17,455 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:41:00,814 - [app.__main__:242] - INFO - ✅ April completado exitosamente (modo verbose)
+2026-03-12 09:41:00,814 - [app.__main__:499] - INFO -    ✅ April completado en 7m 53s
+2026-03-12 09:41:00,814 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.5 MB
+2026-03-12 09:41:00,819 - [app.__main__:506] - INFO -    📈 Filas de datos: 41821
+2026-03-12 09:41:00,819 - [app.__main__:516] - INFO -    💾 Progreso guardado: 4/12 meses
+2026-03-12 09:41:00,820 - [app.__main__:552] - INFO - 
+   😴 Pausando por 12 segundos...
+2026-03-12 09:41:12,823 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:41:12,823 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 5/12: May 2025
+2026-03-12 09:41:12,823 - [app.__main__:447] - INFO -    📅 Rango: 2025-05-01 → 2025-05-31
+2026-03-12 09:41:12,823 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2025/EURUSD_2025_05.csv
+2026-03-12 09:41:12,823 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2025
+2026-03-12 09:41:12,823 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:41:12
+2026-03-12 09:41:12,823 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2025-05-01 --end 2025-05-31 --output EURUSD/data_2025/EURUSD_2025_05.csv --timeframe 1min --workers 8
+2026-03-12 09:41:12,823 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para May
+2026-03-12 09:41:12,823 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2025-05-01 --end 2025-05-31 --output EURUSD/data_2025/EURUSD_2025_05.csv --timeframe 1min --workers 8
+2026-03-12 09:41:12,823 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:44:46,575 - [app.__main__:242] - INFO - ✅ April completado exitosamente (modo verbose)
+2026-03-12 09:44:46,575 - [app.__main__:499] - INFO -    ✅ April completado en 9m 30s
+2026-03-12 09:44:46,575 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.5 MB
+2026-03-12 09:44:46,580 - [app.__main__:506] - INFO -    📈 Filas de datos: 41821
+2026-03-12 09:44:46,581 - [app.__main__:516] - INFO -    💾 Progreso guardado: 4/12 meses
+2026-03-12 09:44:46,581 - [app.__main__:552] - INFO - 
+   😴 Pausando por 25 segundos...
+2026-03-12 09:45:03,888 - [app.__main__:242] - INFO - ✅ April completado exitosamente (modo verbose)
+2026-03-12 09:45:03,888 - [app.__main__:499] - INFO -    ✅ April completado en 9m 46s
+2026-03-12 09:45:03,888 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 09:45:03,893 - [app.__main__:506] - INFO -    📈 Filas de datos: 41821
+2026-03-12 09:45:03,894 - [app.__main__:516] - INFO -    💾 Progreso guardado: 4/12 meses
+2026-03-12 09:45:03,894 - [app.__main__:552] - INFO - 
+   😴 Pausando por 24 segundos...
+2026-03-12 09:45:11,587 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:45:11,587 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 5/12: May 2025
+2026-03-12 09:45:11,587 - [app.__main__:447] - INFO -    📅 Rango: 2025-05-01 → 2025-05-31
+2026-03-12 09:45:11,587 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2025/USDJPY_2025_05.csv
+2026-03-12 09:45:11,587 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2025
+2026-03-12 09:45:11,588 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:45:11
+2026-03-12 09:45:11,588 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2025-05-01 --end 2025-05-31 --output USDJPY/data_2025/USDJPY_2025_05.csv --timeframe 1min --workers 8
+2026-03-12 09:45:11,588 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para May
+2026-03-12 09:45:11,588 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2025-05-01 --end 2025-05-31 --output USDJPY/data_2025/USDJPY_2025_05.csv --timeframe 1min --workers 8
+2026-03-12 09:45:11,588 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:45:27,899 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:45:27,899 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 5/12: May 2025
+2026-03-12 09:45:27,899 - [app.__main__:447] - INFO -    📅 Rango: 2025-05-01 → 2025-05-31
+2026-03-12 09:45:27,900 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2025/AUDUSD_2025_05.csv
+2026-03-12 09:45:27,900 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2025
+2026-03-12 09:45:27,900 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:45:27
+2026-03-12 09:45:27,900 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2025-05-01 --end 2025-05-31 --output AUDUSD/data_2025/AUDUSD_2025_05.csv --timeframe 1min --workers 8
+2026-03-12 09:45:27,900 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para May
+2026-03-12 09:45:27,900 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2025-05-01 --end 2025-05-31 --output AUDUSD/data_2025/AUDUSD_2025_05.csv --timeframe 1min --workers 8
+2026-03-12 09:45:27,900 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:49:36,682 - [app.__main__:242] - INFO - ✅ May completado exitosamente (modo verbose)
+2026-03-12 09:49:36,682 - [app.__main__:499] - INFO -    ✅ May completado en 8m 23s
+2026-03-12 09:49:36,682 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.7 MB
+2026-03-12 09:49:36,687 - [app.__main__:506] - INFO -    📈 Filas de datos: 43021
+2026-03-12 09:49:36,687 - [app.__main__:516] - INFO -    💾 Progreso guardado: 5/12 meses
+2026-03-12 09:49:36,687 - [app.__main__:552] - INFO - 
+   😴 Pausando por 12 segundos...
+2026-03-12 09:49:48,691 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:49:48,691 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 6/12: June 2025
+2026-03-12 09:49:48,692 - [app.__main__:447] - INFO -    📅 Rango: 2025-06-01 → 2025-06-30
+2026-03-12 09:49:48,692 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2025/EURUSD_2025_06.csv
+2026-03-12 09:49:48,692 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2025
+2026-03-12 09:49:48,692 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:49:48
+2026-03-12 09:49:48,692 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2025-06-01 --end 2025-06-30 --output EURUSD/data_2025/EURUSD_2025_06.csv --timeframe 1min --workers 8
+2026-03-12 09:49:48,693 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para June
+2026-03-12 09:49:48,693 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2025-06-01 --end 2025-06-30 --output EURUSD/data_2025/EURUSD_2025_06.csv --timeframe 1min --workers 8
+2026-03-12 09:49:48,693 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:53:45,268 - [app.__main__:242] - INFO - ✅ May completado exitosamente (modo verbose)
+2026-03-12 09:53:45,268 - [app.__main__:499] - INFO -    ✅ May completado en 8m 33s
+2026-03-12 09:53:45,268 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.9 MB
+2026-03-12 09:53:45,272 - [app.__main__:506] - INFO -    📈 Filas de datos: 43021
+2026-03-12 09:53:45,273 - [app.__main__:516] - INFO -    💾 Progreso guardado: 5/12 meses
+2026-03-12 09:53:45,273 - [app.__main__:552] - INFO - 
+   😴 Pausando por 13 segundos...
+2026-03-12 09:53:58,275 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:53:58,276 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 6/12: June 2025
+2026-03-12 09:53:58,276 - [app.__main__:447] - INFO -    📅 Rango: 2025-06-01 → 2025-06-30
+2026-03-12 09:53:58,276 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2025/USDJPY_2025_06.csv
+2026-03-12 09:53:58,276 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2025
+2026-03-12 09:53:58,276 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:53:58
+2026-03-12 09:53:58,277 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2025-06-01 --end 2025-06-30 --output USDJPY/data_2025/USDJPY_2025_06.csv --timeframe 1min --workers 8
+2026-03-12 09:53:58,277 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para June
+2026-03-12 09:53:58,277 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2025-06-01 --end 2025-06-30 --output USDJPY/data_2025/USDJPY_2025_06.csv --timeframe 1min --workers 8
+2026-03-12 09:53:58,277 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:54:29,167 - [app.__main__:242] - INFO - ✅ May completado exitosamente (modo verbose)
+2026-03-12 09:54:29,168 - [app.__main__:499] - INFO -    ✅ May completado en 9m 1s
+2026-03-12 09:54:29,168 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-12 09:54:29,173 - [app.__main__:506] - INFO -    📈 Filas de datos: 43021
+2026-03-12 09:54:29,173 - [app.__main__:516] - INFO -    💾 Progreso guardado: 5/12 meses
+2026-03-12 09:54:29,173 - [app.__main__:552] - INFO - 
+   😴 Pausando por 28 segundos...
+2026-03-12 09:54:57,180 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:54:57,181 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 6/12: June 2025
+2026-03-12 09:54:57,181 - [app.__main__:447] - INFO -    📅 Rango: 2025-06-01 → 2025-06-30
+2026-03-12 09:54:57,181 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2025/AUDUSD_2025_06.csv
+2026-03-12 09:54:57,181 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2025
+2026-03-12 09:54:57,181 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:54:57
+2026-03-12 09:54:57,182 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2025-06-01 --end 2025-06-30 --output AUDUSD/data_2025/AUDUSD_2025_06.csv --timeframe 1min --workers 8
+2026-03-12 09:54:57,182 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para June
+2026-03-12 09:54:57,182 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2025-06-01 --end 2025-06-30 --output AUDUSD/data_2025/AUDUSD_2025_06.csv --timeframe 1min --workers 8
+2026-03-12 09:54:57,182 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 09:57:54,403 - [app.__main__:242] - INFO - ✅ June completado exitosamente (modo verbose)
+2026-03-12 09:57:54,403 - [app.__main__:499] - INFO -    ✅ June completado en 8m 5s
+2026-03-12 09:57:54,403 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.4 MB
+2026-03-12 09:57:54,407 - [app.__main__:506] - INFO -    📈 Filas de datos: 40558
+2026-03-12 09:57:54,408 - [app.__main__:516] - INFO -    💾 Progreso guardado: 6/12 meses
+2026-03-12 09:57:54,408 - [app.__main__:552] - INFO - 
+   😴 Pausando por 20 segundos...
+2026-03-12 09:58:14,412 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 09:58:14,412 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 7/12: July 2025
+2026-03-12 09:58:14,412 - [app.__main__:447] - INFO -    📅 Rango: 2025-07-01 → 2025-07-31
+2026-03-12 09:58:14,412 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2025/EURUSD_2025_07.csv
+2026-03-12 09:58:14,413 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2025
+2026-03-12 09:58:14,413 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 09:58:14
+2026-03-12 09:58:14,413 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2025-07-01 --end 2025-07-31 --output EURUSD/data_2025/EURUSD_2025_07.csv --timeframe 1min --workers 8
+2026-03-12 09:58:14,413 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para July
+2026-03-12 09:58:14,413 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2025-07-01 --end 2025-07-31 --output EURUSD/data_2025/EURUSD_2025_07.csv --timeframe 1min --workers 8
+2026-03-12 09:58:14,413 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:02:00,487 - [app.__main__:242] - INFO - ✅ June completado exitosamente (modo verbose)
+2026-03-12 10:02:00,487 - [app.__main__:499] - INFO -    ✅ June completado en 8m 2s
+2026-03-12 10:02:00,487 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 10:02:00,492 - [app.__main__:506] - INFO -    📈 Filas de datos: 40560
+2026-03-12 10:02:00,492 - [app.__main__:516] - INFO -    💾 Progreso guardado: 6/12 meses
+2026-03-12 10:02:00,492 - [app.__main__:552] - INFO - 
+   😴 Pausando por 15 segundos...
+2026-03-12 10:02:15,495 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:02:15,495 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 7/12: July 2025
+2026-03-12 10:02:15,495 - [app.__main__:447] - INFO -    📅 Rango: 2025-07-01 → 2025-07-31
+2026-03-12 10:02:15,495 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2025/USDJPY_2025_07.csv
+2026-03-12 10:02:15,495 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2025
+2026-03-12 10:02:15,496 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:02:15
+2026-03-12 10:02:15,496 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2025-07-01 --end 2025-07-31 --output USDJPY/data_2025/USDJPY_2025_07.csv --timeframe 1min --workers 8
+2026-03-12 10:02:15,496 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para July
+2026-03-12 10:02:15,496 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2025-07-01 --end 2025-07-31 --output USDJPY/data_2025/USDJPY_2025_07.csv --timeframe 1min --workers 8
+2026-03-12 10:02:15,496 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:03:24,592 - [app.__main__:242] - INFO - ✅ June completado exitosamente (modo verbose)
+2026-03-12 10:03:24,592 - [app.__main__:499] - INFO -    ✅ June completado en 8m 27s
+2026-03-12 10:03:24,593 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.4 MB
+2026-03-12 10:03:24,597 - [app.__main__:506] - INFO -    📈 Filas de datos: 40561
+2026-03-12 10:03:24,597 - [app.__main__:516] - INFO -    💾 Progreso guardado: 6/12 meses
+2026-03-12 10:03:24,598 - [app.__main__:552] - INFO - 
+   😴 Pausando por 26 segundos...
+2026-03-12 10:03:50,606 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:03:50,606 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 7/12: July 2025
+2026-03-12 10:03:50,606 - [app.__main__:447] - INFO -    📅 Rango: 2025-07-01 → 2025-07-31
+2026-03-12 10:03:50,606 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2025/AUDUSD_2025_07.csv
+2026-03-12 10:03:50,607 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2025
+2026-03-12 10:03:50,607 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:03:50
+2026-03-12 10:03:50,607 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2025-07-01 --end 2025-07-31 --output AUDUSD/data_2025/AUDUSD_2025_07.csv --timeframe 1min --workers 8
+2026-03-12 10:03:50,607 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para July
+2026-03-12 10:03:50,607 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2025-07-01 --end 2025-07-31 --output AUDUSD/data_2025/AUDUSD_2025_07.csv --timeframe 1min --workers 8
+2026-03-12 10:03:50,608 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:05:01,524 - [app.__main__:242] - INFO - ✅ July completado exitosamente (modo verbose)
+2026-03-12 10:05:01,524 - [app.__main__:499] - INFO -    ✅ July completado en 6m 47s
+2026-03-12 10:05:01,524 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.9 MB
+2026-03-12 10:05:01,528 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 10:05:01,529 - [app.__main__:516] - INFO -    💾 Progreso guardado: 7/12 meses
+2026-03-12 10:05:01,529 - [app.__main__:552] - INFO - 
+   😴 Pausando por 26 segundos...
+2026-03-12 10:05:27,534 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:05:27,534 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 8/12: August 2025
+2026-03-12 10:05:27,534 - [app.__main__:447] - INFO -    📅 Rango: 2025-08-01 → 2025-08-31
+2026-03-12 10:05:27,534 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2025/EURUSD_2025_08.csv
+2026-03-12 10:05:27,534 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2025
+2026-03-12 10:05:27,534 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:05:27
+2026-03-12 10:05:27,534 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2025-08-01 --end 2025-08-31 --output EURUSD/data_2025/EURUSD_2025_08.csv --timeframe 1min --workers 8
+2026-03-12 10:05:27,534 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para August
+2026-03-12 10:05:27,535 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2025-08-01 --end 2025-08-31 --output EURUSD/data_2025/EURUSD_2025_08.csv --timeframe 1min --workers 8
+2026-03-12 10:05:27,535 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:09:00,594 - [app.__main__:242] - INFO - ✅ July completado exitosamente (modo verbose)
+2026-03-12 10:09:00,594 - [app.__main__:499] - INFO -    ✅ July completado en 6m 45s
+2026-03-12 10:09:00,594 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.7 MB
+2026-03-12 10:09:00,598 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 10:09:00,599 - [app.__main__:516] - INFO -    💾 Progreso guardado: 7/12 meses
+2026-03-12 10:09:00,599 - [app.__main__:552] - INFO - 
+   😴 Pausando por 29 segundos...
+2026-03-12 10:09:29,608 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:09:29,608 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 8/12: August 2025
+2026-03-12 10:09:29,609 - [app.__main__:447] - INFO -    📅 Rango: 2025-08-01 → 2025-08-31
+2026-03-12 10:09:29,609 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2025/USDJPY_2025_08.csv
+2026-03-12 10:09:29,609 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2025
+2026-03-12 10:09:29,609 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:09:29
+2026-03-12 10:09:29,609 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2025-08-01 --end 2025-08-31 --output USDJPY/data_2025/USDJPY_2025_08.csv --timeframe 1min --workers 8
+2026-03-12 10:09:29,609 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para August
+2026-03-12 10:09:29,609 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2025-08-01 --end 2025-08-31 --output USDJPY/data_2025/USDJPY_2025_08.csv --timeframe 1min --workers 8
+2026-03-12 10:09:29,610 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:10:27,576 - [app.__main__:242] - INFO - ✅ July completado exitosamente (modo verbose)
+2026-03-12 10:10:27,576 - [app.__main__:499] - INFO -    ✅ July completado en 6m 36s
+2026-03-12 10:10:27,576 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-12 10:10:27,580 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 10:10:27,581 - [app.__main__:516] - INFO -    💾 Progreso guardado: 7/12 meses
+2026-03-12 10:10:27,581 - [app.__main__:552] - INFO - 
+   😴 Pausando por 22 segundos...
+2026-03-12 10:10:49,588 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:10:49,588 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 8/12: August 2025
+2026-03-12 10:10:49,588 - [app.__main__:447] - INFO -    📅 Rango: 2025-08-01 → 2025-08-31
+2026-03-12 10:10:49,588 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2025/AUDUSD_2025_08.csv
+2026-03-12 10:10:49,588 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2025
+2026-03-12 10:10:49,588 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:10:49
+2026-03-12 10:10:49,588 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2025-08-01 --end 2025-08-31 --output AUDUSD/data_2025/AUDUSD_2025_08.csv --timeframe 1min --workers 8
+2026-03-12 10:10:49,588 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para August
+2026-03-12 10:10:49,588 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2025-08-01 --end 2025-08-31 --output AUDUSD/data_2025/AUDUSD_2025_08.csv --timeframe 1min --workers 8
+2026-03-12 10:10:49,588 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:12:30,053 - [app.__main__:242] - INFO - ✅ August completado exitosamente (modo verbose)
+2026-03-12 10:12:30,053 - [app.__main__:499] - INFO -    ✅ August completado en 7m 2s
+2026-03-12 10:12:30,053 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 10:12:30,057 - [app.__main__:506] - INFO -    📈 Filas de datos: 41581
+2026-03-12 10:12:30,058 - [app.__main__:516] - INFO -    💾 Progreso guardado: 8/12 meses
+2026-03-12 10:12:30,058 - [app.__main__:552] - INFO - 
+   😴 Pausando por 15 segundos...
+2026-03-12 10:12:45,063 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:12:45,063 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 9/12: September 2025
+2026-03-12 10:12:45,063 - [app.__main__:447] - INFO -    📅 Rango: 2025-09-01 → 2025-09-30
+2026-03-12 10:12:45,063 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2025/EURUSD_2025_09.csv
+2026-03-12 10:12:45,063 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2025
+2026-03-12 10:12:45,063 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:12:45
+2026-03-12 10:12:45,063 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2025-09-01 --end 2025-09-30 --output EURUSD/data_2025/EURUSD_2025_09.csv --timeframe 1min --workers 8
+2026-03-12 10:12:45,063 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para September
+2026-03-12 10:12:45,063 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2025-09-01 --end 2025-09-30 --output EURUSD/data_2025/EURUSD_2025_09.csv --timeframe 1min --workers 8
+2026-03-12 10:12:45,063 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:18:38,375 - [app.__main__:242] - INFO - ✅ August completado exitosamente (modo verbose)
+2026-03-12 10:18:38,375 - [app.__main__:499] - INFO -    ✅ August completado en 9m 8s
+2026-03-12 10:18:38,375 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 10:18:38,379 - [app.__main__:506] - INFO -    📈 Filas de datos: 41581
+2026-03-12 10:18:38,380 - [app.__main__:516] - INFO -    💾 Progreso guardado: 8/12 meses
+2026-03-12 10:18:38,380 - [app.__main__:552] - INFO - 
+   😴 Pausando por 28 segundos...
+2026-03-12 10:19:06,385 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:19:06,385 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 9/12: September 2025
+2026-03-12 10:19:06,385 - [app.__main__:447] - INFO -    📅 Rango: 2025-09-01 → 2025-09-30
+2026-03-12 10:19:06,385 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2025/USDJPY_2025_09.csv
+2026-03-12 10:19:06,386 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2025
+2026-03-12 10:19:06,386 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:19:06
+2026-03-12 10:19:06,386 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2025-09-01 --end 2025-09-30 --output USDJPY/data_2025/USDJPY_2025_09.csv --timeframe 1min --workers 8
+2026-03-12 10:19:06,386 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para September
+2026-03-12 10:19:06,386 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2025-09-01 --end 2025-09-30 --output USDJPY/data_2025/USDJPY_2025_09.csv --timeframe 1min --workers 8
+2026-03-12 10:19:06,386 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:19:16,612 - [app.__main__:242] - INFO - ✅ August completado exitosamente (modo verbose)
+2026-03-12 10:19:16,612 - [app.__main__:499] - INFO -    ✅ August completado en 8m 27s
+2026-03-12 10:19:16,612 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 10:19:16,616 - [app.__main__:506] - INFO -    📈 Filas de datos: 41581
+2026-03-12 10:19:16,617 - [app.__main__:516] - INFO -    💾 Progreso guardado: 8/12 meses
+2026-03-12 10:19:16,617 - [app.__main__:552] - INFO - 
+   😴 Pausando por 20 segundos...
+2026-03-12 10:19:36,620 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:19:36,620 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 9/12: September 2025
+2026-03-12 10:19:36,620 - [app.__main__:447] - INFO -    📅 Rango: 2025-09-01 → 2025-09-30
+2026-03-12 10:19:36,620 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2025/AUDUSD_2025_09.csv
+2026-03-12 10:19:36,620 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2025
+2026-03-12 10:19:36,620 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:19:36
+2026-03-12 10:19:36,620 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2025-09-01 --end 2025-09-30 --output AUDUSD/data_2025/AUDUSD_2025_09.csv --timeframe 1min --workers 8
+2026-03-12 10:19:36,620 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para September
+2026-03-12 10:19:36,620 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2025-09-01 --end 2025-09-30 --output AUDUSD/data_2025/AUDUSD_2025_09.csv --timeframe 1min --workers 8
+2026-03-12 10:19:36,620 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:21:34,120 - [app.__main__:242] - INFO - ✅ September completado exitosamente (modo verbose)
+2026-03-12 10:21:34,121 - [app.__main__:499] - INFO -    ✅ September completado en 8m 49s
+2026-03-12 10:21:34,121 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.6 MB
+2026-03-12 10:21:34,125 - [app.__main__:506] - INFO -    📈 Filas de datos: 41821
+2026-03-12 10:21:34,125 - [app.__main__:516] - INFO -    💾 Progreso guardado: 9/12 meses
+2026-03-12 10:21:34,125 - [app.__main__:552] - INFO - 
+   😴 Pausando por 27 segundos...
+2026-03-12 10:22:01,130 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:22:01,130 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 10/12: October 2025
+2026-03-12 10:22:01,131 - [app.__main__:447] - INFO -    📅 Rango: 2025-10-01 → 2025-10-31
+2026-03-12 10:22:01,131 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2025/EURUSD_2025_10.csv
+2026-03-12 10:22:01,131 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2025
+2026-03-12 10:22:01,131 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:22:01
+2026-03-12 10:22:01,131 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2025-10-01 --end 2025-10-31 --output EURUSD/data_2025/EURUSD_2025_10.csv --timeframe 1min --workers 8
+2026-03-12 10:22:01,132 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para October
+2026-03-12 10:22:01,132 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2025-10-01 --end 2025-10-31 --output EURUSD/data_2025/EURUSD_2025_10.csv --timeframe 1min --workers 8
+2026-03-12 10:22:01,132 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:25:45,887 - [app.__main__:242] - INFO - ✅ September completado exitosamente (modo verbose)
+2026-03-12 10:25:45,887 - [app.__main__:499] - INFO -    ✅ September completado en 6m 39s
+2026-03-12 10:25:45,888 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.5 MB
+2026-03-12 10:25:45,891 - [app.__main__:506] - INFO -    📈 Filas de datos: 41821
+2026-03-12 10:25:45,892 - [app.__main__:516] - INFO -    💾 Progreso guardado: 9/12 meses
+2026-03-12 10:25:45,892 - [app.__main__:552] - INFO - 
+   😴 Pausando por 23 segundos...
+2026-03-12 10:25:56,260 - [app.__main__:242] - INFO - ✅ September completado exitosamente (modo verbose)
+2026-03-12 10:25:56,260 - [app.__main__:499] - INFO -    ✅ September completado en 6m 19s
+2026-03-12 10:25:56,260 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.7 MB
+2026-03-12 10:25:56,264 - [app.__main__:506] - INFO -    📈 Filas de datos: 41821
+2026-03-12 10:25:56,265 - [app.__main__:516] - INFO -    💾 Progreso guardado: 9/12 meses
+2026-03-12 10:25:56,265 - [app.__main__:552] - INFO - 
+   😴 Pausando por 26 segundos...
+2026-03-12 10:26:08,899 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:26:08,899 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 10/12: October 2025
+2026-03-12 10:26:08,899 - [app.__main__:447] - INFO -    📅 Rango: 2025-10-01 → 2025-10-31
+2026-03-12 10:26:08,900 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2025/USDJPY_2025_10.csv
+2026-03-12 10:26:08,900 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2025
+2026-03-12 10:26:08,900 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:26:08
+2026-03-12 10:26:08,900 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2025-10-01 --end 2025-10-31 --output USDJPY/data_2025/USDJPY_2025_10.csv --timeframe 1min --workers 8
+2026-03-12 10:26:08,900 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para October
+2026-03-12 10:26:08,901 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2025-10-01 --end 2025-10-31 --output USDJPY/data_2025/USDJPY_2025_10.csv --timeframe 1min --workers 8
+2026-03-12 10:26:08,901 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:26:22,271 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:26:22,271 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 10/12: October 2025
+2026-03-12 10:26:22,271 - [app.__main__:447] - INFO -    📅 Rango: 2025-10-01 → 2025-10-31
+2026-03-12 10:26:22,271 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2025/AUDUSD_2025_10.csv
+2026-03-12 10:26:22,271 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2025
+2026-03-12 10:26:22,272 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:26:22
+2026-03-12 10:26:22,272 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2025-10-01 --end 2025-10-31 --output AUDUSD/data_2025/AUDUSD_2025_10.csv --timeframe 1min --workers 8
+2026-03-12 10:26:22,272 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para October
+2026-03-12 10:26:22,272 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2025-10-01 --end 2025-10-31 --output AUDUSD/data_2025/AUDUSD_2025_10.csv --timeframe 1min --workers 8
+2026-03-12 10:26:22,272 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:29:12,568 - [app.__main__:242] - INFO - ✅ October completado exitosamente (modo verbose)
+2026-03-12 10:29:12,568 - [app.__main__:499] - INFO -    ✅ October completado en 7m 11s
+2026-03-12 10:29:12,568 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 5.0 MB
+2026-03-12 10:29:12,572 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 10:29:12,573 - [app.__main__:516] - INFO -    💾 Progreso guardado: 10/12 meses
+2026-03-12 10:29:12,573 - [app.__main__:552] - INFO - 
+   😴 Pausando por 10 segundos...
+2026-03-12 10:29:22,575 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:29:22,575 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 11/12: November 2025
+2026-03-12 10:29:22,575 - [app.__main__:447] - INFO -    📅 Rango: 2025-11-01 → 2025-11-30
+2026-03-12 10:29:22,575 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2025/EURUSD_2025_11.csv
+2026-03-12 10:29:22,575 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2025
+2026-03-12 10:29:22,575 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:29:22
+2026-03-12 10:29:22,575 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2025-11-01 --end 2025-11-30 --output EURUSD/data_2025/EURUSD_2025_11.csv --timeframe 1min --workers 8
+2026-03-12 10:29:22,575 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para November
+2026-03-12 10:29:22,576 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2025-11-01 --end 2025-11-30 --output EURUSD/data_2025/EURUSD_2025_11.csv --timeframe 1min --workers 8
+2026-03-12 10:29:22,576 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:33:36,524 - [app.__main__:242] - INFO - ✅ October completado exitosamente (modo verbose)
+2026-03-12 10:33:36,524 - [app.__main__:499] - INFO -    ✅ October completado en 7m 27s
+2026-03-12 10:33:36,524 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-12 10:33:36,529 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 10:33:36,529 - [app.__main__:516] - INFO -    💾 Progreso guardado: 10/12 meses
+2026-03-12 10:33:36,529 - [app.__main__:552] - INFO - 
+   😴 Pausando por 30 segundos...
+2026-03-12 10:34:03,889 - [app.__main__:242] - INFO - ✅ October completado exitosamente (modo verbose)
+2026-03-12 10:34:03,890 - [app.__main__:499] - INFO -    ✅ October completado en 7m 41s
+2026-03-12 10:34:03,890 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-12 10:34:03,893 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 10:34:03,894 - [app.__main__:516] - INFO -    💾 Progreso guardado: 10/12 meses
+2026-03-12 10:34:03,894 - [app.__main__:552] - INFO - 
+   😴 Pausando por 18 segundos...
+2026-03-12 10:34:06,536 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:34:06,536 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 11/12: November 2025
+2026-03-12 10:34:06,537 - [app.__main__:447] - INFO -    📅 Rango: 2025-11-01 → 2025-11-30
+2026-03-12 10:34:06,537 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2025/USDJPY_2025_11.csv
+2026-03-12 10:34:06,537 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2025
+2026-03-12 10:34:06,537 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:34:06
+2026-03-12 10:34:06,537 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2025-11-01 --end 2025-11-30 --output USDJPY/data_2025/USDJPY_2025_11.csv --timeframe 1min --workers 8
+2026-03-12 10:34:06,538 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para November
+2026-03-12 10:34:06,538 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2025-11-01 --end 2025-11-30 --output USDJPY/data_2025/USDJPY_2025_11.csv --timeframe 1min --workers 8
+2026-03-12 10:34:06,538 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:34:21,899 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:34:21,899 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 11/12: November 2025
+2026-03-12 10:34:21,899 - [app.__main__:447] - INFO -    📅 Rango: 2025-11-01 → 2025-11-30
+2026-03-12 10:34:21,899 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2025/AUDUSD_2025_11.csv
+2026-03-12 10:34:21,900 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2025
+2026-03-12 10:34:21,900 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:34:21
+2026-03-12 10:34:21,900 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2025-11-01 --end 2025-11-30 --output AUDUSD/data_2025/AUDUSD_2025_11.csv --timeframe 1min --workers 8
+2026-03-12 10:34:21,900 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para November
+2026-03-12 10:34:21,900 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2025-11-01 --end 2025-11-30 --output AUDUSD/data_2025/AUDUSD_2025_11.csv --timeframe 1min --workers 8
+2026-03-12 10:34:21,900 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:35:45,648 - [app.__main__:242] - INFO - ✅ November completado exitosamente (modo verbose)
+2026-03-12 10:35:45,648 - [app.__main__:499] - INFO -    ✅ November completado en 6m 23s
+2026-03-12 10:35:45,648 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.3 MB
+2026-03-12 10:35:45,652 - [app.__main__:506] - INFO -    📈 Filas de datos: 37441
+2026-03-12 10:35:45,652 - [app.__main__:516] - INFO -    💾 Progreso guardado: 11/12 meses
+2026-03-12 10:35:45,652 - [app.__main__:552] - INFO - 
+   😴 Pausando por 14 segundos...
+2026-03-12 10:35:59,657 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:35:59,657 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 12/12: December 2025
+2026-03-12 10:35:59,657 - [app.__main__:447] - INFO -    📅 Rango: 2025-12-01 → 2025-12-31
+2026-03-12 10:35:59,657 - [app.__main__:448] - INFO -    💾 Archivo: EURUSD/data_2025/EURUSD_2025_12.csv
+2026-03-12 10:35:59,657 - [app.__main__:449] - INFO -    📂 Directorio: EURUSD/data_2025
+2026-03-12 10:35:59,658 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:35:59
+2026-03-12 10:35:59,658 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol EURUSD --start 2025-12-01 --end 2025-12-31 --output EURUSD/data_2025/EURUSD_2025_12.csv --timeframe 1min --workers 8
+2026-03-12 10:35:59,658 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para December
+2026-03-12 10:35:59,658 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol EURUSD --start 2025-12-01 --end 2025-12-31 --output EURUSD/data_2025/EURUSD_2025_12.csv --timeframe 1min --workers 8
+2026-03-12 10:35:59,658 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:42:52,520 - [app.__main__:242] - INFO - ✅ November completado exitosamente (modo verbose)
+2026-03-12 10:42:52,520 - [app.__main__:499] - INFO -    ✅ November completado en 8m 45s
+2026-03-12 10:42:52,520 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.1 MB
+2026-03-12 10:42:52,524 - [app.__main__:506] - INFO -    📈 Filas de datos: 37437
+2026-03-12 10:42:52,524 - [app.__main__:516] - INFO -    💾 Progreso guardado: 11/12 meses
+2026-03-12 10:42:52,524 - [app.__main__:552] - INFO - 
+   😴 Pausando por 29 segundos...
+2026-03-12 10:42:53,584 - [app.__main__:242] - INFO - ✅ November completado exitosamente (modo verbose)
+2026-03-12 10:42:53,584 - [app.__main__:499] - INFO -    ✅ November completado en 8m 31s
+2026-03-12 10:42:53,585 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.1 MB
+2026-03-12 10:42:53,588 - [app.__main__:506] - INFO -    📈 Filas de datos: 37441
+2026-03-12 10:42:53,589 - [app.__main__:516] - INFO -    💾 Progreso guardado: 11/12 meses
+2026-03-12 10:42:53,589 - [app.__main__:552] - INFO - 
+   😴 Pausando por 10 segundos...
+2026-03-12 10:43:03,591 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:43:03,592 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 12/12: December 2025
+2026-03-12 10:43:03,592 - [app.__main__:447] - INFO -    📅 Rango: 2025-12-01 → 2025-12-31
+2026-03-12 10:43:03,592 - [app.__main__:448] - INFO -    💾 Archivo: AUDUSD/data_2025/AUDUSD_2025_12.csv
+2026-03-12 10:43:03,592 - [app.__main__:449] - INFO -    📂 Directorio: AUDUSD/data_2025
+2026-03-12 10:43:03,593 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:43:03
+2026-03-12 10:43:03,593 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol AUDUSD --start 2025-12-01 --end 2025-12-31 --output AUDUSD/data_2025/AUDUSD_2025_12.csv --timeframe 1min --workers 8
+2026-03-12 10:43:03,593 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para December
+2026-03-12 10:43:03,593 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol AUDUSD --start 2025-12-01 --end 2025-12-31 --output AUDUSD/data_2025/AUDUSD_2025_12.csv --timeframe 1min --workers 8
+2026-03-12 10:43:03,593 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:43:21,533 - [app.__main__:445] - INFO - ──────────────────────────────────────────────────
+2026-03-12 10:43:21,533 - [app.__main__:446] - INFO - 📅 PROCESANDO MES 12/12: December 2025
+2026-03-12 10:43:21,534 - [app.__main__:447] - INFO -    📅 Rango: 2025-12-01 → 2025-12-31
+2026-03-12 10:43:21,534 - [app.__main__:448] - INFO -    💾 Archivo: USDJPY/data_2025/USDJPY_2025_12.csv
+2026-03-12 10:43:21,534 - [app.__main__:449] - INFO -    📂 Directorio: USDJPY/data_2025
+2026-03-12 10:43:21,534 - [app.__main__:481] - INFO - 
+   ⬇️  Iniciando descarga a las 10:43:21
+2026-03-12 10:43:21,534 - [app.__main__:221] - INFO - Ejecutando comando: python download_dukascopy.py --symbol USDJPY --start 2025-12-01 --end 2025-12-31 --output USDJPY/data_2025/USDJPY_2025_12.csv --timeframe 1min --workers 8
+2026-03-12 10:43:21,535 - [app.__main__:225] - INFO - 🔧 MODO VERBOSE ACTIVADO para December
+2026-03-12 10:43:21,535 - [app.__main__:226] - INFO - 📋 Comando completo: python download_dukascopy.py --symbol USDJPY --start 2025-12-01 --end 2025-12-31 --output USDJPY/data_2025/USDJPY_2025_12.csv --timeframe 1min --workers 8
+2026-03-12 10:43:21,535 - [app.__main__:227] - INFO - --------------------------------------------------
+2026-03-12 10:45:02,815 - [app.__main__:242] - INFO - ✅ December completado exitosamente (modo verbose)
+2026-03-12 10:45:02,815 - [app.__main__:499] - INFO -    ✅ December completado en 9m 3s
+2026-03-12 10:45:02,815 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 5.0 MB
+2026-03-12 10:45:02,819 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 10:45:02,820 - [app.__main__:516] - INFO -    💾 Progreso guardado: 12/12 meses
+2026-03-12 10:45:02,820 - [app.__main__:564] - INFO - 
+============================================================
+2026-03-12 10:45:02,820 - [app.__main__:565] - INFO - 🎉 DESCARGA COMPLETADA!
+2026-03-12 10:45:02,820 - [app.__main__:566] - INFO - 📊 RESUMEN FINAL:
+2026-03-12 10:45:02,820 - [app.__main__:567] - INFO -    ✅ Meses exitosos: 12/12
+2026-03-12 10:45:02,820 - [app.__main__:572] - INFO -    📅 Meses procesados: January, February, March, April, May, June, July, August, September, October, November, December
+2026-03-12 10:45:02,820 - [app.__main__:580] - INFO -    📈 Tasa de éxito: 100.0%
+2026-03-12 10:45:02,820 - [app.__main__:584] - INFO -    💾 Archivos guardados en: data/EURUSD_2025_*.csv
+2026-03-12 10:45:02,820 - [app.__main__:617] - INFO -    🗑️  Archivo de progreso eliminado para EURUSD 2025
+2026-03-12 10:45:02,820 - [app.__main__:621] - INFO - ============================================================
+2026-03-12 10:48:37,826 - [app.__main__:242] - INFO - ✅ December completado exitosamente (modo verbose)
+2026-03-12 10:48:37,826 - [app.__main__:499] - INFO -    ✅ December completado en 5m 34s
+2026-03-12 10:48:37,826 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-12 10:48:37,830 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 10:48:37,830 - [app.__main__:516] - INFO -    💾 Progreso guardado: 12/12 meses
+2026-03-12 10:48:37,831 - [app.__main__:564] - INFO - 
+============================================================
+2026-03-12 10:48:37,831 - [app.__main__:565] - INFO - 🎉 DESCARGA COMPLETADA!
+2026-03-12 10:48:37,831 - [app.__main__:566] - INFO - 📊 RESUMEN FINAL:
+2026-03-12 10:48:37,831 - [app.__main__:567] - INFO -    ✅ Meses exitosos: 12/12
+2026-03-12 10:48:37,831 - [app.__main__:572] - INFO -    📅 Meses procesados: January, February, March, April, May, June, July, August, September, October, November, December
+2026-03-12 10:48:37,831 - [app.__main__:580] - INFO -    📈 Tasa de éxito: 100.0%
+2026-03-12 10:48:37,831 - [app.__main__:584] - INFO -    💾 Archivos guardados en: data/AUDUSD_2025_*.csv
+2026-03-12 10:48:37,831 - [app.__main__:617] - INFO -    🗑️  Archivo de progreso eliminado para AUDUSD 2025
+2026-03-12 10:48:37,831 - [app.__main__:621] - INFO - ============================================================
+2026-03-12 10:48:46,936 - [app.__main__:242] - INFO - ✅ December completado exitosamente (modo verbose)
+2026-03-12 10:48:46,936 - [app.__main__:499] - INFO -    ✅ December completado en 5m 25s
+2026-03-12 10:48:46,937 - [app.__main__:500] - INFO -    📊 Tamaño del archivo: 4.8 MB
+2026-03-12 10:48:46,940 - [app.__main__:506] - INFO -    📈 Filas de datos: 43261
+2026-03-12 10:48:46,941 - [app.__main__:516] - INFO -    💾 Progreso guardado: 12/12 meses
+2026-03-12 10:48:46,941 - [app.__main__:564] - INFO - 
+============================================================
+2026-03-12 10:48:46,941 - [app.__main__:565] - INFO - 🎉 DESCARGA COMPLETADA!
+2026-03-12 10:48:46,941 - [app.__main__:566] - INFO - 📊 RESUMEN FINAL:
+2026-03-12 10:48:46,941 - [app.__main__:567] - INFO -    ✅ Meses exitosos: 12/12
+2026-03-12 10:48:46,941 - [app.__main__:572] - INFO -    📅 Meses procesados: January, February, March, April, May, June, July, August, September, October, November, December
+2026-03-12 10:48:46,941 - [app.__main__:580] - INFO -    📈 Tasa de éxito: 100.0%
+2026-03-12 10:48:46,941 - [app.__main__:584] - INFO -    💾 Archivos guardados en: data/USDJPY_2025_*.csv
+2026-03-12 10:48:46,941 - [app.__main__:617] - INFO -    🗑️  Archivo de progreso eliminado para USDJPY 2025
+2026-03-12 10:48:46,941 - [app.__main__:621] - INFO - ============================================================

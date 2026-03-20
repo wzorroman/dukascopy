@@ -5,7 +5,13 @@ Dukascopy Historical Data Downloader
 Descarga datos tick de Dukascopy y los convierte a OHLCV M1 con bid/ask.
 
 Uso:
-    python scripts/download_dukascopy.py --start 2022-01-01 --end 2023-12-31 --output data/EURUSD_real.csv
+    # Modo normal (verifica archivos existentes, reanuda si es posible)
+    python download_dukascopy.py --symbol XAGUSD --start 2019-01-01 --end 2019-01-31 \
+        --output XAGUSD/data_2019/XAGUSD_2019_01.csv
+
+    # Modo forzar (sobrescribe todo)
+    python download_dukascopy.py --symbol XAGUSD --start 2019-01-01 --end 2019-01-31 \
+        --output XAGUSD/data_2019/XAGUSD_2019_01.csv --forzar_download
 
 Requiere:
     pip install requests lzma pandas numpy tqdm
@@ -14,6 +20,7 @@ Requiere:
 import argparse
 import struct
 import requests
+import json
 
 # LZMA fallback for systems without native support
 try:
@@ -47,13 +54,55 @@ BASE_URL = "https://datafeed.dukascopy.com/datafeed/{symbol}/{year}/{month:02d}/
 
 # Símbolos disponibles (punto base para conversión de precio)
 SYMBOLS = {
-    'EURUSD': 5,  # 5 decimales
-    'GBPUSD': 5,
-    'USDJPY': 3,
-    'USDCHF': 5,
-    'AUDUSD': 5,
-    'USDCAD': 5,
-    'XAUUSD': 5,
+    # 🔷 FOREX MAYORES
+    'EURUSD': 5,   # Euro/Dólar
+    'GBPUSD': 5,   # Libra/Dólar
+    'USDJPY': 3,   # Dólar/Yen
+    'USDCHF': 5,   # Dólar/Franco
+    'AUDUSD': 5,   # Dólar Australiano/Dólar
+    'USDCAD': 5,   # Dólar/Dólar Canadiense
+    'NZDUSD': 5,   # Dólar Neozelandés/Dólar
+    
+    # 🔶 FOREX CRUZADOS (mayores)
+    'EURGBP': 5,   # Euro/Libra
+    'EURJPY': 3,   # Euro/Yen
+    'EURCHF': 5,   # Euro/Franco
+    'EURAUD': 5,   # Euro/Dólar Australiano
+    'EURCAD': 5,   # Euro/Dólar Canadiense
+    'EURNZD': 5,   # Euro/Dólar Neozelandés
+    
+    'GBPJPY': 3,   # Libra/Yen
+    'GBPCHF': 5,   # Libra/Franco
+    'GBPAUD': 5,   # Libra/Dólar Australiano
+    'GBPCAD': 5,   # Libra/Dólar Canadiense
+    'GBPNZD': 5,   # Libra/Dólar Neozelandés
+    
+    'AUDJPY': 3,   # Dólar Australiano/Yen
+    'AUDCHF': 5,   # Dólar Australiano/Franco
+    'AUDCAD': 5,   # Dólar Australiano/Dólar Canadiense
+    'AUDNZD': 5,   # Dólar Australiano/Dólar Neozelandés
+    
+    'NZDJPY': 3,   # Dólar Neozelandés/Yen
+    'NZDCHF': 5,   # Dólar Neozelandés/Franco
+    'NZDCAD': 5,   # Dólar Neozelandés/Dólar Canadiense
+    
+    'CADJPY': 3,   # Dólar Canadiense/Yen
+    'CADCHF': 5,   # Dólar Canadiense/Franco
+    
+    'CHFJPY': 3,   # Franco/Yen
+    
+    # 🥇 METALES
+    'XAUUSD': 2,   # Oro (2 decimales - onza troy)
+    'XAGUSD': 4,   # Plata (4 decimales - onza troy)
+    
+    # ₿ CRIPTOMONEDAS
+    'BTCUSD': 2,   # Bitcoin (2 decimales - aunque puede variar)
+    'ETHUSD': 2,   # Ethereum
+    'LTCUSD': 2,   # Litecoin
+    'XRPUSD': 4,   # Ripple
+    'ADAUSD': 4,   # Cardano
+    'BCHUSD': 2,   # Bitcoin Cash
+    'DOTUSD': 3,   # Polkadot (desde 2024)
 }
 
 
@@ -181,7 +230,7 @@ def ticks_to_ohlcv(ticks_df: pd.DataFrame, timeframe: str = '1min') -> pd.DataFr
     return ohlc.reset_index()
 
 
-def download_range(symbol: str, start_date: datetime, end_date: datetime, 
+def download_range_v0(symbol: str, start_date: datetime, end_date: datetime, 
                    output_path: Path, timeframe: str = '1min', workers: int = 8) -> pd.DataFrame:
     """Descarga un rango de fechas completo."""
     
@@ -253,6 +302,188 @@ def download_range(symbol: str, start_date: datetime, end_date: datetime,
     return ohlcv
 
 
+def download_range(symbol: str, start_date: datetime, end_date: datetime, 
+                   output_path: Path, timeframe: str = '1min', workers: int = 8, 
+                   forzar_download: bool = False) -> pd.DataFrame:
+    """Descarga un rango de fechas completo."""
+    
+    # ============================================
+    # VERIFICACIÓN DE ARCHIVOS EXISTENTES (si no se fuerza descarga)
+    # ============================================
+    if not forzar_download:
+        csv_path = output_path
+        ticks_path = output_path.with_suffix('.ticks.parquet')
+        checkpoint_file = output_path.parent / f"{symbol}_checkpoint.json"
+        
+        # Verificar si los archivos finales ya existen
+        if csv_path.exists() and ticks_path.exists():
+            try:
+                # Verificar si el CSV tiene datos para el rango solicitado
+                existing_df = pd.read_csv(csv_path)
+                if not existing_df.empty:
+                    csv_start = pd.to_datetime(existing_df['timestamp'].min())
+                    csv_end = pd.to_datetime(existing_df['timestamp'].max())
+                    
+                    # Si el CSV cubre completamente el rango solicitado
+                    if csv_start <= start_date and csv_end >= end_date:
+                        logger.info(f"✅ Archivos ya existen y cubren el período completo: {csv_path}")
+                        logger.info(f"   Período existente: {csv_start.date()} → {csv_end.date()}")
+                        logger.info("   Usa --forzar_download para sobrescribir")
+                        return existing_df
+            except Exception as e:
+                logger.warning(f"⚠️ Error verificando CSV existente: {e}")
+        
+        # Cargar checkpoint existente para reanudar
+        downloaded_hours = set()
+        if checkpoint_file.exists():
+            try:
+                with open(checkpoint_file, 'r') as f:
+                    checkpoint = json.load(f)
+                    downloaded_hours = set(checkpoint.get('downloaded_hours', []))
+                logger.info(f"📦 Checkpoint cargado: {len(downloaded_hours)} horas ya descargadas")
+            except Exception as e:
+                logger.warning(f"⚠️ Error cargando checkpoint: {e}")
+    else:
+        downloaded_hours = set()
+        logger.info("⚡ Modo forzar_download=TRUE: Se sobrescribirán archivos existentes")
+    
+    # ============================================
+    # GENERAR LISTA DE HORAS A DESCARGAR
+    # ============================================
+    hours = []
+    current = start_date.replace(hour=0, minute=0, second=0, microsecond=0)
+    while current <= end_date:
+        if forzar_download:
+            hours.append(current)
+        else:
+            hour_key = current.strftime("%Y-%m-%d-%H")
+            if hour_key not in downloaded_hours:
+                hours.append(current)
+        current += timedelta(hours=1)
+    
+    if not hours:
+        logger.info(f"⏭️ Todas las horas ya están descargadas para {symbol} en el período {start_date.date()} → {end_date.date()}")
+        # Intentar cargar el CSV existente
+        if output_path.exists():
+            try:
+                existing_df = pd.read_csv(output_path)
+                logger.info(f"✅ Cargando archivo existente: {output_path}")
+                return existing_df
+            except:
+                pass
+        return pd.DataFrame()
+    
+    logger.info(f"📥 Descargando {len(hours)} horas de datos para {symbol}")
+    logger.info(f"   Período: {start_date.date()} → {end_date.date()}")
+    if not forzar_download and downloaded_hours:
+        logger.info(f"   Horas ya descargadas: {len(downloaded_hours)}")
+    
+    # ============================================
+    # DESCARGA DE DATOS
+    # ============================================
+    all_ticks = []
+    downloaded_batch = []
+    
+    # Descargar en paralelo con barra de progreso
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = {executor.submit(download_hour, symbol, h): h for h in hours}
+        
+        for future in tqdm(as_completed(futures), total=len(futures), desc="Downloading"):
+            hour = futures[future]
+            try:
+                ticks = future.result()
+                if ticks:
+                    all_ticks.extend(ticks)
+                    if not forzar_download:
+                        downloaded_batch.append(hour)
+                
+                # Guardar checkpoint periódicamente (cada 10 horas)
+                if not forzar_download and len(downloaded_batch) >= 10:
+                    checkpoint_file = output_path.parent / f"{symbol}_checkpoint.json"
+                    hour_keys = [h.strftime("%Y-%m-%d-%H") for h in downloaded_batch]
+                    downloaded_hours.update(hour_keys)
+                    
+                    checkpoint = {
+                        'downloaded_hours': list(downloaded_hours),
+                        'last_update': datetime.now().isoformat()
+                    }
+                    with open(checkpoint_file, 'w') as f:
+                        json.dump(checkpoint, f)
+                    
+                    downloaded_batch = []
+                    
+            except Exception as e:
+                logger.error(f"Error processing {hour}: {e}")
+    
+    # Guardar checkpoint final de las horas restantes
+    if not forzar_download and downloaded_batch:
+        checkpoint_file = output_path.parent / f"{symbol}_checkpoint.json"
+        hour_keys = [h.strftime("%Y-%m-%d-%H") for h in downloaded_batch]
+        downloaded_hours.update(hour_keys)
+        
+        checkpoint = {
+            'downloaded_hours': list(downloaded_hours),
+            'last_update': datetime.now().isoformat()
+        }
+        with open(checkpoint_file, 'w') as f:
+            json.dump(checkpoint, f)
+    
+    if not all_ticks:
+        logger.error("❌ No se descargaron datos")
+        return pd.DataFrame()
+    
+    logger.info(f"✅ Descargados {len(all_ticks):,} ticks")
+    
+    # ============================================
+    # PROCESAMIENTO A OHLCV
+    # ============================================
+    # Convertir a DataFrame
+    ticks_df = pd.DataFrame(all_ticks)
+    ticks_df = ticks_df.sort_values('timestamp').reset_index(drop=True)
+    
+    # Convertir a OHLCV M1
+    logger.info("🔄 Convirtiendo ticks a OHLCV M1...")
+    ohlcv = ticks_to_ohlcv(ticks_df, timeframe)
+    
+    if ohlcv.empty:
+        logger.error("❌ Error al convertir ticks a OHLCV")
+        return pd.DataFrame()
+    
+    logger.info(f"✅ Generadas {len(ohlcv):,} velas M1")
+    
+    # Estadísticas de calidad
+    logger.info("\n📊 ESTADÍSTICAS DE CALIDAD:")
+    logger.info(f"   Período: {ohlcv['timestamp'].min()} → {ohlcv['timestamp'].max()}")
+    logger.info(f"   Total velas: {len(ohlcv):,}")
+    logger.info(f"   Spread promedio: {ohlcv['spread'].mean() * 10000:.2f} pips")
+    logger.info(f"   Spread máximo: {ohlcv['spread'].max() * 10000:.2f} pips")
+    
+    # Verificar velas planas
+    flat_candles = ((ohlcv['high'] - ohlcv['low']).abs() < 1e-6).sum()
+    logger.info(f"   Velas planas (rango=0): {flat_candles} ({100*flat_candles/len(ohlcv):.2f}%)")
+    
+    # ============================================
+    # GUARDAR ARCHIVOS
+    # ============================================
+    # Guardar
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    ohlcv.to_csv(output_path, index=False)
+    logger.info(f"\n💾 Datos guardados en: {output_path}")
+    
+    # Guardar también ticks raw por si se necesitan
+    ticks_path = output_path.with_suffix('.ticks.parquet')
+    ticks_df.to_parquet(ticks_path, index=False)
+    logger.info(f"💾 Ticks raw guardados en: {ticks_path}")
+    
+    # Limpiar checkpoint si todo salió bien y no estamos en modo forzar
+    if not forzar_download:
+        checkpoint_file = output_path.parent / f"{symbol}_checkpoint.json"
+        if checkpoint_file.exists():
+            checkpoint_file.unlink()
+            logger.info("🧹 Checkpoint eliminado - Descarga completada")
+    
+    return ohlcv
+
 def main():
     parser = argparse.ArgumentParser(description="Descarga datos históricos de Dukascopy")
     parser.add_argument('--symbol', type=str, default='EURUSD', 
@@ -268,6 +499,8 @@ def main():
                         help='Número de workers paralelos')
     parser.add_argument('--timeframe', type=str, default='1min',
                         help='Timeframe pandas (e.g., 1min, 5min, 1H)')
+    parser.add_argument('--forzar_download', action='store_true', default=False,
+                        help='Forzar descarga aunque los archivos ya existan')
     
     args = parser.parse_args()
     
@@ -285,7 +518,8 @@ def main():
         end_date=end_date,
         output_path=output_path,
         timeframe=args.timeframe,
-        workers=args.workers
+        workers=args.workers,
+        forzar_download=args.forzar_download
     )
     
     if not df.empty:
